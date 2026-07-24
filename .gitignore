@@ -1,0 +1,11 @@
+# Backups and dev artifacts — not part of the deployed site
+*.bak
+*.bak-*
+*.bak2
+og-image-source.html
+
+# Local Netlify CLI state
+.netlify/
+
+# Geocoding cache (dev artifact; coords are merged into venues.json)
+geocode_cache.json

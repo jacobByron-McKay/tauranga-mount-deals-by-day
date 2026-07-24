@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tauranga-deals-by-day.co.nz/sitemap.xml
