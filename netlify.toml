@@ -1,5 +1,11 @@
 # Tauranga & Mount Deals by Day — static site, publish from repo root.
 # Local config so the Netlify CLI does not inherit the parent Auckland netlify.toml.
+# Functions live in netlify/functions and handle the ratings/comments writes so the
+# Supabase secret key never touches the browser.
 [build]
   publish = "."
   command = ""
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
