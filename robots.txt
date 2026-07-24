@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tauranga-deals-by-day.co.nz/sitemap.xml
+Sitemap: https://tauranga-mount-deals-by-day.co.nz/sitemap.xml
