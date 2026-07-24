@@ -1,0 +1,5 @@
+# Tauranga & Mount Deals by Day — static site, publish from repo root.
+# Local config so the Netlify CLI does not inherit the parent Auckland netlify.toml.
+[build]
+  publish = "."
+  command = ""
