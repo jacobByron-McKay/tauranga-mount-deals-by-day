@@ -125,6 +125,18 @@
   /* mobile filter collapse */
   #filterRows { overflow: hidden; }
   #filterRows.collapsed { display: none; }
+  /* Bottom-right "Close filters". With every section open the panel runs past a
+     phone screen, so the dismiss control belongs where you finish reading it
+     rather than back up at the top of the suburb box. Mobile only, like #filterToggle. */
+  .filter-close-row { display: none; justify-content: flex-end; padding-top: 0.35rem; }
+  @media (max-width: 639px) { .filter-close-row { display: flex; } }
+  #filterCloseBtn {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    font-size: 0.875rem; font-weight: 600; line-height: 1; white-space: nowrap;
+    padding: 0.5rem 0.9rem; border-radius: 9999px; cursor: pointer;
+    border: 1px solid var(--accent); background: var(--accent); color: #fff;
+  }
+  #filterCloseBtn .x { font-size: 1.25em; font-weight: 800; line-height: 0; }
   /* suburb selector minimise (slide up) */
   #suburbBody { overflow: hidden; transition: max-height 0.25s ease, opacity 0.2s ease; max-height: 1200px; }
   #suburbBody.collapsed { max-height: 0; opacity: 0; }
@@ -432,12 +444,13 @@
           <span class="text-xs font-semibold uppercase tracking-wide shrink-0" style="color:var(--ink-muted);">Region</span>
           <span id="regionRow" class="flex items-center gap-2 flex-wrap"></span>
           <button id="allTgaBtn" class="px-3 py-1 rounded-full text-sm border shrink-0" style="border-color:var(--border);color:var(--ink-muted);background:var(--card);" title="Select every Tauranga-region suburb we cover">All Tauranga</button>
+          <button id="clearSuburbsBtn" class="px-3 py-1 rounded-full text-sm border shrink-0" style="border-color:var(--border);color:var(--ink-muted);background:var(--card);" title="Turn every suburb off so one tap picks just the one you want">Clear all</button>
         </div>
         <!-- Suburb sub-rows (second tier) — one row per active region, built in JS -->
         <div id="suburbRows" class="mt-2 space-y-2"></div>
       </div>
       <div class="flex items-center gap-2 mt-2">
-        <p id="suburbHelp" class="text-xs" style="color:var(--ink-muted);">Mount Maunganui &amp; the beach shows by default &mdash; tap a region to add its suburbs, then fine-tune below.</p>
+        <p id="suburbHelp" class="text-xs" style="color:var(--ink-muted);">Every suburb is on by default &mdash; hit Clear all, then tap just the ones you want.</p>
         <button id="suburbMinBtn" type="button" class="text-xs font-medium px-2.5 py-0.5 rounded-full border shrink-0"
                 style="border-color:var(--border);color:var(--ink-muted);background:var(--card);margin-left:auto;cursor:pointer;">Minimise &#9652;</button>
       </div>
@@ -487,6 +500,11 @@
           <button class="filter-chip active px-3 py-1 rounded-full text-sm border" data-confidence="all"  style="border-color:var(--border);">All</button>
           <button class="filter-chip        px-3 py-1 rounded-full text-sm border" data-confidence="high" style="border-color:var(--border);">High only</button>
         </div>
+      </div>
+
+
+      <div class="filter-close-row">
+        <button id="filterCloseBtn" type="button"><span class="x" aria-hidden="true">&#10005;</span> Close filters</button>
       </div>
 
     </div><!-- /filterRows -->
@@ -613,7 +631,9 @@ const DEFAULT_REGION = "Mount & beach";
 
 // ---------- FILTER STATE ----------
 const SUBURB_ORDER    = SUBURB_REGIONS.flatMap(r => r.suburbs);   // grouping order in render()
-const DEFAULT_SUBURBS = (SUBURB_REGIONS.find(r => r.region === DEFAULT_REGION) || {}).suburbs || [];
+// the Tauranga region is compact enough to browse whole, so every suburb is on by default rather
+// than just the default region — DEFAULT_REGION is kept only as the fallback ordering hint.
+const DEFAULT_SUBURBS = SUBURB_ORDER;
 const selectedSuburbs = new Set(DEFAULT_SUBURBS);   // narrowed to suburbs-with-data after load
 
 // Which suburbs actually have deal/event data right now (drives which chips render).
@@ -684,10 +704,13 @@ function updateSelectorUI() {
     const anySel = conf.suburbs.some(s => selectedSuburbs.has(s));
     rb.classList.toggle("active", anySel);
   });
+  // With nothing selected (after "Clear all") every row stays on show — otherwise the
+  // chips vanish and there is no single suburb left to tap.
+  const noneSelected = selectedSuburbs.size === 0;
   document.querySelectorAll("[data-region-row]").forEach(row => {
     const conf   = SUBURB_REGIONS.find(r => r.region === row.dataset.regionRow) || { suburbs: [] };
     const anySel = conf.suburbs.some(s => selectedSuburbs.has(s));
-    row.style.display = anySel ? "" : "none";
+    row.style.display = (anySel || noneSelected) ? "" : "none";
   });
 }
 const selectedCategories = new Set(Object.keys(CAT_LABELS));
@@ -1467,6 +1490,14 @@ document.getElementById("allTgaBtn").addEventListener("click", () => {
   render();
 });
 
+// "Clear all" — empty the suburb selection in one tap so the next tap picks exactly one
+// suburb. With nothing selected updateSelectorUI keeps every suburb row on show.
+document.getElementById("clearSuburbsBtn").addEventListener("click", () => {
+  selectedSuburbs.clear();
+  updateSelectorUI();
+  render();
+});
+
 // Minimise / expand the suburb selector body (region + suburb rows) to reclaim screen space.
 document.getElementById("suburbMinBtn").addEventListener("click", function() {
   const body = document.getElementById("suburbBody");
@@ -1585,10 +1616,15 @@ document.getElementById("contactBtn").addEventListener("click", function() {
   applyCollapse();
   window.addEventListener("resize", applyCollapse);
 
-  toggle.addEventListener("click", () => {
-    const isCollapsed = rows.classList.toggle("collapsed");
-    icon.textContent = isCollapsed ? "▾" : "▴";
-  });
+  // The top control opens the panel; closing happens from the button pinned to the
+  // bottom-right of the panel, which is where your thumb lands after scrolling it.
+  function setOpen(open) {
+    rows.classList.toggle("collapsed", !open);
+    if (icon) icon.textContent = open ? "▴" : "▾";
+  }
+  toggle.addEventListener("click", () => setOpen(rows.classList.contains("collapsed")));
+  const closeBtn = document.getElementById("filterCloseBtn");
+  if (closeBtn) closeBtn.addEventListener("click", () => setOpen(false));
 
   // Update scroll-padding-top to match the actual filter bar height
   function updateScrollPadding() {
@@ -1921,7 +1957,15 @@ loadData().then(() => {
   var body  = document.getElementById('venueProfileBody');
   var closeBtn = document.getElementById('venueClose');
 
+  // Where the list was scrolled to when the panel opened. Closing the panel clears the
+  // hash, and clearing a hash sends the browser to the top of the page — so put the list
+  // back where it was. Plain in-memory variable: no storage, no cookie, nothing to load.
+  var listScrollY = null;
+
   function show(html){
+    if (!modal.classList.contains('open')) {
+      listScrollY = window.pageYOffset || document.documentElement.scrollTop || 0;
+    }
     body.innerHTML = html;
     modal.classList.add('open');
     document.body.style.overflow = 'hidden';
@@ -1929,8 +1973,16 @@ loadData().then(() => {
     if (window.hydrateVenueSocial) window.hydrateVenueSocial(body);
   }
   function hide(){
+    var wasOpen = modal.classList.contains('open');
     modal.classList.remove('open');
     document.body.style.overflow = '';
+    if (wasOpen && listScrollY !== null) {
+      var y = listScrollY;
+      listScrollY = null;
+      window.scrollTo(0, y);
+      // The hash-clear jump can land a frame later, so re-assert once after paint.
+      requestAnimationFrame(function(){ window.scrollTo(0, y); });
+    }
   }
   function syncFromHash(){
     var md = location.hash.match(/^#deal\/(.+)$/);
