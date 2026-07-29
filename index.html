@@ -72,6 +72,12 @@
     --accent: #c2570e;
     --accent-soft: #fbe9dc;
     --border: #dfe5ec;
+    /* Deliberately darker than --border. A listing card is white on near-white paper,
+       so a hairline --border edge was invisible and the gap between two cards read as
+       ordinary line spacing - a visitor misread a deal as belonging to the venue named
+       in the NEXT card (reported on Facebook, 26 Jul 2026). --border stays as-is for
+       chips, rules and inputs. */
+    --card-edge: #c3cdda;
     --today: #fff4d6;
     --today-border: #e6c65c;
   }
@@ -87,7 +93,9 @@
   .region-chip.active { background: var(--accent); color: #fff; border-color: var(--accent) !important; }
   .region-chip:not(.active):hover { border-color: var(--accent); color: var(--accent); }
   .day-section.today { background: var(--today); border-left: 3px solid var(--today-border); }
-  .deal-card { transition: transform 0.1s ease, box-shadow 0.1s ease; }
+  /* One listing = one clearly bounded block. The resting shadow lifts the card off the paper
+     so where a listing starts and stops is obvious without a separator rule between them. */
+  .deal-card { transition: transform 0.1s ease, box-shadow 0.1s ease; box-shadow: 0 1px 2px rgba(22,38,58,0.06); }
   .deal-card:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(22,38,58,0.08); }
   .cat-badge { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
   .cat-food         { background: #fef3e2; color: #8a5a1a; }
@@ -292,6 +300,9 @@
   .wn-fb { display:flex; align-items:center; justify-content:center; gap:8px; margin:4px; padding:11px; border-radius:9px; background:#1877f2; color:#fff; font-size:14px; font-weight:600; text-decoration:none; }
   .wn-fb:hover { filter:brightness(1.06); }
   .wn-fb svg { width:18px; height:18px; flex-shrink:0; }
+  .wn-ig { display:flex; align-items:center; justify-content:center; gap:8px; margin:4px; padding:11px; border-radius:9px; background:linear-gradient(45deg,#f09433,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888); color:#fff; font-size:14px; font-weight:600; text-decoration:none; }
+  .wn-ig:hover { filter:brightness(1.06); }
+  .wn-ig svg { width:18px; height:18px; flex-shrink:0; }
 
   /* ---------- Map popup contrast fix + "My plan" trip planner ---------- */
   /* Leaflet ships `.leaflet-container a { color:#0078A8 }`, which outranks .map-popup-btn's own
@@ -405,9 +416,16 @@
   <div id="whatsNewPanel" style="display:none;">
     <div class="wn-panel">
       <div id="whatsNewList" class="wn-list"></div>
-      <a class="wn-fb" href="https://www.facebook.com/profile.php?id=61591850849329" target="_blank" rel="noopener">
+      <!-- ⚠️ These must stay TAURANGA's accounts. The fork inherited Wellington's page id
+           (61591850849329) and shipped with it, so every "follow us" tap from a Bay of Plenty
+           visitor landed on the Wellington page. Corrected 2026-07-28 to page 61592222978474. -->
+      <a class="wn-fb" href="https://www.facebook.com/profile.php?id=61592222978474" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg>
         Follow on Facebook for all updates
+      </a>
+      <a class="wn-ig" href="https://www.instagram.com/tauranga_mount_deals_by_day/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.3-1.46.72-2.13 1.38C1.35 2.68.93 3.35.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.3.79.72 1.46 1.38 2.13.67.66 1.34 1.08 2.13 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.3 1.46-.72 2.13-1.38.66-.67 1.08-1.34 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.3-.79-.72-1.46-1.38-2.13C21.32 1.35 20.65.93 19.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0z"/><path d="M12 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"/><circle cx="18.41" cy="5.59" r="1.44"/></svg>
+        Follow on Instagram
       </a>
     </div>
   </div>
@@ -960,7 +978,7 @@ function render() {
             ${totalItems} deal${totalItems === 1 ? "" : "s"}
           </span>
         </div>
-        <div class="px-4 pb-4 space-y-2">
+        <div class="px-4 pb-4 space-y-3">
           ${totalItems === 0
             ? `<div class="text-sm italic py-3" style="color:var(--ink-muted);">Nothing on ${day} matching your filters.</div>`
             : (() => {
@@ -1016,8 +1034,11 @@ function renderCard(d) {
     : "";
 
   const venue = VENUES_MAP[d.venue] || {};
-  const venueName = (VENUE_PANEL_ENABLED && venue._slug)
-    ? `<button type="button" class="wd-venue-link" data-venue-open="${venue._slug}">${d.venue}</button>`
+  // The venue name is a real link to the generated /venue/<slug>.html page, so crawlers,
+  // no-JS visitors and open-in-new-tab all reach it. With the panel on, the delegated
+  // click handler intercepts a plain left click and opens the in-page profile instead.
+  const venueName = venue._slug
+    ? `<a class="wd-venue-link" href="/venue/${venue._slug}.html"${VENUE_PANEL_ENABLED ? ` data-venue-open="${venue._slug}"` : ''}>${d.venue}</a>`
     : venue.google_maps_url
       ? `<a href="${venue.google_maps_url}" target="_blank" rel="noopener"
             style="color:inherit;text-decoration:underline;text-underline-offset:2px;">${d.venue}</a>`
@@ -1027,7 +1048,7 @@ function renderCard(d) {
     : "";
 
   return `
-    <article class="deal-card rounded-lg p-3 border" style="background:var(--card);border-color:var(--border);">
+    <article class="deal-card rounded-lg p-3 border" style="background:var(--card);border-color:var(--card-edge);">
       <div class="flex-1 min-w-0">
         <div class="flex items-start gap-2 mb-1">
           <div class="flex items-center gap-2 flex-wrap flex-1 min-w-0">
@@ -1073,7 +1094,7 @@ function renderEventCard(ev) {
     ? `${ev.venues.length} venues: ${ev.venues.join(', ')}`
     : ev.venue;
   return `
-    <article class="deal-card rounded-lg p-3 border mb-2" style="background:var(--card);border-color:var(--border);">
+    <article class="deal-card rounded-lg p-3 border mb-2" style="background:var(--card);border-color:var(--card-edge);">
       <div class="flex items-center gap-2 flex-wrap mb-1">
         ${sportBadge(ev)}
         <span class="text-xs" style="color:var(--ink-muted);">${venueLabel} &middot; ${suburbLabel(ev.suburb)}</span>
@@ -1163,7 +1184,7 @@ function renderRugbyCard(ev) {
   const comp    = ev.competition || "Western BOP Premier";
   const ground  = ev.ground || ev.address || "";
   return `
-    <article class="deal-card rounded-lg p-3 border mb-2" style="background:var(--paper);border-color:var(--border);">
+    <article class="deal-card rounded-lg p-3 border mb-2" style="background:var(--paper);border-color:var(--card-edge);">
       <div class="flex items-center gap-2 flex-wrap mb-1">
         <span class="cat-badge cat-sport-rugby px-2 py-0.5 rounded">${comp}</span>
         ${ev.round ? `<span class="text-xs" style="color:var(--ink-muted);">${ev.round}</span>` : ""}
@@ -1416,7 +1437,7 @@ function renderDealDetail(slug) {
   return `
     <p class="dd-head"><span class="cat-badge cat-${d.category} px-2 py-0.5 rounded">${catLabel}</span></p>
     <h2 class="vp-name">${d.title}</h2>
-    <p class="vp-meta"><button type="button" class="wd-venue-link" data-venue-open="${venueSlug}">${d.venue}</button> &middot; ${suburbLabel(d.suburb)}</p>
+    <p class="vp-meta"><a class="wd-venue-link" href="/venue/${venueSlug}.html" data-venue-open="${venueSlug}">${d.venue}</a> &middot; ${suburbLabel(d.suburb)}</p>
     <p class="vp-when" style="margin-top:10px;">${when}${time ? " &middot; " + time : ""}</p>
     ${conf}
     <div class="vp-actions"><button type="button" class="wd-plan-add wd-plan-add-detail" data-plan-add="${slug}" data-plan-label-on="&#10003; In your plan" data-plan-label-off="&#43; Add to plan" aria-label="Add this deal to your plan">&#43; Add to plan</button></div>
@@ -2002,7 +2023,12 @@ loadData().then(() => {
     var dt = e.target.closest && e.target.closest('[data-deal-open]');
     if (dt) { e.preventDefault(); location.hash = 'deal/' + dt.getAttribute('data-deal-open'); return; }
     var t = e.target.closest && e.target.closest('[data-venue-open]');
-    if (t) { e.preventDefault(); location.hash = 'venue/' + t.getAttribute('data-venue-open'); }
+    if (t) {
+      // A modified click on the venue's /venue/<slug>.html link belongs to the browser
+      // (new tab, new window, save target) — only a plain left click opens the panel.
+      if (t.tagName === 'A' && (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button > 0)) return;
+      e.preventDefault(); location.hash = 'venue/' + t.getAttribute('data-venue-open'); return;
+    }
   });
   if (closeBtn) closeBtn.addEventListener('click', clearHash);
   modal.addEventListener('click', function(e){ if (e.target === modal) clearHash(); });
