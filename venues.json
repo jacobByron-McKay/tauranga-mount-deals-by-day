@@ -4472,9 +4472,9 @@
     "facebook": null,
     "instagram": null,
     "is_chain": true,
-    "google_rating": null,
+    "google_rating": 4.1,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Event+Cinemas+45+Elizabeth+Street+Tauranga",
-    "notes": "Event Cinemas 'Original' screens. Kept per the 2026-08-07 cinema-policy call. NOTE: excluded from Cinebuzz Half Price Tuesday by name in the promo T&C -- Student Mondays only.",
+    "notes": "Event Cinemas 'Original' screens. Kept per the 2026-08-07 cinema-policy call. NOTE: excluded from Cinebuzz Half Price Tuesday by name in the promo T&C -- Student Mondays only. Google 4.1 (1235 reviews), ph 07 577 0288, read 2026-08-08.",
     "lat": -37.6871023,
     "lng": 176.1683285,
     "geocode_source": "OSM Nominatim (validated), 2026-08-07"
@@ -4488,9 +4488,9 @@
     "facebook": null,
     "instagram": null,
     "is_chain": true,
-    "google_rating": null,
+    "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Event+Cinemas+Tauranga+Crossing+2+Taurikura+Drive+Tauriko",
-    "notes": "Event Cinemas Original + V-Max. Same complex as The Mill House and Grace of India Tauriko. Kept per the 2026-08-07 cinema-policy call.",
+    "notes": "Event Cinemas Original + V-Max. Same complex as The Mill House and Grace of India Tauriko. Kept per the 2026-08-07 cinema-policy call. Google 4.5 (1014 reviews), ph 07 541 0002, read 2026-08-08.",
     "lat": -37.7383423,
     "lng": 176.1053835,
     "geocode_source": "OSM Nominatim (validated), 2026-08-07"
