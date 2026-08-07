@@ -48,7 +48,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Baycourt Addison Theatre",
+    "venue": "Baycourt Community & Arts Centre",
     "suburb": "Tauranga CBD",
     "address": "38 Durham Street, Tauranga CBD",
     "date": "2026-08-03",
@@ -96,7 +96,7 @@
     "confidence": "medium"
   },
   {
-    "venue": "Toi Tauranga Art Gallery",
+    "venue": "Tauranga Art Gallery Toi Tauranga",
     "suburb": "Tauranga CBD",
     "address": "108 Willow Street, Tauranga 3110",
     "date": "2026-08-05",
@@ -144,7 +144,7 @@
     "confidence": "medium"
   },
   {
-    "venue": "Rosie's Red-Hot Cantina",
+    "venue": "Rosie's Red-Hot Cantina - Mount Maunganui",
     "suburb": "Mount Maunganui",
     "address": "Maunganui Road, Mount Maunganui",
     "date": "2026-08-06",
@@ -160,7 +160,7 @@
     "confidence": "medium"
   },
   {
-    "venue": "Mercury Baypark Arena",
+    "venue": "Mercury Baypark",
     "suburb": "Mount Maunganui",
     "address": "Truman Lane, Mount Maunganui",
     "date": "2026-08-06",
@@ -224,7 +224,7 @@
     "confidence": "medium"
   },
   {
-    "venue": "Baycourt X Space",
+    "venue": "Baycourt Community & Arts Centre",
     "suburb": "Tauranga CBD",
     "address": "38 Durham Street, Tauranga CBD",
     "date": "2026-08-08",
@@ -240,7 +240,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Baycourt Addison Theatre",
+    "venue": "Baycourt Community & Arts Centre",
     "suburb": "Tauranga CBD",
     "address": "38 Durham Street, Tauranga CBD",
     "date": "2026-08-08",
@@ -289,7 +289,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Baycourt Addison Theatre",
+    "venue": "Baycourt Community & Arts Centre",
     "suburb": "Tauranga CBD",
     "address": "38 Durham Street, Tauranga CBD",
     "date": "2026-08-09",
@@ -305,7 +305,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Toi Tauranga Art Gallery",
+    "venue": "Tauranga Art Gallery Toi Tauranga",
     "suburb": "Tauranga CBD",
     "address": "108 Willow Street, Tauranga 3110",
     "date": "2026-08-09",
@@ -321,7 +321,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Baycourt Addison Theatre",
+    "venue": "Baycourt Community & Arts Centre",
     "suburb": "Tauranga CBD",
     "address": "38 Durham Street, Tauranga CBD",
     "date": "2026-08-10",
@@ -337,7 +337,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Baycourt Addison Theatre",
+    "venue": "Baycourt Community & Arts Centre",
     "suburb": "Tauranga CBD",
     "address": "38 Durham Street, Tauranga CBD",
     "date": "2026-08-11",
@@ -353,7 +353,7 @@
     "confidence": "high"
   },
   {
-    "venue": "The Jam Factory - Music Platform",
+    "venue": "The Jam Factory",
     "suburb": "Tauranga CBD",
     "address": "159 17th Avenue West, The Historic Village, Tauranga",
     "date": "2026-08-14",
@@ -385,7 +385,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Mercury Baypark Arena",
+    "venue": "Mercury Baypark",
     "suburb": "Mount Maunganui",
     "address": "Truman Lane, Mount Maunganui",
     "date": "2026-08-15",
@@ -433,7 +433,7 @@
     "confidence": "medium"
   },
   {
-    "venue": "The Creative Campus, The Historic Village",
+    "venue": "The Historic Village",
     "suburb": "Tauranga CBD",
     "address": "159 17th Avenue West, The Historic Village, Tauranga",
     "date": "2026-08-15",
@@ -529,7 +529,7 @@
     "confidence": "medium"
   },
   {
-    "venue": "Master Kong",
+    "venue": "Master Kong The Mount",
     "suburb": "Mount Maunganui",
     "address": "Maunganui Road, Mount Maunganui",
     "date": "2026-08-20",
@@ -773,7 +773,7 @@
     "confidence": "medium"
   },
   {
-    "venue": "Toi Tauranga Art Gallery",
+    "venue": "Tauranga Art Gallery Toi Tauranga",
     "suburb": "Tauranga CBD",
     "address": "108 Willow Street, Tauranga 3110",
     "date": null,
@@ -789,7 +789,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Toi Tauranga Art Gallery",
+    "venue": "Tauranga Art Gallery Toi Tauranga",
     "suburb": "Tauranga CBD",
     "address": "108 Willow Street, Tauranga 3110",
     "date": null,
@@ -805,7 +805,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Toi Tauranga Art Gallery",
+    "venue": "Tauranga Art Gallery Toi Tauranga",
     "suburb": "Tauranga CBD",
     "address": "108 Willow Street, Tauranga 3110",
     "date": null,
@@ -1178,7 +1178,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Bluebiyou / Beach Bar",
+    "venue": "BEACH BAR",
     "suburb": "Papamoa",
     "address": "559 Papamoa Beach Road, Papamoa Beach 3118",
     "date": null,
@@ -1229,7 +1229,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Baycourt Community & Arts Centre (Addison Theatre)",
+    "venue": "Baycourt Community & Arts Centre",
     "suburb": "Tauranga CBD",
     "address": "38 Durham Street, Tauranga 3110",
     "date": "2026-08-07",
@@ -1245,7 +1245,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Baycourt Community & Arts Centre (Addison Theatre)",
+    "venue": "Baycourt Community & Arts Centre",
     "suburb": "Tauranga CBD",
     "address": "38 Durham Street, Tauranga 3110",
     "date": "2026-08-11",
@@ -1261,7 +1261,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Baycourt Community & Arts Centre (Addison Theatre)",
+    "venue": "Baycourt Community & Arts Centre",
     "suburb": "Tauranga CBD",
     "address": "38 Durham Street, Tauranga 3110",
     "date": "2026-08-14",
@@ -1277,7 +1277,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Baycourt Community & Arts Centre (Addison Theatre & X Space)",
+    "venue": "Baycourt Community & Arts Centre",
     "suburb": "Tauranga CBD",
     "address": "38 Durham Street, Tauranga 3110",
     "date": "2026-08-16",
@@ -1293,7 +1293,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Baycourt Community & Arts Centre (Addison Theatre)",
+    "venue": "Baycourt Community & Arts Centre",
     "suburb": "Tauranga CBD",
     "address": "38 Durham Street, Tauranga 3110",
     "date": "2026-08-28",
@@ -1309,7 +1309,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Baycourt Community & Arts Centre (X Space)",
+    "venue": "Baycourt Community & Arts Centre",
     "suburb": "Tauranga CBD",
     "address": "38 Durham Street, Tauranga 3110",
     "date": "2026-08-30",
@@ -1389,7 +1389,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Tauranga Art Gallery (Toi Tauranga)",
+    "venue": "Tauranga Art Gallery Toi Tauranga",
     "suburb": "Tauranga CBD",
     "address": "108 Willow Street, Tauranga 3110",
     "date": null,
@@ -1405,7 +1405,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Tauranga Art Gallery (Toi Tauranga)",
+    "venue": "Tauranga Art Gallery Toi Tauranga",
     "suburb": "Tauranga CBD",
     "address": "108 Willow Street, Tauranga 3110",
     "date": null,
@@ -1421,7 +1421,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Tauranga Art Gallery (Toi Tauranga)",
+    "venue": "Tauranga Art Gallery Toi Tauranga",
     "suburb": "Tauranga CBD",
     "address": "108 Willow Street, Tauranga 3110",
     "date": null,
@@ -1437,7 +1437,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Tauranga Art Gallery (Toi Tauranga)",
+    "venue": "Tauranga Art Gallery Toi Tauranga",
     "suburb": "Tauranga CBD",
     "address": "108 Willow Street, Tauranga 3110",
     "date": null,
@@ -1487,7 +1487,7 @@
     "confidence": "high"
   },
   {
-    "venue": "Miss Gee's Bar & Eatery",
+    "venue": "Miss Gee's Bar & Restaurant",
     "suburb": "Tauranga CBD",
     "address": "3/59 The Strand, Tauranga",
     "date": null,
