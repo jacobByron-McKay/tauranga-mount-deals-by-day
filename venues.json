@@ -23,7 +23,10 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Harbourside+150+The+Strand+Tauranga",
-    "notes": "Scanned 2026-07-18: FB post (2025-07-27) advertises a Mon-Fri 5-course degustation $69pp; not shown on current website menu, so recorded medium confidence. IG checked, nothing further."
+    "notes": "Scanned 2026-07-18: FB post (2025-07-27) advertises a Mon-Fri 5-course degustation $69pp; not shown on current website menu, so recorded medium confidence. IG checked, nothing further.",
+    "lat": -37.6867985,
+    "lng": 176.1706862,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Manhattan Bar + Eatery",
@@ -36,7 +39,10 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Manhattan+Bar+Eatery+53+The+Strand+Tauranga",
-    "notes": "Scanned 2026-07-18: current website homepage lists 5 live weekly specials (Sunday Roast, daily $20 lunch, Friday live music, daily happy hour, Friday ladies happy hour). Older IG/FB deal posts have been deleted/superseded, not recorded."
+    "notes": "Scanned 2026-07-18: current website homepage lists 5 live weekly specials (Sunday Roast, daily $20 lunch, Friday live music, daily happy hour, Friday ladies happy hour). Older IG/FB deal posts have been deleted/superseded, not recorded.",
+    "lat": -37.6821554,
+    "lng": 176.1697682,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Sugo",
@@ -49,7 +55,10 @@
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sugo+19+Wharf+St+Tauranga",
-    "notes": "Scanned 2026-07-18: current website homepage has a full Daily Rituals weekly specials board - Monday pizza night, Wednesday wine-down, Thursday steak night, Friday aperitivo hour, Saturday bottomless brunch, plus every-day early diners club."
+    "notes": "Scanned 2026-07-18: current website homepage has a full Daily Rituals weekly specials board - Monday pizza night, Wednesday wine-down, Thursday steak night, Friday aperitivo hour, Saturday bottomless brunch, plus every-day early diners club.",
+    "lat": -37.6832701,
+    "lng": 176.1692877,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "1920 Cucina & Grill",
@@ -153,7 +162,10 @@
     "is_chain": false,
     "google_rating": 4.6,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Barrel+Room+26+Wharf+St+Tauranga",
-    "notes": "Scanned 2026-07-18: website only markets unbeatable value lunch/menus with no explicit price; FB has a giveaway and a vague pre-show discount. No qualifying deal recorded."
+    "notes": "Scanned 2026-07-18: website only markets unbeatable value lunch/menus with no explicit price; FB has a giveaway and a vague pre-show discount. No qualifying deal recorded.",
+    "lat": -37.6835409,
+    "lng": 176.1692171,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "The Hop House",
@@ -166,7 +178,10 @@
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Hop+House+12+Wharf+St+Tauranga",
-    "notes": "Scanned 2026-07-18: IG (2026-03-27) confirms a 4-6pm happy hour with pricing; FB confirms a Friday curry lunch special. Open Tue-Sun (closed Mon). $20 pizza/$15 burger-night FB mentions had no day stated, so not recorded."
+    "notes": "Scanned 2026-07-18: IG (2026-03-27) confirms a 4-6pm happy hour with pricing; FB confirms a Friday curry lunch special. Open Tue-Sun (closed Mon). $20 pizza/$15 burger-night FB mentions had no day stated, so not recorded.",
+    "lat": -37.6835094,
+    "lng": 176.1695874,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Cornerstone Bar & Eatery Tauranga",
@@ -179,7 +194,10 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cornerstone+Bar+Eatery+107+The+Strand+Tauranga",
-    "notes": "Scanned 2026-07-18: own website What's On page + FB confirm a Tuesday poker/BBQ rib night and a Friday burger-and-a-beer special."
+    "notes": "Scanned 2026-07-18: own website What's On page + FB confirm a Tuesday poker/BBQ rib night and a Friday burger-and-a-beer special.",
+    "lat": -37.6838124,
+    "lng": 176.1698444,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Miss Gee's Bar & Restaurant",
@@ -192,7 +210,10 @@
     "is_chain": false,
     "google_rating": 4.6,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Miss+Gees+3%2F59+The+Strand+Tauranga",
-    "notes": "Scanned 2026-07-18: current website homepage advertises a new $9-drinks/$9-eats happy hour 4-6pm. A monthly DnB night (last Saturday of month) exists but doesn't fit the weekly/dated schema, not recorded."
+    "notes": "Scanned 2026-07-18: current website homepage advertises a new $9-drinks/$9-eats happy hour 4-6pm. A monthly DnB night (last Saturday of month) exists but doesn't fit the weekly/dated schema, not recorded.",
+    "lat": -37.682607,
+    "lng": 176.1697958,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "CBK Craft Bar & Kitchen Tauranga",
@@ -205,7 +226,10 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=CBK+Craft+Bar+Kitchen+Red+Square+1+Devonport+Road+Tauranga",
-    "notes": "Scanned 2026-07-18: address corrected from the Maps card's 20 Spring St to the venue's own listed address, Red Square/1 Devonport Rd. Own website confirms a Fri/Sat/Sun bottomless brunch (no explicit price found, medium confidence)."
+    "notes": "Scanned 2026-07-18: address corrected from the Maps card's 20 Spring St to the venue's own listed address, Red Square/1 Devonport Rd. Own website confirms a Fri/Sat/Sun bottomless brunch (no explicit price found, medium confidence).",
+    "lat": -37.6843939,
+    "lng": 176.1694035,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Rusty's Bar & Restaurant",
@@ -218,7 +242,10 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rustys+Bar+Restaurant+109+The+Strand+Tauranga",
-    "notes": "Scanned 2026-07-18: IG/FB confirm a daily $15 lunch special, Mon-Sat happy hour, and a Sunday roast. Wednesday steak night mentioned but no price found, not recorded."
+    "notes": "Scanned 2026-07-18: IG/FB confirm a daily $15 lunch special, Mon-Sat happy hour, and a Sunday roast. Wednesday steak night mentioned but no price found, not recorded.",
+    "lat": -37.6838801,
+    "lng": 176.1698422,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Saint Wine Bar",
@@ -309,7 +336,10 @@
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Florence+Bistro+90+Devonport+Rd+Tauranga",
-    "notes": "Scanned 2026-07-18: own website's What's On page confirms a daily pasta + Prosecco/Stella deal."
+    "notes": "Scanned 2026-07-18: own website's What's On page confirms a daily pasta + Prosecco/Stella deal.",
+    "lat": -37.6866767,
+    "lng": 176.1695003,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Mediterraneo Cafe",
@@ -491,7 +521,10 @@
     "is_chain": false,
     "google_rating": 3.8,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Eastern+Ocean+Chinese+Restaurant+100+Grey+St+Tauranga",
-    "notes": "Scanned 2026-07-18: a third-party dining blog cites a daily $9.90 lunch-special-with-rice; not confirmed on the venue's own channels, recorded medium confidence."
+    "notes": "Scanned 2026-07-18: a third-party dining blog cites a daily $9.90 lunch-special-with-rice; not confirmed on the venue's own channels, recorded medium confidence.",
+    "lat": -37.6868804,
+    "lng": 176.1681834,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Rock'n Wok",
@@ -504,7 +537,10 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rocknwok+45+Fourth+Ave+Tauranga",
-    "notes": "Scanned 2026-07-18: own FB page confirms a $23 lunch special."
+    "notes": "Scanned 2026-07-18: own FB page confirms a $23 lunch special.",
+    "lat": -37.6907984,
+    "lng": 176.1652005,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Dumpling Delight",
@@ -543,7 +579,10 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Picnicka+2%2F38+Elizabeth+St+Tauranga",
-    "notes": "Scanned 2026-07-18: own FB/IG confirm a Worker's Lunch $29 special."
+    "notes": "Scanned 2026-07-18: own FB/IG confirm a Worker's Lunch $29 special.",
+    "lat": -37.6879849,
+    "lng": 176.1683594,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "PHO VINA",
@@ -582,7 +621,10 @@
     "is_chain": true,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Luxe+Cinemas+21+Devonport+Rd+Tauranga",
-    "notes": "Scanned 2026-07-18: small family-owned Bay of Plenty boutique cinema chain (2 sites), kept per judgement, not massive. Own FB confirms $10 Tue-Fri tickets."
+    "notes": "Scanned 2026-07-18: small family-owned Bay of Plenty boutique cinema chain (2 sites), kept per judgement, not massive. Own FB confirms $10 Tue-Fri tickets.",
+    "lat": -37.6849767,
+    "lng": 176.1694332,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Bobbys Fresh Fish Market Tauranga Waterfront",
@@ -634,7 +676,10 @@
     "is_chain": true,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Latitude+37+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: Website What's On page lists named daily deals (Martini Monday, Wine Wednesday etc.) with no stated price - excluded. One dated event found (Meet the Winemaker). Star Group venue."
+    "notes": "Scanned 2026-07-18: Website What's On page lists named daily deals (Martini Monday, Wine Wednesday etc.) with no stated price - excluded. One dated event found (Meet the Winemaker). Star Group venue.",
+    "lat": -37.638743,
+    "lng": 176.1838551,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Agave Bistro & Drinkery",
@@ -647,7 +692,10 @@
     "is_chain": false,
     "google_rating": 4.9,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Agave+Bistro+%26+Drinkery+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: Website menu shows Taco Tuesday deal with explicit pricing. FB page broken/unreachable."
+    "notes": "Scanned 2026-07-18: Website menu shows Taco Tuesday deal with explicit pricing. FB page broken/unreachable.",
+    "lat": -37.6385702,
+    "lng": 176.1837855,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "The Orchard Thieves Mount Maunganui",
@@ -660,7 +708,10 @@
     "is_chain": true,
     "google_rating": 4.8,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Orchard+Thieves+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: Recently opened store. FB post gives Saturday 30% off pizza deal (own channel, current). Small NZ pizza chain."
+    "notes": "Scanned 2026-07-18: Recently opened store. FB post gives Saturday 30% off pizza deal (own channel, current). Small NZ pizza chain.",
+    "lat": -37.6404738,
+    "lng": 176.1847076,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Rosie's Red-Hot Cantina - Mount Maunganui",
@@ -673,7 +724,10 @@
     "is_chain": true,
     "google_rating": 4.6,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rosie%27s+Red-Hot+Cantina+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: Named daily deals (Margarita Monday etc.) lack stated price - excluded. Two dated events found (Birthday, Sunday Ink Sessions). Star Group venue."
+    "notes": "Scanned 2026-07-18: Named daily deals (Margarita Monday etc.) lack stated price - excluded. Two dated events found (Birthday, Sunday Ink Sessions). Star Group venue.",
+    "lat": -37.6370097,
+    "lng": 176.1833321,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Osteria Mount Maunganui",
@@ -699,7 +753,10 @@
     "is_chain": false,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Mount+Tavern+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: Website lists weekly jam/karaoke nights (deals recorded) and monthly quiz/jazz nights (events recorded)."
+    "notes": "Scanned 2026-07-18: Website lists weekly jam/karaoke nights (deals recorded) and monthly quiz/jazz nights (events recorded).",
+    "lat": -37.6422169,
+    "lng": 176.1862998,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Master Kong The Mount",
@@ -946,7 +1003,10 @@
     "is_chain": true,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Astrolabe+Brewbar+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: dedicated event pages confirmed Tight Arse Tuesday, Nachos & Beer Towers Sunday, Quiz Night Thursday (all recorded). Happy Handle Club and Cocktail Specials lack stated price - excluded. NZ Venue Co (NZVC) group."
+    "notes": "Scanned 2026-07-18: dedicated event pages confirmed Tight Arse Tuesday, Nachos & Beer Towers Sunday, Quiz Night Thursday (all recorded). Happy Handle Club and Cocktail Specials lack stated price - excluded. NZ Venue Co (NZVC) group.",
+    "lat": -37.6361278,
+    "lng": 176.1822971,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Palace Tavern",
@@ -1050,7 +1110,10 @@
     "is_chain": false,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Rising+Tide+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: dedicated Daily Deals page gives a full 7-day roster of priced specials (recorded in full). Also has an Ōmokoroa location."
+    "notes": "Scanned 2026-07-18: dedicated Daily Deals page gives a full 7-day roster of priced specials (recorded in full). Also has an Ōmokoroa location.",
+    "lat": -37.662098,
+    "lng": 176.2046786,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Lolo Authentic Turkish Kitchen Mount",
@@ -1128,7 +1191,10 @@
     "is_chain": true,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Barrio+Brothers+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: FB post gives full weekly deal roster; Tuesday and Wednesday had explicit prices (recorded), Thursday Margarita Night had no stated price (excluded). Small 2-location group (Tauranga + Mount)."
+    "notes": "Scanned 2026-07-18: FB post gives full weekly deal roster; Tuesday and Wednesday had explicit prices (recorded), Thursday Margarita Night had no stated price (excluded). Small 2-location group (Tauranga + Mount).",
+    "lat": -37.6366289,
+    "lng": 176.182937,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "RE Burger Mount Maunganui",
@@ -1167,7 +1233,10 @@
     "is_chain": false,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thai2Go+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: menu page states lunch (Wed-Fri only) carries at least 25% off selected meals - recorded as 3 weekly deal records."
+    "notes": "Scanned 2026-07-18: menu page states lunch (Wed-Fri only) carries at least 25% off selected meals - recorded as 3 weekly deal records.",
+    "lat": -37.6548305,
+    "lng": 176.2000561,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Solera",
@@ -1375,7 +1444,10 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Barn+Burger+Grill+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: FB post (own channel, Dec 2025) gives Thursday burger+chips+drink deal - recorded."
+    "notes": "Scanned 2026-07-18: FB post (own channel, Dec 2025) gives Thursday burger+chips+drink deal - recorded.",
+    "lat": -37.6385702,
+    "lng": 176.1837855,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "BurgerFuel Mount Maunganui",
@@ -1609,7 +1681,10 @@
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pablo+Papamoa+255+The+Blvd+Papamoa",
-    "notes": "Scanned 2026-07-18: Website has no specials page. FB has Wed $35 Locals Steak Night. IG active with food/venue photos, $100 voucher giveaway (not a qualifying deal)."
+    "notes": "Scanned 2026-07-18: Website has no specials page. FB has Wed $35 Locals Steak Night. IG active with food/venue photos, $100 voucher giveaway (not a qualifying deal).",
+    "lat": -37.7274065,
+    "lng": 176.3473391,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Lantern",
@@ -1635,7 +1710,10 @@
     "is_chain": false,
     "google_rating": 4.6,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pap+House+1072+Papamoa+Beach+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: Website no specials page. FB garbled feed, no offers panel. IG confirmed fortnightly Tuesday Quiz Night."
+    "notes": "Scanned 2026-07-18: Website no specials page. FB garbled feed, no offers panel. IG confirmed fortnightly Tuesday Quiz Night.",
+    "lat": -37.7138349,
+    "lng": 176.3317956,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "The Wagon Papamoa",
@@ -1648,7 +1726,10 @@
     "is_chain": true,
     "google_rating": 4.8,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Wagon+Papamoa+8+Toorea+St",
-    "notes": "Scanned 2026-07-18: Small NZ chain (Whakatane+Papamoa). Website no specials. IG confirmed Milkshake Tuesday. Wing Wednesday post has no price, excluded. FB mostly giveaways."
+    "notes": "Scanned 2026-07-18: Small NZ chain (Whakatane+Papamoa). Website no specials. IG confirmed Milkshake Tuesday. Wing Wednesday post has no price, excluded. FB mostly giveaways.",
+    "lat": -37.7130486,
+    "lng": 176.3115901,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Rain Bar & Kitchen",
@@ -1661,7 +1742,10 @@
     "is_chain": false,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rain+Bar+Kitchen+30+Gravatt+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: Website 'What's On' page carousel is authoritative source - confirmed 6 weekly deals (Dumpling Wed, Dessert Thu, Cocktail Fri/Sat, daily Happy Hour, Sunday Sessions)."
+    "notes": "Scanned 2026-07-18: Website 'What's On' page carousel is authoritative source - confirmed 6 weekly deals (Dumpling Wed, Dessert Thu, Cocktail Fri/Sat, daily Happy Hour, Sunday Sessions).",
+    "lat": -37.7014263,
+    "lng": 176.2817904,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "BLUEBIYOU",
@@ -1687,7 +1771,10 @@
     "is_chain": false,
     "google_rating": 4.1,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Beach+Bar+559+Papamoa+Beach+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: Casual bar in Bluebiyou's old function room. IG carousel confirmed 3 winter-special weekly deals (Oyster Happy Hour daily, Cheap as Thursdays, Sunday Surfin' Turfin')."
+    "notes": "Scanned 2026-07-18: Casual bar in Bluebiyou's old function room. IG carousel confirmed 3 winter-special weekly deals (Oyster Happy Hour daily, Cheap as Thursdays, Sunday Surfin' Turfin').",
+    "lat": -37.696653,
+    "lng": 176.2849728,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "The Goodhome Coast",
@@ -1700,7 +1787,10 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Goodhome+Coast+1+Papamoa+Beach+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18 (formerly The Goodhome Gastropub). Website no specials page. IG confirmed Thursday $25 Steak Night. Quiz Night highlight found but stale (188 weeks old) - not recorded, flagged for phone check."
+    "notes": "Scanned 2026-07-18 (formerly The Goodhome Gastropub). Website no specials page. IG confirmed Thursday $25 Steak Night. Quiz Night highlight found but stale (188 weeks old) - not recorded, flagged for phone check.",
+    "lat": -37.6977583,
+    "lng": 176.2854373,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "The Island",
@@ -1713,7 +1803,10 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Island+20+Domain+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: Coastal brewery/bar, formerly Papamoa Beach Tavern. Website no specials page. IG confirmed Tuesday Bingo Night $5. Several one-off dated events (rugby screenings, live music) found but already past."
+    "notes": "Scanned 2026-07-18: Coastal brewery/bar, formerly Papamoa Beach Tavern. Website no specials page. IG confirmed Tuesday Bingo Night $5. Several one-off dated events (rugby screenings, live music) found but already past.",
+    "lat": -37.7000617,
+    "lng": 176.2843417,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "The Flying Mullet Sports Bar",
@@ -1830,7 +1923,10 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thai+Thani+30+Gravatt+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: FB post advertises $30 lunch special (entree+main+drink), day undetermined but matches lunch hours Tue-Sun. Recorded at medium confidence."
+    "notes": "Scanned 2026-07-18: FB post advertises $30 lunch special (entree+main+drink), day undetermined but matches lunch hours Tue-Sun. Recorded at medium confidence.",
+    "lat": -37.7009877,
+    "lng": 176.2817872,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Thai Star Papamoa",
@@ -2376,7 +2472,10 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Papa+Mo%27s+Excelsa+Centre+4+Golden+Sands+Dr+Papamoa",
-    "notes": "Scanned 2026-07-18: IG 'Weekly Specials' highlight confirmed Wednesday 3-for-$44 shared plates deal (66 weeks old, recorded medium confidence)."
+    "notes": "Scanned 2026-07-18: IG 'Weekly Specials' highlight confirmed Wednesday 3-for-$44 shared plates deal (66 weeks old, recorded medium confidence).",
+    "lat": -37.7174416,
+    "lng": 176.3420406,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Shake Shed & Co Papamoa",
@@ -2389,7 +2488,10 @@
     "is_chain": true,
     "google_rating": 3.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Shake+Shed+Co+Papamoa+Plaza+7+Gravatt+Rd",
-    "notes": "Scanned 2026-07-18: Small regional chain (also Bayfair). Current July 2026 month-long promo confirmed ($15 spend = free cone). Recorded high confidence."
+    "notes": "Scanned 2026-07-18: Small regional chain (also Bayfair). Current July 2026 month-long promo confirmed ($15 spend = free cone). Recorded high confidence.",
+    "lat": -37.6982892,
+    "lng": 176.2815626,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Luxe Cinemas Papamoa",
@@ -2428,7 +2530,10 @@
     "is_chain": false,
     "google_rating": null,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Papamoa+Pony+Club+491+Papamoa+Beach+Rd",
-    "notes": "Scanned 2026-07-18: Weekly Thursday street-food market with live music at Papamoa Pony Club, summer season only (starts Nov 3). 11k FB followers, established annual event."
+    "notes": "Scanned 2026-07-18: Weekly Thursday street-food market with live music at Papamoa Pony Club, summer season only (starts Nov 3). 11k FB followers, established annual event.",
+    "lat": -37.6942332,
+    "lng": 176.2782978,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Le Chat Noir",
@@ -2571,7 +2676,10 @@
     "is_chain": true,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/place/RE+Burger+Tauranga",
-    "notes": "Scanned 2026-07-19: small NZ multi-site burger chain (also in Petone, Mount Maunganui, Bombay, Milldale) - kept per the small-local-group exception, not a massive national chain. Own FB posts (4 days old) confirm two recurring weekly deals: Tuesday Cheapskate Chewsday and a Friday night burger special."
+    "notes": "Scanned 2026-07-19: small NZ multi-site burger chain (also in Petone, Mount Maunganui, Bombay, Milldale) - kept per the small-local-group exception, not a massive national chain. Own FB posts (4 days old) confirm two recurring weekly deals: Tuesday Cheapskate Chewsday and a Friday night burger special.",
+    "lat": -37.7277694,
+    "lng": 176.1352533,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Maleme St Lunch Box",
@@ -2610,7 +2718,10 @@
     "is_chain": false,
     "google_rating": 4.0,
     "google_maps_url": "https://www.google.com/maps/place/Mithaiwala+Tauranga",
-    "notes": "New venue found via a search snippet, not the Maps category sweep - confirmed on Google Maps at 198 Chadwick Rd, Greerton. Scanned 2026-07-19: IG (own channel, posts dated as recently as 17 July 2026) confirms two recurring deals: a weekend motichur laddoo special and an everyday hot jalebi with rabri special."
+    "notes": "New venue found via a search snippet, not the Maps category sweep - confirmed on Google Maps at 198 Chadwick Rd, Greerton. Scanned 2026-07-19: IG (own channel, posts dated as recently as 17 July 2026) confirms two recurring deals: a weekend motichur laddoo special and an everyday hot jalebi with rabri special.",
+    "lat": -37.7268633,
+    "lng": 176.1331979,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Goode Brothers Bethlehem",
@@ -2623,7 +2734,10 @@
     "is_chain": true,
     "google_rating": 4.6,
     "google_maps_url": "https://www.google.com/maps/search/Goode+Brothers+Bethlehem+19+Bethlehem+Rd+Tauranga",
-    "notes": "Scanned 2026-07-19: website (stargroup.nz) is authoritative and lists a full What's On board with day+time+value for 4 recurring weekly events (quiz, half-price pizza/pasta, Cacio e Pepe, live music), all recorded as weekly deals. Facebook About/Offers checked (garbled post feed as expected via automation, no extra info). Instagram (@goodebrothers) corroborated all 4 deals via Google-indexed captions. Also runs several MONTHLY (not weekly) recurring extras not eligible for the weekly-deal schema: Kids $20 Pizza Class (every 2nd Saturday), Kids Craft Sundays (free, 2nd Sunday of the month, 2-5pm), Adult Craft Night (last Wednesday of the month, from 6pm), Goode Brothers Pasta School ($65pp, 1st & last Tuesday of the month). Part of Star Group (also operates The Elephant Wrestler/Regatta/Rosie's Red-Hot Cantina in Auckland per existing project data), included per established project precedent for this operator."
+    "notes": "Scanned 2026-07-19: website (stargroup.nz) is authoritative and lists a full What's On board with day+time+value for 4 recurring weekly events (quiz, half-price pizza/pasta, Cacio e Pepe, live music), all recorded as weekly deals. Facebook About/Offers checked (garbled post feed as expected via automation, no extra info). Instagram (@goodebrothers) corroborated all 4 deals via Google-indexed captions. Also runs several MONTHLY (not weekly) recurring extras not eligible for the weekly-deal schema: Kids $20 Pizza Class (every 2nd Saturday), Kids Craft Sundays (free, 2nd Sunday of the month, 2-5pm), Adult Craft Night (last Wednesday of the month, from 6pm), Goode Brothers Pasta School ($65pp, 1st & last Tuesday of the month). Part of Star Group (also operates The Elephant Wrestler/Regatta/Rosie's Red-Hot Cantina in Auckland per existing project data), included per established project precedent for this operator.",
+    "lat": -37.6952726,
+    "lng": 176.1094641,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "The Orchard Restaurant and Bar",
@@ -2883,7 +2997,10 @@
     "is_chain": false,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Fika+Cafe+%26+Bar+47+Cherrywood+Drive+Otumoetai+Tauranga",
-    "notes": "Scanned 2026-07-19: also shows on Google Maps as 'Fika Cafe & Bar (previously Neighbourhood Kitchen)'. Website's Open Hours section lists two confirmed weekly deals: Thirsty Thursday ($8 house/tap drinks) and Saturday Bottomless Lunch ($65pp, 2-4pm) - both recorded. Facebook Events tab checked, no upcoming events listed."
+    "notes": "Scanned 2026-07-19: also shows on Google Maps as 'Fika Cafe & Bar (previously Neighbourhood Kitchen)'. Website's Open Hours section lists two confirmed weekly deals: Thirsty Thursday ($8 house/tap drinks) and Saturday Bottomless Lunch ($65pp, 2-4pm) - both recorded. Facebook Events tab checked, no upcoming events listed.",
+    "lat": -37.6679014,
+    "lng": 176.140047,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Cafe Istanbul",
@@ -2909,7 +3026,10 @@
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Great+Spice+Tauranga+44+Bureta+Road+Otumoetai+Tauranga",
-    "notes": "Scanned 2026-07-19: venue's own website lists a daily Lunch Special (11am-2pm, combos $11-$20) - recorded as one deal record (day: every day)."
+    "notes": "Scanned 2026-07-19: venue's own website lists a daily Lunch Special (11am-2pm, combos $11-$20) - recorded as one deal record (day: every day).",
+    "lat": -37.6684019,
+    "lng": 176.1535384,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "House of India",
@@ -2974,7 +3094,10 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jack+Dusty%27s+Ale+House+50+Bureta+Road+Otumoetai+Tauranga",
-    "notes": "Scanned 2026-07-19: venue's own website 'Whats On' page confirmed 4 weekly entertainment slots (Monday ukulele, Wednesday open mic, Saturday and Sunday live music) plus a dated gig calendar - two upcoming named acts (Sat 25 Jul 'Piston Broke', Sun 26 Jul 'The All Stars') recorded as events. Website address given as 40 Bureta Rd vs Google Maps' 50 Bureta Road (same Woolworths Bureta Park complex) - used the Maps address. Facebook/Instagram handles not confirmed (guessed FB handle unavailable)."
+    "notes": "Scanned 2026-07-19: venue's own website 'Whats On' page confirmed 4 weekly entertainment slots (Monday ukulele, Wednesday open mic, Saturday and Sunday live music) plus a dated gig calendar - two upcoming named acts (Sat 25 Jul 'Piston Broke', Sun 26 Jul 'The All Stars') recorded as events. Website address given as 40 Bureta Rd vs Google Maps' 50 Bureta Road (same Woolworths Bureta Park complex) - used the Maps address. Facebook/Instagram handles not confirmed (guessed FB handle unavailable).",
+    "lat": -37.6687503,
+    "lng": 176.1534094,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Cruzaz Bar & Gaming",
@@ -3078,7 +3201,10 @@
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Matua+Bar+Warrington+Street+Matua+Tauranga",
-    "notes": "Scanned 2026-07-19: no website registered on Google Maps (phone 07 576 6794). A Facebook search snippet showed a one-off 'Jazz afternoon on Sunday' post (Oct 2025) and Google reviews mention regular Friday live music, but the venue's own Facebook page could not be located (guessed handle unavailable) to confirm a current day+time, so nothing recorded per the no-low-confidence rule. Flag for a follow-up phone check (07 576 6794) on whether Friday live music is still a standing weekly fixture."
+    "notes": "Scanned 2026-07-19: no website registered on Google Maps (phone 07 576 6794). A Facebook search snippet showed a one-off 'Jazz afternoon on Sunday' post (Oct 2025) and Google reviews mention regular Friday live music, but the venue's own Facebook page could not be located (guessed handle unavailable) to confirm a current day+time, so nothing recorded per the no-low-confidence rule. Flag for a follow-up phone check (07 576 6794) on whether Friday live music is still a standing weekly fixture.",
+    "lat": -37.6660873,
+    "lng": 176.1252895,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Four14 Espresso",
@@ -3104,7 +3230,10 @@
     "is_chain": false,
     "google_rating": 4.6,
     "google_maps_url": "https://www.google.com/maps/search/Good+Local+Pyes+Pa+83+Pyes+Pa+Rd",
-    "notes": "Scanned 2026-07-19: Website 'Weekly Rituals' page is an authoritative, extensive weekly-deals page (11 deals recorded - kids meal Monday, run-club pizza reward, Mon-Fri happy hour, Tuesday Gold Card lunch, Wednesday desserts, Thursday burger night, Sunday fish n chips). Facebook confirmed page plus a one-off Family Quiz Night (14 Jul 2026, already past, not recurring - not recorded). Instagram confirmed active page, no additional standing deals found beyond website."
+    "notes": "Scanned 2026-07-19: Website 'Weekly Rituals' page is an authoritative, extensive weekly-deals page (11 deals recorded - kids meal Monday, run-club pizza reward, Mon-Fri happy hour, Tuesday Gold Card lunch, Wednesday desserts, Thursday burger night, Sunday fish n chips). Facebook confirmed page plus a one-off Family Quiz Night (14 Jul 2026, already past, not recurring - not recorded). Instagram confirmed active page, no additional standing deals found beyond website.",
+    "lat": -37.7428992,
+    "lng": 176.1232339,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Bosco Cafe",
@@ -3195,7 +3324,10 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/Grace+of+India+Tauriko+2+Taurikura+Dr",
-    "notes": "Scanned 2026-07-19: Facebook post found via search (page renders garbled live so recorded from indexed snippet, flagged medium confidence for manual recheck): '$22 ONLY - complete Indian meal with a 420ml drink included', no day restriction stated (appears to run every day). Website is a menu/ordering page with no separate specials listing. Instagram not clearly located."
+    "notes": "Scanned 2026-07-19: Facebook post found via search (page renders garbled live so recorded from indexed snippet, flagged medium confidence for manual recheck): '$22 ONLY - complete Indian meal with a 420ml drink included', no day restriction stated (appears to run every day). Website is a menu/ordering page with no separate specials listing. Instagram not clearly located.",
+    "lat": -37.7383423,
+    "lng": 176.1053835,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "The Orchard Thieves TAURIKO",
@@ -3273,7 +3405,10 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/The+Mill+House+2+Taurikura+Dr+Tauriko",
-    "notes": "Scanned 2026-07-19: website is largely image-based (no readable specials text) but Facebook confirms a standing Monday-Friday Happy Hour 4-6pm on house beer and wine ('Happy hour starts at 4pm. See you then.' #happyhour, dated post Sep 2025, within 12 months). Instagram confirmed active page."
+    "notes": "Scanned 2026-07-19: website is largely image-based (no readable specials text) but Facebook confirms a standing Monday-Friday Happy Hour 4-6pm on house beer and wine ('Happy hour starts at 4pm. See you then.' #happyhour, dated post Sep 2025, within 12 months). Instagram confirmed active page.",
+    "lat": -37.7383423,
+    "lng": 176.1053835,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Tauriko Pub Co.",
@@ -3416,7 +3551,10 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/place/250+Welcome+Bay+Road,+Welcome+Bay,+Tauranga+3112/@-37.7260256,176.1922124,17z/data=!3m1!4b1!4m6!3m5!1s0x6d6dd994cda6fc97:0x517937c800490ffd!8m2!3d-37.7260256!4d176.1922124!16s%2Fg%2F11gfcz1rp6",
-    "notes": "Scanned 2026-07-19: newly opened cafe/restaurant operating out of the Welcome Bay Tavern building. FirstTable.co.nz lists a standing 50% off first table booking, nightly around 5:15-5:30pm (recorded, medium confidence - third-party platform). FB/IG - event/catering promo posts and food photos only, no further day-specific deals found."
+    "notes": "Scanned 2026-07-19: newly opened cafe/restaurant operating out of the Welcome Bay Tavern building. FirstTable.co.nz lists a standing 50% off first table booking, nightly around 5:15-5:30pm (recorded, medium confidence - third-party platform). FB/IG - event/catering promo posts and food photos only, no further day-specific deals found.",
+    "lat": -37.7257888,
+    "lng": 176.1918349,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Welcome Bay Tavern",
@@ -3429,7 +3567,10 @@
     "is_chain": false,
     "google_rating": 4.1,
     "google_maps_url": "https://www.google.com/maps/place/250+Welcome+Bay+Road,+Welcome+Bay,+Tauranga+3112/@-37.7260256,176.1922124,17z/data=!3m1!4b1!4m6!3m5!1s0x6d6dd994cda6fc97:0x517937c800490ffd!8m2!3d-37.7260256!4d176.1922124!16s%2Fg%2F11gfcz1rp6",
-    "notes": "Scanned 2026-07-19: IG (own channel, posts within last 5 months) confirmed a standing weekly schedule - Tuesday Quiz Night, Friday Karaoke Night, Saturday Live Music, Thursday Pool Competition. A one-off Dart Competition/Dart Night appeared on two different days (Wed 4 March and a separate Friday date) suggesting occasional special events rather than a fixed weekly slot, so not recorded as a recurring deal. FB post feed rendered mostly garbled (known issue); About/Events tabs checked, nothing further found."
+    "notes": "Scanned 2026-07-19: IG (own channel, posts within last 5 months) confirmed a standing weekly schedule - Tuesday Quiz Night, Friday Karaoke Night, Saturday Live Music, Thursday Pool Competition. A one-off Dart Competition/Dart Night appeared on two different days (Wed 4 March and a separate Friday date) suggesting occasional special events rather than a fixed weekly slot, so not recorded as a recurring deal. FB post feed rendered mostly garbled (known issue); About/Events tabs checked, nothing further found.",
+    "lat": -37.7257888,
+    "lng": 176.1918349,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "The Bakery Cafe",
@@ -3611,7 +3752,10 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/The+Freeport+Tavern+Eatery+Bayfair",
-    "notes": "Scanned 2026-07-19: Freeport Tavern & Eatery and Paulie's Sports Pub are the same operator/site (single website, adjoining venues 'DINE at Bayfair'). Website has no day/time/price specials page (marketing copy only). Won Hospitality NZ Best Bar 2025, now trading as 'The Freeport with Cleaver & Co'. Bayfair Shopping Centre's official Events pages confirm two recurring weekly fixtures: Quiz Night (Wednesday 7pm, recorded as a deal) and Live Music (Friday, no start time given anywhere so NOT recorded per the day+time rule). Facebook page exists via Bayfair's own posts/tags but no standalone page URL was confirmed."
+    "notes": "Scanned 2026-07-19: Freeport Tavern & Eatery and Paulie's Sports Pub are the same operator/site (single website, adjoining venues 'DINE at Bayfair'). Website has no day/time/price specials page (marketing copy only). Won Hospitality NZ Best Bar 2025, now trading as 'The Freeport with Cleaver & Co'. Bayfair Shopping Centre's official Events pages confirm two recurring weekly fixtures: Quiz Night (Wednesday 7pm, recorded as a deal) and Live Music (Friday, no start time given anywhere so NOT recorded per the day+time rule). Facebook page exists via Bayfair's own posts/tags but no standalone page URL was confirmed.",
+    "lat": -37.6756517,
+    "lng": 176.2240858,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Izakai Bar & Eatery",
@@ -3637,7 +3781,10 @@
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/Coco's+Trattoria+Bayfair",
-    "notes": "Scanned 2026-07-19: Website has no specials page, but Bayfair Shopping Centre's official Events pages plus Coco's own Facebook post confirm three standing weekly deals: All You Can Eat Pasta Night (Sunday), Aperitivo Hour (Friday), and Bottomless Brunch (Saturday) - all three recorded as high-confidence deals."
+    "notes": "Scanned 2026-07-19: Website has no specials page, but Bayfair Shopping Centre's official Events pages plus Coco's own Facebook post confirm three standing weekly deals: All You Can Eat Pasta Night (Sunday), Aperitivo Hour (Friday), and Bottomless Brunch (Saturday) - all three recorded as high-confidence deals.",
+    "lat": -37.6738113,
+    "lng": 176.222072,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Burger Burger The Mount",
@@ -3754,7 +3901,10 @@
     "is_chain": true,
     "google_rating": 3.9,
     "google_maps_url": "https://www.google.com/maps/search/United+Cinemas+Bayfair",
-    "notes": "Scanned 2026-07-19: NZ multi-city cinema chain, this site is inside Bayfair Shopping Centre. Bayfair's official Events pages confirm two standing weekly deals (Golden Days Wednesday, MovieBuys Flick of the Week) plus a dated one-off Harry Potter movie marathon (23 & 30 August 2026) - all recorded. Included despite being a chain since Bayfair itself programs and promotes these as centre events; flagged is_chain for the owner's judgement."
+    "notes": "Scanned 2026-07-19: NZ multi-city cinema chain, this site is inside Bayfair Shopping Centre. Bayfair's official Events pages confirm two standing weekly deals (Golden Days Wednesday, MovieBuys Flick of the Week) plus a dated one-off Harry Potter movie marathon (23 & 30 August 2026) - all recorded. Included despite being a chain since Bayfair itself programs and promotes these as centre events; flagged is_chain for the owner's judgement.",
+    "lat": -37.674544,
+    "lng": 176.2232522,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Tank Juice (Bayfair)",
@@ -3819,7 +3969,10 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jellicoe+St+Bar+%26+Eatery+110+Jellicoe+Street+Te+Puke",
-    "notes": "Scanned 2026-07-19: Website has no specials page. Instagram Highlights show a full week of day-specials (Mon-Sat) with prices, all recorded as weekly deals. Facebook confirms Monday $20 specials from 11am. New ownership as of ~1 month ago per reviews."
+    "notes": "Scanned 2026-07-19: Website has no specials page. Instagram Highlights show a full week of day-specials (Mon-Sat) with prices, all recorded as weekly deals. Facebook confirms Monday $20 specials from 11am. New ownership as of ~1 month ago per reviews.",
+    "lat": -37.7841426,
+    "lng": 176.3270683,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "The Packhouse - Lumberjack Brewing",
@@ -3832,7 +3985,10 @@
     "is_chain": false,
     "google_rating": 4.8,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Packhouse+Lumberjack+Brewing+4+Palmer+Place+Te+Puke",
-    "notes": "Scanned 2026-07-19: Website no specials page. Instagram own-channel post (Apr 2025, 65w old) confirms standing Sunday Roast $30 midday-9pm, different roast weekly - recorded at medium confidence (12-24mo old). Also runs rotating Weekly Specials collabs (e.g. Toastie Takeover) but these are not tied to a fixed day of week so not recorded as weekly deals."
+    "notes": "Scanned 2026-07-19: Website no specials page. Instagram own-channel post (Apr 2025, 65w old) confirms standing Sunday Roast $30 midday-9pm, different roast weekly - recorded at medium confidence (12-24mo old). Also runs rotating Weekly Specials collabs (e.g. Toastie Takeover) but these are not tied to a fixed day of week so not recorded as weekly deals.",
+    "lat": -37.7847937,
+    "lng": 176.3295564,
+    "geocode_source": "Google Maps, 2026-08-07"
   },
   {
     "venue": "Marigold Cafe",
@@ -4131,7 +4287,10 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/Alma+4+The+Esplanade+Omokoroa",
-    "notes": "Scanned 2026-07-19: website confirms trading hours only (brunch Wed-Sun 9am-3pm, dinner Wed-Sun 5pm-late), no discount listed there. Facebook page link returned restricted/unavailable at time of scan. Instagram bio explicitly states 'Takeaway 10% OFF' as a standing offer for their Wed-Sun trading days - recorded as a weekly deal (one record per trading day)."
+    "notes": "Scanned 2026-07-19: website confirms trading hours only (brunch Wed-Sun 9am-3pm, dinner Wed-Sun 5pm-late), no discount listed there. Facebook page link returned restricted/unavailable at time of scan. Instagram bio explicitly states 'Takeaway 10% OFF' as a standing offer for their Wed-Sun trading days - recorded as a weekly deal (one record per trading day).",
+    "lat": -37.6325955,
+    "lng": 176.052328,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "The Coffee Club The Village, Omokoroa",
@@ -4196,7 +4355,10 @@
     "is_chain": false,
     "google_rating": 4.9,
     "google_maps_url": "https://www.google.com/maps/search/The+Spice+Delight+Restaurant+Omokoroa",
-    "notes": "Scanned 2026-07-19: website lists hours only (11am-10pm daily), no standing weekly deal. Facebook/Instagram - general food photos, no deal posts found. Third-party platform First Table confirmed a recurring 'first table of the night' 50%-off-food offer with visible 4:00-5:30pm booking slots on Sun/Tue/Wed - recorded at medium confidence as it is third-party sourced (not yet confirmed on the venue's own channel)."
+    "notes": "Scanned 2026-07-19: website lists hours only (11am-10pm daily), no standing weekly deal. Facebook/Instagram - general food photos, no deal posts found. Third-party platform First Table confirmed a recurring 'first table of the night' 50%-off-food offer with visible 4:00-5:30pm booking slots on Sun/Tue/Wed - recorded at medium confidence as it is third-party sourced (not yet confirmed on the venue's own channel).",
+    "lat": -37.6421596,
+    "lng": 176.0383114,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Lolo Authentic Turkish Kitchen - Omokoroa",
@@ -4235,7 +4397,10 @@
     "is_chain": false,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/Village+Green+Bar+Kitchen+97+Hamurana+Rd+Omokoroa",
-    "notes": "Scanned 2026-07-19: website's What's On page confirms a standing Wednesday $1 wings deal - recorded as weekly deal. Facebook - general posts (cyclone community update, live sport screenings), a Gold Card holders wings promo matches the website's wording. Instagram bio only sampled (gastropub, open daily 12pm-late) since the website deal was authoritative and current. A First Table 50%-off listing also exists for this venue but its day-specific availability did not load reliably during the scan, so it was not recorded to avoid a low-confidence guess."
+    "notes": "Scanned 2026-07-19: website's What's On page confirms a standing Wednesday $1 wings deal - recorded as weekly deal. Facebook - general posts (cyclone community update, live sport screenings), a Gold Card holders wings promo matches the website's wording. Instagram bio only sampled (gastropub, open daily 12pm-late) since the website deal was authoritative and current. A First Table 50%-off listing also exists for this venue but its day-specific availability did not load reliably during the scan, so it was not recorded to avoid a low-confidence guess.",
+    "lat": -37.6412416,
+    "lng": 176.037241,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Omokoroa Takeaways",
@@ -4274,7 +4439,10 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/place/Omokoroa+Boat+Club+Inc",
-    "notes": "Scanned 2026-07-19: club/venue (bar, plus on-site catering by The Boathouse Cafe and Restaurant, listed separately). Website's breakfast, lunch and dinner menu pages each state a standing 10% member discount off advertised prices - recorded as a weekly deal (every day, membership required). Facebook Events tab shows only two past one-off sports-screening events (Rugby Final, All Blacks vs France), nothing current or upcoming. No Instagram found."
+    "notes": "Scanned 2026-07-19: club/venue (bar, plus on-site catering by The Boathouse Cafe and Restaurant, listed separately). Website's breakfast, lunch and dinner menu pages each state a standing 10% member discount off advertised prices - recorded as a weekly deal (every day, membership required). Facebook Events tab shows only two past one-off sports-screening events (Rugby Final, All Blacks vs France), nothing current or upcoming. No Instagram found.",
+    "lat": -37.6341409,
+    "lng": 176.0484421,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
     "venue": "Archies Bar & Cafe",
@@ -4288,5 +4456,37 @@
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/Archies+Bar+Cafe+9+Western+Avenue+Omokoroa",
     "notes": "Scanned 2026-07-19: small coffee cart/trailer next to the skate park on Western Avenue; weather-dependent hours per a customer review (approx Wed-Fri 6:30am-2pm, weekends 6:30am-late). Facebook page found (Archie's Coffee Cart, 141 likes), no offer posts. No reliably-identified Instagram handle found. No deals or events found."
+  },
+  {
+    "venue": "Event Cinemas Tauranga Central",
+    "suburb": "Tauranga CBD",
+    "address": "45 Elizabeth Street, Tauranga 3110",
+    "category_hint": "cinema",
+    "website": "https://www.eventcinemas.co.nz/Cinema/Tauranga",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Event+Cinemas+45+Elizabeth+Street+Tauranga",
+    "notes": "Event Cinemas 'Original' screens. Kept per the 2026-08-07 cinema-policy call. NOTE: excluded from Cinebuzz Half Price Tuesday by name in the promo T&C -- Student Mondays only.",
+    "lat": -37.6871023,
+    "lng": 176.1683285,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
+  },
+  {
+    "venue": "Event Cinemas Tauranga Crossing",
+    "suburb": "Pyes Pa / Tauriko",
+    "address": "2 Taurikura Drive, Tauriko, Tauranga 3110",
+    "category_hint": "cinema",
+    "website": "https://www.eventcinemas.co.nz/Cinema/TaurangaCrossing",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Event+Cinemas+Tauranga+Crossing+2+Taurikura+Drive+Tauriko",
+    "notes": "Event Cinemas Original + V-Max. Same complex as The Mill House and Grace of India Tauriko. Kept per the 2026-08-07 cinema-policy call.",
+    "lat": -37.7383423,
+    "lng": 176.1053835,
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   }
 ]
