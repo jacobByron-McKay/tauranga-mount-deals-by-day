@@ -737,7 +737,11 @@
     "source_url": "https://www.papamoacommunitymarket.co.nz",
     "source_quote": "Community Market - a local Sunday market. Every Sunday | 8.30am - 1.00pm - 72 Te Okuroa Drive",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Sunday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Gordon Spratt Reserve",
@@ -754,7 +758,15 @@
     "source_url": "https://e-clubhouse.org/sites/papamoa/page-7",
     "source_quote": "The Papamoa Lions Club market is held the second and fourth Sundays of the month at Gordon Spratt Reserve (weather permitting).",
     "verified_date": "2026-07-24",
-    "confidence": "medium"
+    "confidence": "medium",
+    "days": [
+      "Sunday"
+    ],
+    "recurrence": "monthly",
+    "nth": [
+      2,
+      4
+    ]
   },
   {
     "venue": "Jubilee Park",
@@ -786,7 +798,9 @@
     "source_url": "https://artgallery.org.nz/pages/exhibitions",
     "source_quote": "Maturuturu Trick / Heidi Brickell / 6 Jun-15 Nov 2026",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "runs_from": "2026-06-06",
+    "runs_to": "2026-11-15"
   },
   {
     "venue": "Tauranga Art Gallery Toi Tauranga",
@@ -802,7 +816,9 @@
     "source_url": "https://artgallery.org.nz/pages/exhibitions",
     "source_quote": "Whatu Aho Rua / Emily Parr and Arielle Walker / 2 May-25 Oct 2026",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "runs_from": "2026-05-02",
+    "runs_to": "2026-10-25"
   },
   {
     "venue": "Tauranga Art Gallery Toi Tauranga",
@@ -818,7 +834,9 @@
     "source_url": "https://artgallery.org.nz/pages/exhibitions",
     "source_quote": "Lustre Harbour / Kathryn Tsui / 28 Mar-16 Aug 2026",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "runs_from": "2026-03-28",
+    "runs_to": "2026-08-16"
   },
   {
     "venue": "The Mount Tavern",
@@ -835,7 +853,11 @@
     "source_url": "https://themounttavern.co.nz/",
     "source_quote": "Social Jam Night EVERY TUESDAY 7.00PM. Immerse Yourself in the Local Music Scene with Live Jams That Bring the Perfect Vibe!",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Tuesday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "The Mount Tavern",
@@ -852,7 +874,11 @@
     "source_url": "https://themounttavern.co.nz/",
     "source_quote": "Social Karaoke Night EVERY THURSDAY 9.00PM. Step into the Spotlight or Cheer on Your Friends! It's Your Time to Shine!",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Thursday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Club Mount Maunganui",
@@ -869,7 +895,12 @@
     "source_url": "https://clubmount.co.nz/",
     "source_quote": "Members' Happy Hours. Wed 2:30-3:30 & 5-6pm . Thu 5-6pm. WED & THU",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Wednesday",
+      "Thursday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Club Mount Maunganui",
@@ -886,7 +917,13 @@
     "source_url": "https://clubmount.co.nz/",
     "source_quote": "Meat Raffles. 2 draws · 50 tickets · $2 per ticket · from late afternoon. WED, FRI & SAT",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Wednesday",
+      "Friday",
+      "Saturday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Club Mount Maunganui",
@@ -903,7 +940,11 @@
     "source_url": "https://clubmount.co.nz/quiz-nights-mount-maunganui",
     "source_quote": "Round up your sharpest mates and join us every Thursday night at Club Mount Maunganui for our legendary “Believe It or Not” Quiz Night",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Thursday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Club Mount Maunganui",
@@ -920,7 +961,12 @@
     "source_url": "https://clubmount.co.nz/",
     "source_quote": "Live Music. Local acts in the sports bar all night long. FRI & SAT",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Friday",
+      "Saturday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Astrolabe Brewbar",
@@ -937,7 +983,11 @@
     "source_url": "https://astrolabe.co.nz/events/quiz-night/",
     "source_quote": "QUIZ NIGHT Every Thursday. Test your brainpower every Thursday from 7pm at our weekly quiz night. Free entry, good vibes, and plenty or prizes of for grabs.",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Thursday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Astrolabe Brewbar",
@@ -954,7 +1004,12 @@
     "source_url": "https://astrolabe.co.nz/live-music/",
     "source_quote": "Enjoy live music every weekend from 7pm, with DJs from 9pm 'til late. Make sure you come along to one of our next gigs and feel the good vibes.",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Friday",
+      "Saturday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Astrolabe Brewbar",
@@ -1192,7 +1247,11 @@
     "source_url": "https://www.facebook.com/Bluebiyou/",
     "source_quote": "Remember the Friday Night Happy Hour! Every Friday from 5-7pm we have $5 house wines and tap beer and $8 Cocktails!! With live music from 6-8:30pm",
     "verified_date": "2026-07-24",
-    "confidence": "medium"
+    "confidence": "medium",
+    "days": [
+      "Friday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Pablo Papamoa",
@@ -1209,7 +1268,11 @@
     "source_url": "https://www.facebook.com/thesandspapamoa",
     "source_quote": "Burger Night just landed at Pablo Papamoa Every Thursday, settle in for...",
     "verified_date": "2026-07-24",
-    "confidence": "medium"
+    "confidence": "medium",
+    "days": [
+      "Thursday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Papamoa Community Market",
@@ -1226,7 +1289,11 @@
     "source_url": "https://www.papamoa.info/papamoa-events-whats-on",
     "source_quote": "Papamoa Sunday Market 8:30am to 1:00pm. Pāpāmoa Community Market Sundays, 8.30 am – 1.00 pm Te Manawa ō Pāpāmoa School, 72 Te Okuroa Drive, Pāpāmoa",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Sunday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Baycourt Community & Arts Centre",
@@ -1402,39 +1469,9 @@
     "source_url": "https://artgallery.org.nz/",
     "source_quote": "23 May–11 Oct 2026 Almost Touching Jaime Jenkins",
     "verified_date": "2026-07-24",
-    "confidence": "high"
-  },
-  {
-    "venue": "Tauranga Art Gallery Toi Tauranga",
-    "suburb": "Tauranga CBD",
-    "address": "108 Willow Street, Tauranga 3110",
-    "date": null,
-    "title": "Maturuturu Trick - Heidi Brickell",
-    "desc": "Current exhibition on display 6 Jun-15 Nov 2026 at Toi Tauranga Art Gallery.",
-    "start": null,
-    "end": null,
-    "category": "entertainment",
-    "annual": false,
-    "source_url": "https://artgallery.org.nz/",
-    "source_quote": "6 Jun–15 Nov 2026 Māturuturu Trick Heidi Brickell",
-    "verified_date": "2026-07-24",
-    "confidence": "high"
-  },
-  {
-    "venue": "Tauranga Art Gallery Toi Tauranga",
-    "suburb": "Tauranga CBD",
-    "address": "108 Willow Street, Tauranga 3110",
-    "date": null,
-    "title": "Whatu Aho Rua - Emily Parr and Arielle Walker",
-    "desc": "Current exhibition on display 2 May-25 Oct 2026 at Toi Tauranga Art Gallery.",
-    "start": null,
-    "end": null,
-    "category": "entertainment",
-    "annual": false,
-    "source_url": "https://artgallery.org.nz/",
-    "source_quote": "2 May–25 Oct 2026 Whatu Aho Rua Emily Parr and Arielle Walker",
-    "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "runs_from": "2026-05-23",
+    "runs_to": "2026-10-11"
   },
   {
     "venue": "Tauranga Art Gallery Toi Tauranga",
@@ -1450,7 +1487,9 @@
     "source_url": "https://artgallery.org.nz/",
     "source_quote": "16 May–4 Oct 2026 Ladybirdleaf Richard Killeen",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "runs_from": "2026-05-16",
+    "runs_to": "2026-10-04"
   },
   {
     "venue": "The Barrel Room",
@@ -1467,7 +1506,12 @@
     "source_url": "https://www.facebook.com/events/1556543755853255",
     "source_quote": "Wharf Street Sessions are back, offering Tauranga top-quality, free and live music for 8 weeks over the winter and to keep your Fridays vibing!",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "runs_from": "2026-07-24",
+    "days": [
+      "Friday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Tauranga Farmers Market",
@@ -1484,7 +1528,11 @@
     "source_url": "https://taurangafarmersmarket.co.nz",
     "source_quote": "Saturdays, 7:45am - 12pm @ Tauranga Primary School",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Saturday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Miss Gee's Bar & Restaurant",
@@ -1501,7 +1549,11 @@
     "source_url": "https://www.eventfinda.co.nz/quiz-night2/tauranga",
     "source_quote": "Quiz Night. Miss Gee's, 3/59 The Strand, Tauranga. Tuesday 28 July 2026 6:30pm - 8:30pm",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Tuesday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "World's End Bar & Restaurant",
@@ -1518,7 +1570,11 @@
     "source_url": "https://www.eventfinda.co.nz/quiz-night/tauranga",
     "source_quote": "Quiz Night. World's End Bar & Restaurant, 227 Fraser St, Tauranga. Tuesday 21 July 2026 7:00pm - 9:00pm",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Tuesday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Red Square (Our Place Tauranga / Downtown Tauranga)",
@@ -1535,7 +1591,12 @@
     "source_url": "https://www.facebook.com/KevinFraserNZ",
     "source_quote": "These Pop-Up Shows will run every Saturday from 10am - 12pm in Red Square, Tauranga until 19 Dec!",
     "verified_date": "2026-07-24",
-    "confidence": "medium"
+    "confidence": "medium",
+    "runs_to": "2026-12-19",
+    "days": [
+      "Saturday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Greerton Community Hall",
@@ -1600,7 +1661,11 @@
     "source_url": "https://www.facebook.com/thematuabar",
     "source_quote": "Winter Menu now available, Matuans! First opportunity to try it is at quiz tomorrow night, Tuesday 16 June",
     "verified_date": "2026-07-24",
-    "confidence": "medium"
+    "confidence": "medium",
+    "days": [
+      "Tuesday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "The Matua Bar",
@@ -1617,7 +1682,11 @@
     "source_url": "https://www.facebook.com/thematuabar",
     "source_quote": "Friday music, Matuans! classiest blues from 6.30",
     "verified_date": "2026-07-24",
-    "confidence": "medium"
+    "confidence": "medium",
+    "days": [
+      "Friday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Jack Dusty's Ale House",
@@ -1634,7 +1703,11 @@
     "source_url": "https://jackdustys.co.nz/",
     "source_quote": "JACK DUSTY'S OPEN MIC Every Wednesday All musical styles welcome 7pm start",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Wednesday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Jack Dusty's Ale House",
@@ -1651,7 +1724,11 @@
     "source_url": "https://jackdustys.co.nz/",
     "source_quote": "JACK DUSTY'S UKELELE PLAYERS Every Monday Evenings from 6pm-7.30pm Beginners Welcome.",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Monday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Te Puke Library",
@@ -1732,7 +1809,11 @@
     "source_url": "https://www.facebook.com/omokoroaboatclub",
     "source_quote": "Wednesday Quiz Night - 7pm Open to everyone, free to play Register via the QR code on the poster",
     "verified_date": "2026-07-24",
-    "confidence": "medium"
+    "confidence": "medium",
+    "days": [
+      "Wednesday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Pyes Pa Community Hall",
@@ -1765,7 +1846,11 @@
     "source_url": "https://www.taurikopub.co.nz/quiz-night",
     "source_quote": "Join us every Tuesday at 7pm for an evening filled with brain-teasing questions, friendly competition, and loads of fun.",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Tuesday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Bosco at The Lakes",
@@ -1782,7 +1867,11 @@
     "source_url": "https://www.believeitornot.co.nz/findaquiz",
     "source_quote": "Bosco at the Lakes, Tauranga Wednesdays, 6.30pm (seasonal)",
     "verified_date": "2026-07-24",
-    "confidence": "medium"
+    "confidence": "medium",
+    "days": [
+      "Wednesday"
+    ],
+    "recurrence": "weekly"
   },
   {
     "venue": "Welcome Bay Hall",
@@ -1815,6 +1904,10 @@
     "source_url": "https://www.facebook.com/WelcomeBayCommunityCentre/",
     "source_quote": "Free Clothing Day at the Welcome Bay Community Centre today and every Wednesday from 9am - 1pm.",
     "verified_date": "2026-07-24",
-    "confidence": "high"
+    "confidence": "high",
+    "days": [
+      "Wednesday"
+    ],
+    "recurrence": "weekly"
   }
 ]
