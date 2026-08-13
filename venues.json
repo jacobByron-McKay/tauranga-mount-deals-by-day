@@ -1628,7 +1628,7 @@
     "category_hint": "cafe",
     "website": null,
     "facebook": null,
-    "instagram": null,
+    "instagram": "https://www.instagram.com/ovendoorbakerynz/",
     "is_chain": false,
     "google_rating": 4.9,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Oven+Door+Bakery+Mount+Maunganui",
@@ -1652,13 +1652,15 @@
     "suburb": "Mount Maunganui",
     "address": "504 Maunganui Rd, Mount Maunganui",
     "category_hint": "cafe",
-    "website": null,
-    "facebook": null,
+    "website": "https://www.uppercrust.co.nz",
+    "facebook": "https://www.facebook.com/UppercrustBakeryMount",
     "instagram": null,
     "is_chain": false,
     "google_rating": 4.6,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Uppercrust+Bakery+Mount+Maunganui",
-    "notes": "Discovered via Maps 2026-07-18; not individually deep-scanned this session - flag for recheck."
+    "notes": "Discovered via Maps 2026-07-18; not individually deep-scanned this session - flag for recheck.",
+    "lat": -37.65453,
+    "lng": 176.1998034
   },
   {
     "venue": "Spongedrop",
@@ -1678,9 +1680,9 @@
     "suburb": "Mount Maunganui",
     "address": "31 Totara St, Mount Maunganui",
     "category_hint": "cafe",
-    "website": null,
-    "facebook": null,
-    "instagram": null,
+    "website": "https://flaveur.co.nz",
+    "facebook": "https://www.facebook.com/flaveurbreadsTauranga",
+    "instagram": "https://www.instagram.com/flaveurbreads/",
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Flaveur+Breads+Mount+Maunganui",
@@ -1691,7 +1693,7 @@
     "suburb": "Mount Maunganui",
     "address": "154 Marine Parade, Mount Maunganui",
     "category_hint": "cafe",
-    "website": null,
+    "website": "https://taystreetstore.co.nz",
     "facebook": null,
     "instagram": null,
     "is_chain": false,
@@ -3299,7 +3301,9 @@
     "is_chain": false,
     "google_rating": 4.1,
     "google_maps_url": "https://www.google.com/maps/search/Bosco+Cafe+1+Caslani+Ln+Pyes+Pa+Tauranga",
-    "notes": "Scanned 2026-07-19: REBRAND ALERT - previously traded as 'Lakeside Tauranga', now rebranded to 'Bosco' / 'Bosco at The Lakes' / 'BoscoLakes' (also described as Bosco Cafe, Indian Kitchen & Bar). Facebook/Instagram show a past Valentine's Day set menu and a July 2025 grand-opening 50% launch offer, both expired/dated - no current standing weekly deal found. No website specials page found beyond boscos.co.nz landing page."
+    "notes": "Scanned 2026-07-19: REBRAND ALERT - previously traded as 'Lakeside Tauranga', now rebranded to 'Bosco' / 'Bosco at The Lakes' / 'BoscoLakes' (also described as Bosco Cafe, Indian Kitchen & Bar). Facebook/Instagram show a past Valentine's Day set menu and a July 2025 grand-opening 50% launch offer, both expired/dated - no current standing weekly deal found. No website specials page found beyond boscos.co.nz landing page. Event-only venue (theatre, hall, park, market or club). Added 2026-08-08 so its events can pin on the map; carries no deals. [2026-08-14] rebranded: DUPLICATE, not a status change. 'Bosco at The Lakes' and 'Bosco Cafe' are both on file at 1 Caslani Lane, Pyes Pa, and are one venue. Google Maps lists it as 'B [2026-08-14] Merged the duplicate \"Bosco at The Lakes\" record: one venue, one phone, one Instagram (@boscolakes). Neither record had deals, so no ratings slug moved.",
+    "lat": -37.7511988,
+    "lng": 176.1043255
   },
   {
     "venue": "The Artisan Bread Bakers",
@@ -4074,9 +4078,9 @@
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=OvenFresh+Te+Puke+36+Jellicoe+Street+Te+Puke",
-    "notes": "Scanned 2026-07-19: Website Offers page has no listed standing deals. Facebook shows periodic one-off promo days (e.g. FRIDAY 17 JULY SPECIAL DEAL and a BOGO pizza promo explicitly labelled One Day Only - Friday 17 July) - these are ad-hoc single-date promos, not a recurring weekly institution, so not recorded as weekly deals.",
-    "lat": -37.782253,
-    "lng": 176.3197469
+    "notes": "Scanned 2026-07-19: Website Offers page has no listed standing deals. Facebook shows periodic one-off promo days (e.g. FRIDAY 17 JULY SPECIAL DEAL and a BOGO pizza promo explicitly labelled One Day Only - Friday 17 July) - these are ad-hoc single-date promos, not a recurring weekly institution, so not recorded as weekly deals. [2026-08-14] Photon had returned a Jellicoe St centroid ~900m off shared with the other bakery; replaced with the Google Maps place point (!3d/!4d).",
+    "lat": -37.7851108,
+    "lng": 176.3295378
   },
   {
     "venue": "Te Puke Cafe and Kebab",
@@ -4115,7 +4119,9 @@
     "is_chain": false,
     "google_rating": 5.0,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Poppies+Restaurant+and+Catering+179+Jellicoe+Street+Te+Puke",
-    "notes": "Scanned 2026-07-19: This is the in-house restaurant of Te Puke Citizens RSA club (open to members and non-members). Club's About page states live music every Friday night and Wednesday/Friday club nights with raffles - genuine recurring features but no specific start time was confirmable, so not recorded as a formal weekly deal. Facebook Events tab shows only past events, nothing currently scheduled or upcoming."
+    "notes": "Scanned 2026-07-19: This is the in-house restaurant of Te Puke Citizens RSA club (open to members and non-members). Club's About page states live music every Friday night and Wednesday/Friday club nights with raffles - genuine recurring features but no specific start time was confirmable, so not recorded as a formal weekly deal. Facebook Events tab shows only past events, nothing currently scheduled or upcoming.",
+    "lat": -37.7825601,
+    "lng": 176.3203464
   },
   {
     "venue": "Te Puke Noodle Bar",
@@ -4237,7 +4243,7 @@
     "notes": "Scanned 2026-07-19: Missed by initial category sweeps, found via a dedicated Indian-restaurants Maps sweep. Website testimonial mentions a $13 takeaway lunch deal but this is an unverified customer quote (not the venue's own promotional claim) with no specific day stated, so not recorded as a formal weekly deal. No Facebook/Instagram page found."
   },
   {
-    "venue": "Love Punjab Te Puke",
+    "venue": "Riyasat Indian Restaurant, Sweets and Catering",
     "suburb": "Te Puke",
     "address": "60 Jellicoe Street, Te Puke 3119",
     "category_hint": "restaurant",
@@ -4246,23 +4252,8 @@
     "instagram": null,
     "is_chain": false,
     "google_rating": 3.9,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Love+Punjab+Te+Puke+60+Jellicoe+Street+Te+Puke",
-    "notes": "Scanned 2026-07-19: Missed by initial category sweeps, found via Indian-restaurants Maps sweep. Housed in the old Te Puke Railway Station building. Third-party mentions of buffet/takeaway/sweets but no confirmed day+time+price deal on own channels. No deals recorded. [2026-08-14] address corrected from '60 Jellicoe Street, Te Puke 3119' (source: https://www.facebook.com/profile.php?id=61550767822706) [2026-08-14] ADDRESS DISPUTED, needs a phone call to 07 262 2128: unclear -- the venue's Facebook page (61550767822706) lists '168 Jellicoe Street Te Puke' while its own website still lists 60 Jellicoe Street. Separately, Google Maps shows 'Riyasat Indian restaurant, sweets and catering' at 60 Jellicoe Street sharing the IDENTICAL phone number (07 262 2128) as Love Punjab Te Puke's website. Strong signal these two file entries ('Love Punjab Te Puke' and 'Riyasat",
-    "lat": null,
-    "lng": null
-  },
-  {
-    "venue": "Riyasat Indian Restaurant, Sweets and Catering",
-    "suburb": "Te Puke",
-    "address": "60 Jellicoe Street, Te Puke 3119",
-    "category_hint": "restaurant",
-    "website": null,
-    "facebook": null,
-    "instagram": null,
-    "is_chain": false,
-    "google_rating": null,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Riyasat+Indian+Restaurant+60+Jellicoe+Street+Te+Puke",
-    "notes": "Scanned 2026-07-19: New/unreviewed Google Maps listing sharing the same address as Love Punjab Te Puke - may be a rebrand or a second concept in the same building; could not verify which via available channels. No website/Facebook/Instagram found. No deals found - flagged for a manual recheck to confirm current identity of the business at this address."
+    "notes": "Scanned 2026-07-19: New/unreviewed Google Maps listing sharing the same address as Love Punjab Te Puke - may be a rebrand or a second concept in the same building; could not verify which via available channels. No website/Facebook/Instagram found. No deals found - flagged for a manual recheck to confirm current identity of the business at this address. [2026-08-14] Formerly Love Punjab Te Puke; rebranded under new management at the same 60 Jellicoe St site (confirmed on Riyasat's own Instagram). ⚠ CONTESTED: a later street-walk scan found Love Punjab still trading in July 2026 while this listing has zero reviews. Both records kept; needs a phone call to 07 262 2128."
   },
   {
     "venue": "Jasdeep Batth India Spice",
@@ -5138,22 +5129,6 @@
     "lng": 176.1223691
   },
   {
-    "venue": "Bosco at The Lakes",
-    "suburb": "Pyes Pa / Tauriko",
-    "address": "1 Caslani Lane, Pyes Pa, Tauranga",
-    "category_hint": "venue-event",
-    "website": null,
-    "facebook": null,
-    "instagram": null,
-    "is_chain": false,
-    "google_rating": null,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bosco%20at%20The%20Lakes%201%20Caslani%20Lane%2C%20Pyes%20Pa%2C%20Tauranga%20Tauranga",
-    "notes": "Event-only venue (theatre, hall, park, market or club). Added 2026-08-08 so its events can pin on the map; carries no deals. [2026-08-14] rebranded: DUPLICATE, not a status change. 'Bosco at The Lakes' and 'Bosco Cafe' are both on file at 1 Caslani Lane, Pyes Pa, and are one venue. Google Maps lists it as 'B",
-    "lat": -37.7511988,
-    "lng": 176.1043255,
-    "geocode_source": "Photon/OSM (exact), 2026-08-08"
-  },
-  {
     "venue": "Welcome Bay Hall",
     "suburb": "Welcome Bay",
     "address": "244 Welcome Bay Rd, Tauranga",
@@ -5283,14 +5258,14 @@
   },
   {
     "venue": "Arataki Community Centre",
-    "suburb": "Mount Maunganui",
+    "suburb": "Arataki",
     "address": "Penguin Room, Zambuk Way, Mount Maunganui 3116",
     "category_hint": "event-venue",
     "website": null,
     "facebook": null,
     "instagram": null,
     "is_chain": false,
-    "notes": "Event venue added 2026-08-13 from whatsontauranga.co.nz (Tauranga City Council events listing).",
+    "notes": "Event venue added 2026-08-13 from whatsontauranga.co.nz (Tauranga City Council events listing). [2026-08-14] Retagged Mount Maunganui -> Arataki (flagged by the suburb-median distance check).",
     "lat": -37.6751213,
     "lng": 176.228361
   },
@@ -5634,14 +5609,14 @@
   },
   {
     "venue": "Te Ara o Wairakei",
-    "suburb": "Tauranga CBD",
-    "address": "7 Gravatt Road, Tauranga 3110",
+    "suburb": "Papamoa",
+    "address": "7 Gravatt Road, Papamoa 3118",
     "category_hint": "event-venue",
     "website": null,
     "facebook": null,
     "instagram": null,
     "is_chain": false,
-    "notes": "Event venue added 2026-08-13 from whatsontauranga.co.nz (Tauranga City Council events listing).",
+    "notes": "Event venue added 2026-08-13 from whatsontauranga.co.nz (Tauranga City Council events listing). [2026-08-14] Retagged Tauranga CBD -> Papamoa (flagged by the suburb-median distance check).",
     "lat": -37.6982892,
     "lng": 176.2815626
   },
@@ -7132,7 +7107,7 @@
     "address": "14 King Street, Te Puke 3119",
     "category_hint": "bar-pub",
     "website": "https://tepukeclub.org.nz",
-    "facebook": null,
+    "facebook": "https://www.facebook.com/tepukebowlingclub",
     "instagram": null,
     "is_chain": false,
     "google_rating": 4.8,
@@ -7215,5 +7190,65 @@
     "google_maps_url": null,
     "lat": -37.7291387,
     "lng": 176.1381707
+  },
+  {
+    "venue": "Pizza Bros Te Puke",
+    "suburb": "Te Puke",
+    "address": "31 Jellicoe Street, Te Puke 3119",
+    "category_hint": "restaurant",
+    "website": "https://tepuke.pizzabros.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": 4.4,
+    "google_maps_url": "https://www.google.com/maps/place/Pizza+Bros+Te+Puke/@-37.7839595,176.3255822,655m",
+    "lat": -37.7855301,
+    "lng": 176.3295154,
+    "notes": "Small NZ-owned pizza/burger chain, 4 locations total (Te Puke, Kihikihi, Leamington/Cambridge, Rotorua). Operated locally by 'Tauranga Food Limited T/A Pizza Bros Te Puke' per its own site footer - a small regional group, not a massive international chain, so included per the site's 'small local group is fine' rule, but flagged here since it is chain-owned. Was not on file at all before this scan despite sitting on the main street at 31 Jellicoe St. Discovered 2026-08-14 refresh scan. [2026-08-14] Photon had returned a Jellicoe St centroid ~900m off shared with the other bakery; replaced with the Google Maps place point (!3d/!4d)."
+  },
+  {
+    "venue": "Oceans Fresh Fish TePuke",
+    "suburb": "Te Puke",
+    "address": "46 Jellicoe Street, Te Puke 3119",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": "https://www.facebook.com/FFMtp21",
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.7,
+    "google_maps_url": "https://www.google.com/maps/place/Fresh+fish+market/@-37.7851,176.3288,655m",
+    "lat": null,
+    "lng": null,
+    "notes": "Fresh fish and fish & chips shop, listed generically as 'Fresh fish market' on Google Maps but trades as 'Oceans Fresh Fish TePuke' on its own Facebook page (2.6K followers). Eat-in or takeaway. No specific priced deal found (posts are general 'open all weekend' announcements), only the venue itself is new. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Kwangchow Fast Food",
+    "suburb": "Te Puke",
+    "address": "Jellicoe Street, Te Puke 3119",
+    "category_hint": "takeaway",
+    "website": "https://kwang-chow-fast-food.tuckerfox.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.2,
+    "google_maps_url": "https://www.google.com/maps/place/Kwangchow+Fast+Food/@-37.7851527,176.32959,655m",
+    "lat": null,
+    "lng": null,
+    "notes": "Chinese takeaway, phone 07 573 6585, orders via TuckerFox. No exact street number found on Google Maps or its own ordering site (both just say 'Jellicoe Street, Te Puke 3119'), consistent with how Hong Kong Takeaways is already recorded on file. No day-specific deal found on the current online menu despite reviews repeatedly mentioning a 'smorgasbord' - may be worth a phone check. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Love Punjab Te Puke",
+    "suburb": "Te Puke",
+    "address": "60 Jellicoe Street, Te Puke 3119",
+    "category_hint": "restaurant",
+    "website": "https://www.lovepunjabtepuke.co.nz",
+    "facebook": "https://www.facebook.com/profile.php?id=61550767822706",
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 3.9,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Love+Punjab+Te+Puke+60+Jellicoe+Street+Te+Puke",
+    "notes": "Scanned 2026-07-19: Missed by initial category sweeps, found via Indian-restaurants Maps sweep. Housed in the old Te Puke Railway Station building. Third-party mentions of buffet/takeaway/sweets but no confirmed day+time+price deal on own channels. No deals recorded. [2026-08-14] address corrected from '60 Jellicoe Street, Te Puke 3119' (source: https://www.facebook.com/profile.php?id=61550767822706) [2026-08-14] ADDRESS DISPUTED, needs a phone call to 07 262 2128: unclear -- the venue's Facebook page (61550767822706) lists '168 Jellicoe Street Te Puke' while its own website still lists 60 Jellicoe Street. Separately, Google Maps shows 'Riyasat Indian restaurant, sweets and catering' at 60 Jellicoe Street sharing the IDENTICAL phone number (07 262 2128) as Love Punjab Te Puke's website. Strong signal these two file entries ('Love Punjab Te Puke' and 'Riyasat [2026-08-14] ⚠ IDENTITY UNRESOLVED: Riyasat's Instagram (Feb 2026) says Love Punjab was \"reborn as Riyasat\" at this address, but Love Punjab's own website and Google listing still looked actively trading in July 2026 while Riyasat has zero reviews. Two scans reached opposite conclusions. Both records kept deliberately; NEEDS A PHONE CALL to 07 262 2128.",
+    "lat": null,
+    "lng": null
   }
 ]

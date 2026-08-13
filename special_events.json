@@ -1879,7 +1879,7 @@
     "recurrence": "weekly"
   },
   {
-    "venue": "Bosco at The Lakes",
+    "venue": "Bosco Cafe",
     "suburb": "Pyes Pa / Tauriko",
     "address": "1 Caslani Lane, Pyes Pa, Tauranga",
     "date": null,
@@ -3007,7 +3007,7 @@
   },
   {
     "venue": "Arataki Community Centre",
-    "suburb": "Mount Maunganui",
+    "suburb": "Arataki",
     "address": "Penguin Room, Zambuk Way, Mount Maunganui 3116",
     "day": "Wednesday",
     "date": "2026-08-19",
@@ -3400,7 +3400,7 @@
   },
   {
     "venue": "Arataki Community Centre",
-    "suburb": "Mount Maunganui",
+    "suburb": "Arataki",
     "address": "Zambuk Way, Mount Maunganui 3116",
     "day": "Monday",
     "date": "2026-08-24",
@@ -4581,7 +4581,7 @@
   },
   {
     "venue": "Arataki Community Centre",
-    "suburb": "Mount Maunganui",
+    "suburb": "Arataki",
     "address": "Zambuk Way, Mount Maunganui 3116",
     "day": "Saturday",
     "date": "2026-09-26",
@@ -5283,7 +5283,7 @@
   },
   {
     "venue": "Te Ara o Wairakei",
-    "suburb": "Tauranga CBD",
+    "suburb": "Papamoa",
     "address": "7 Gravatt Road, Tauranga 3110",
     "day": "Saturday",
     "date": "2026-10-31",
@@ -6271,6 +6271,35 @@
     "category": "entertainment",
     "source_url": "https://www.eventbrite.co.nz/e/drag-bingo-with-anita-wiglit-welcome-bay-tickets-1993873605628",
     "source_quote": "Drag Bingo with Anita Wigl'it! - Welcome Bay ... Welcome Bay Tavern ... Wednesday, August 19 - 7:30 PM - 9 PM ... Three hilarious games of bingo, fab prizes and a dazzling drag show! ... Doors at 7 PM",
+    "verified_date": "2026-08-14",
+    "confidence": "high"
+  },
+  {
+    "venue": "The Capitol Theatre",
+    "suburb": "Te Puke",
+    "address": "131 Jellicoe Street, Te Puke 3119",
+    "date": "2026-10-11",
+    "title": "COCO - Screening at the Capitol Theatre Te Puke",
+    "desc": "Ticketed film screening event, one of a series of independent/arthouse screenings the Capitol Theatre runs. No recurring day/time/price deal found (e.g. no 'cheap Tuesday'), this is a single dated screening pulled from the venue's own Facebook events.",
+    "start": "1:00pm",
+    "category": "entertainment",
+    "source_url": "https://www.facebook.com/Capitoltheatretepukenz",
+    "source_quote": "Sun, Oct 11 at 1 PM / COCO - Screening at the Capitol Theatre Te Puke / 131 Jellicoe St, Te Puke, 3119",
+    "verified_date": "2026-08-14",
+    "confidence": "high"
+  },
+  {
+    "venue": "Jubilee Park (Te Puke Community Market)",
+    "suburb": "Te Puke",
+    "address": "Jubilee Park, Commerce Lane, Te Puke 3119",
+    "date": null,
+    "title": "Te Puke Community Market",
+    "desc": "Old-fashioned volunteer-run community market at Jubilee Park (Jamieson Oval / Commerce Lane carpark), run by MADE in Te Puke Trust. Recurs the 3rd Saturday of the month, October to April (summer season only) - currently OFF SEASON as of this scan (August/winter). $10 stall fee for vendors, free to attend. Next likely date ~17 Oct 2026 based on the pattern, not separately confirmed on the page itself.",
+    "start": "9:00am",
+    "end": "12:00pm",
+    "category": "activity",
+    "source_url": "https://www.facebook.com/tpcommunitymarket/",
+    "source_quote": "Te Puke Community Market. Brought to you by MADE in Te Puke Trust... Locals supporting Locals... $10 stall fee. The 3rd Saturday of the month. Oct - Apr.",
     "verified_date": "2026-08-14",
     "confidence": "high"
   }
