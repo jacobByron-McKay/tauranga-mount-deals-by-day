@@ -23,10 +23,11 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Harbourside+150+The+Strand+Tauranga",
-    "notes": "Scanned 2026-07-18: FB post (2025-07-27) advertises a Mon-Fri 5-course degustation $69pp; not shown on current website menu, so recorded medium confidence. IG checked, nothing further.",
+    "notes": "Scanned 2026-07-18: FB post (2025-07-27) advertises a Mon-Fri 5-course degustation $69pp; not shown on current website menu, so recorded medium confidence. IG checked, nothing further. [2026-08-14] closed: TEMPORARY ONLY - the homepage announces 'Scheduled maintenance and refurbishment closure: Close - Monday 3rd August. Reopen - Wednesday 19th August.' It reopens",
     "lat": -37.6867985,
     "lng": 176.1706862,
-    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07",
+    "status": "closed"
   },
   {
     "venue": "Manhattan Bar + Eatery",
@@ -99,7 +100,9 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Phoenix+2%2F59+The+Strand+Tauranga",
-    "notes": "Scanned 2026-07-18: website's Weekly Specials page is stale (last real post 2020). IG has Daily Specials/whats on story highlights but content is image-only, unreadable. No qualifying deal recorded."
+    "notes": "Scanned 2026-07-18: website's Weekly Specials page is stale (last real post 2020). IG has Daily Specials/whats on story highlights but content is image-only, unreadable. No qualifying deal recorded. Coordinates read from the Google Maps place URL (!3d/!4d), 2026-08-14.",
+    "lat": -37.6826925,
+    "lng": 176.1698625
   },
   {
     "venue": "Grindz Cafe",
@@ -228,7 +231,7 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=CBK+Craft+Bar+Kitchen+Red+Square+1+Devonport+Road+Tauranga",
-    "notes": "Scanned 2026-07-18: address corrected from the Maps card's 20 Spring St to the venue's own listed address, Red Square/1 Devonport Rd. Own website confirms a Fri/Sat/Sun bottomless brunch (no explicit price found, medium confidence).",
+    "notes": "Scanned 2026-07-18: address corrected from the Maps card's 20 Spring St to the venue's own listed address, Red Square/1 Devonport Rd. Own website confirms a Fri/Sat/Sun bottomless brunch (no explicit price found, medium confidence). [2026-08-14] moved: ADDRESS DISCREPANCY, not a move: Google Maps lists CBK at '20 Spring Street, Tauranga' while the venue's own site says 'Red Square, 1 Devonport Road, Tauranga 3",
     "lat": -37.6843939,
     "lng": 176.1694035,
     "geocode_source": "OSM Nominatim (validated), 2026-08-07"
@@ -260,7 +263,8 @@
     "is_chain": false,
     "google_rating": 4.8,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Saint+Wine+Bar+105+The+Strand+Tauranga",
-    "notes": "Scanned 2026-07-18: STATUS CHANGE - IG bio now reads Closed for foreseeable future. Hire available for private events only. No deal recorded; flagged for DB update."
+    "notes": "Scanned 2026-07-18: STATUS CHANGE - IG bio now reads Closed for foreseeable future. Hire available for private events only. No deal recorded; flagged for DB update. [2026-08-14] closed: The venue's own homepage carries a notice: 'Sorry wine lovers, we are closed for the foreseeable future while we focus on private events. If you are interested",
+    "status": "closed"
   },
   {
     "venue": "H2O Gaming and Sports Bar",
@@ -568,7 +572,7 @@
     "is_chain": false,
     "google_rating": 4.6,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Clover+80+Willow+St+Tauranga",
-    "notes": "Scanned 2026-07-18: gourmet burger takeaway/bar. No qualifying deal found."
+    "notes": "Scanned 2026-07-18: gourmet burger takeaway/bar. No qualifying deal found. [2026-08-14] moved: Its website theclover.co.nz no longer resolves (DNS_PROBE_FINISHED_NXDOMAIN) even though the Facebook page still links to it and Google Maps still lists the ven"
   },
   {
     "venue": "Picnicka Bar & Grill",
@@ -610,7 +614,9 @@
     "is_chain": false,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Barrio+Brothers+107+Grey+St+Tauranga",
-    "notes": "Scanned 2026-07-18: IG bio names Daily Specials but no price found anywhere. No deal recorded."
+    "notes": "Scanned 2026-07-18: IG bio names Daily Specials but no price found anywhere. No deal recorded.",
+    "lat": -37.6866526,
+    "lng": 176.167824
   },
   {
     "venue": "Luxe Cinemas Tauranga",
@@ -969,7 +975,9 @@
     "is_chain": false,
     "google_rating": 4.1,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Brew+Co+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: IG bio touts a $10 cheeseburger but it's a standard menu item (not a discount) - not recorded per no-standard-menu-prices rule. Events page had no listed dated events at time of scan."
+    "notes": "Scanned 2026-07-18: IG bio touts a $10 cheeseburger but it's a standard menu item (not a discount) - not recorded per no-standard-menu-prices rule. Events page had no listed dated events at time of scan.",
+    "lat": -37.6554183,
+    "lng": 176.2001963
   },
   {
     "venue": "Mount Mellick",
@@ -982,7 +990,9 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mount+Mellick+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: website confirms live music Friday & Saturday nights (no time/price stated on-page so no deal record). Specials page on-site was empty."
+    "notes": "Scanned 2026-07-18: website confirms live music Friday & Saturday nights (no time/price stated on-page so no deal record). Specials page on-site was empty.",
+    "lat": -37.6424849,
+    "lng": 176.1866062
   },
   {
     "venue": "Sailor - Galley And Rum Bar",
@@ -995,7 +1005,9 @@
     "is_chain": false,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sailor+Galley+Rum+Bar+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: 'Captain's Hour' daily 3-6pm mentioned but menu/pricing page did not load content - could not confirm value, not recorded."
+    "notes": "Scanned 2026-07-18: 'Captain's Hour' daily 3-6pm mentioned but menu/pricing page did not load content - could not confirm value, not recorded.",
+    "lat": -37.6367946,
+    "lng": 176.1830061
   },
   {
     "venue": "Astrolabe Brewbar",
@@ -1024,7 +1036,7 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Palace+Tavern+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: a past FB post mentioned a Monday $10 cheeseburger 'Hospo Night' but the post's date could not be confirmed as within 12 months and website was down at scan time - not recorded."
+    "notes": "Scanned 2026-07-18: a past FB post mentioned a Monday $10 cheeseburger 'Hospo Night' but the post's date could not be confirmed as within 12 months and website was down at scan time - not recorded. [2026-08-14] website_dead: The website on file, https://palaceburger.nz, now returns a browser error page - it will not render at all and no text or screenshot could be captured. The venu"
   },
   {
     "venue": "Absolute Vibes",
@@ -1076,7 +1088,9 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Saltwater+Restaurant+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: third-party source claimed $4.50 happy-hour oysters but the venue's own current menu lists oysters at regular $6-7 - discounted price not confirmable on-page, not recorded."
+    "notes": "Scanned 2026-07-18: third-party source claimed $4.50 happy-hour oysters but the venue's own current menu lists oysters at regular $6-7 - discounted price not confirmable on-page, not recorded.",
+    "lat": -37.6392615,
+    "lng": 176.1841235
   },
   {
     "venue": "Madame Sunset",
@@ -1199,10 +1213,11 @@
     "is_chain": true,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Barrio+Brothers+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: FB post gives full weekly deal roster; Tuesday and Wednesday had explicit prices (recorded), Thursday Margarita Night had no stated price (excluded). Small 2-location group (Tauranga + Mount).",
+    "notes": "Scanned 2026-07-18: FB post gives full weekly deal roster; Tuesday and Wednesday had explicit prices (recorded), Thursday Margarita Night had no stated price (excluded). Small 2-location group (Tauranga + Mount). [2026-08-14] closed: Google Maps lists 'The Barrio Brothers | Mexican - Mount Maunganui, 105 Maunganui Road, Mount Maunganui 3116' as 'Permanently closed' (4.4 stars, 648 reviews re",
     "lat": -37.6366289,
     "lng": 176.182937,
-    "geocode_source": "OSM Nominatim (validated), 2026-08-07"
+    "geocode_source": "OSM Nominatim (validated), 2026-08-07",
+    "status": "closed"
   },
   {
     "venue": "RE Burger Mount Maunganui",
@@ -1251,13 +1266,15 @@
     "suburb": "Mount Maunganui",
     "address": "165 Maunganui Rd, Mount Maunganui",
     "category_hint": "restaurant",
-    "website": null,
+    "website": "https://www.solera.nz",
     "facebook": null,
     "instagram": null,
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Solera+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: fine-dining, no dedicated online channel found - no deals or events found."
+    "notes": "Scanned 2026-07-18: fine-dining, no dedicated online channel found - no deals or events found.",
+    "lat": -37.6383507,
+    "lng": 176.1836883
   },
   {
     "venue": "Fife Lane Kitchen & Bar",
@@ -1413,7 +1430,9 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bombay+Brasserie+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: no deals or events found."
+    "notes": "Scanned 2026-07-18: no deals or events found. [2026-08-14] Photon returned a street-level point identical to Brew Co (109 Maunganui Rd); rejected and re-placed by hand. Coordinates read from the Google Maps place URL (!3d/!4d), 2026-08-14.",
+    "lat": -37.6357204,
+    "lng": 176.1825048
   },
   {
     "venue": "Kwangchow Restaurant",
@@ -1426,7 +1445,9 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kwangchow+Restaurant+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: has a Buffet Pricing page but no day-specific discount confirmed - no deals recorded."
+    "notes": "Scanned 2026-07-18: has a Buffet Pricing page but no day-specific discount confirmed - no deals recorded.",
+    "lat": -37.6405843,
+    "lng": 176.1847528
   },
   {
     "venue": "Johney's Dumpling House",
@@ -1520,7 +1541,7 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Blondie+Diner+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: sister venue to Palace Tavern. FB 'Monday specials' post names dishes and a free tea/coffee with breakfast but doesn't clearly state an explicit discount - not recorded."
+    "notes": "Scanned 2026-07-18: sister venue to Palace Tavern. FB 'Monday specials' post names dishes and a free tea/coffee with breakfast but doesn't clearly state an explicit discount - not recorded. [2026-08-14] rebranded: As of ~5 Aug 2026 the venue is under new ownership and mid-renovation, rebranding toward 'Maisee Cafe'. IG post (5 Aug 2026): 'New chapter, new hands. We've tak"
   },
   {
     "venue": "Mount Fish & Chips",
@@ -1766,7 +1787,7 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bluebiyou+559+Papamoa+Beach+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: Beachfront restaurant/function venue. IG checked (33 posts) - no day-specific deals found. Distinct from Beach Bar which occupies the old function room on same site."
+    "notes": "Scanned 2026-07-18: Beachfront restaurant/function venue. IG checked (33 posts) - no day-specific deals found. Distinct from Beach Bar which occupies the old function room on same site. [2026-08-14] rebranded: BLUEBIYOU and BEACH BAR are the same operation at 559 Papamoa Beach Road and are currently held as TWO separate venue records on file, which will double-count t [2026-08-14] info_only_not_merged: Per instructions this record was NOT merged/renamed. New info found: BLUEBIYOU's own Instagram (@bluebiyou, own domain bluebiyou.co.nz which errored out when op"
   },
   {
     "venue": "BEACH BAR",
@@ -1811,7 +1832,7 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Island+20+Domain+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: Coastal brewery/bar, formerly Papamoa Beach Tavern. Website no specials page. IG confirmed Tuesday Bingo Night $5. Several one-off dated events (rugby screenings, live music) found but already past.",
+    "notes": "Scanned 2026-07-18: Coastal brewery/bar, formerly Papamoa Beach Tavern. Website no specials page. IG confirmed Tuesday Bingo Night $5. Several one-off dated events (rugby screenings, live music) found but already past. [2026-08-14] rebranded: Not a change so much as a duplicate risk worth recording: 'Papamoa Beach Tavern' is the SAME venue as The Island. Searching Google Maps for Papamoa Beach Tavern",
     "lat": -37.7000617,
     "lng": 176.2843417,
     "geocode_source": "OSM Nominatim (validated), 2026-08-07"
@@ -1840,7 +1861,9 @@
     "is_chain": false,
     "google_rating": 3.9,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Captain+Jacks+Bar+546+Papamoa+Beach+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: New venue, minimal social presence (1 IG post). FB mentions 'Live Music This Saturday' but no confirmed recurring day. No qualifying deals found."
+    "notes": "Scanned 2026-07-18: New venue, minimal social presence (1 IG post). FB mentions 'Live Music This Saturday' but no confirmed recurring day. No qualifying deals found.",
+    "lat": -37.6976677,
+    "lng": 176.2851134
   },
   {
     "venue": "Great Spice Papamoa East",
@@ -1853,7 +1876,9 @@
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Great+Spice+4+Golden+Sands+Dr+Papamoa",
-    "notes": "Scanned 2026-07-18: Combo-deals page has fixed lunch combos (not day-specific). Happy hour 4:30-6pm daily on alcohol mentioned but no explicit price - not recorded, flagged for phone check."
+    "notes": "Scanned 2026-07-18: Combo-deals page has fixed lunch combos (not day-specific). Happy hour 4:30-6pm daily on alcohol mentioned but no explicit price - not recorded, flagged for phone check.",
+    "lat": -37.7174416,
+    "lng": 176.3420406
   },
   {
     "venue": "Great Spice Papamoa Plaza",
@@ -1879,7 +1904,9 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mumbai+Masala+30+Gravatt+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: No day-specific deals found (Christmas Eve event only, past)."
+    "notes": "Scanned 2026-07-18: No day-specific deals found (Christmas Eve event only, past).",
+    "lat": -37.7014263,
+    "lng": 176.2817904
   },
   {
     "venue": "Red Chilli Indian Restaurant & Bar",
@@ -1973,7 +2000,7 @@
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=IROHA+80+Parton+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: May have rebranded to 'Meltingpot Papamoa' (identical description on IG/tripadvisor). No qualifying deals found."
+    "notes": "Scanned 2026-07-18: May have rebranded to 'Meltingpot Papamoa' (identical description on IG/tripadvisor). No qualifying deals found. [2026-08-14] confirmed_current_name: Facebook page (79 followers, 0 reviews) has a pinned post confirming a rename TO 'IROHA' happened recently: 'We're excited to share that our business has a new"
   },
   {
     "venue": "Taste of Turkish",
@@ -2012,7 +2039,8 @@
     "is_chain": false,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=NZ+Kebab+Pide+House+520+Gloucester+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: Minimal online presence found. No deals confirmed."
+    "notes": "Scanned 2026-07-18: Minimal online presence found. No deals confirmed. [2026-08-14] closed: Google Maps lists this exact venue (6/520 Gloucester Road, Papamoa Beach) as 'Temporarily closed'. Its Maps listing shares the SAME website (nzkebabandpizzahous",
+    "status": "closed"
   },
   {
     "venue": "NZ Kebab & Pizza House Papamoa",
@@ -2025,7 +2053,7 @@
     "is_chain": true,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=NZ+Kebab+Pizza+House+2/80+Parton+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: Small 2-location chain (Papamoa + Rotorua). '$2 pizza' comment referenced a raffle number, not a day deal. No qualifying deals."
+    "notes": "Scanned 2026-07-18: Small 2-location chain (Papamoa + Rotorua). '$2 pizza' comment referenced a raffle number, not a day deal. No qualifying deals. [2026-08-14] info_only: Its Facebook page is actually named 'NZ Kebab and Pizza+Pide House Papamoa' at 2/80 Parton Road (373 followers), suggesting this operator may run the Pide offer"
   },
   {
     "venue": "Texas Pete's Barbecue Joint Papamoa",
@@ -2103,7 +2131,9 @@
     "is_chain": false,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Friends+Cafe+Fashion+Island+26a+Gravatt+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: 'Thursday special' (free coffee w/ meal, 7am-2pm) and 'Wed/Thu breakfast deal' found but both dated 2023/marked limited-time with no current confirmation - too stale to record, flagged for phone check."
+    "notes": "Scanned 2026-07-18: 'Thursday special' (free coffee w/ meal, 7am-2pm) and 'Wed/Thu breakfast deal' found but both dated 2023/marked limited-time with no current confirmation - too stale to record, flagged for phone check.",
+    "lat": -37.701055,
+    "lng": 176.2823468
   },
   {
     "venue": "Pearl Kitchen",
@@ -2116,7 +2146,9 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pearl+Kitchen+20+Coast+Blvd+Papamoa",
-    "notes": "Scanned 2026-07-18: Website confirms Friday happy hour from 2pm + wood-fired pizza night, but no explicit $ value stated - not recorded, flagged for phone check. Saturday-Thursday 8am-2pm normal hours."
+    "notes": "Scanned 2026-07-18: Website confirms Friday happy hour from 2pm + wood-fired pizza night, but no explicit $ value stated - not recorded, flagged for phone check. Saturday-Thursday 8am-2pm normal hours.",
+    "lat": -37.6831752,
+    "lng": 176.2504897
   },
   {
     "venue": "Blackberry Eatery",
@@ -2389,7 +2421,7 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Ruby%27s+Taco+Tequila+20+Domain+Rd+Papamoa",
-    "notes": "Scanned 2026-07-18: Mexican tavern at The Island complex; 'Tacos Tocayo' is the same operation/brand. No day-specific deals found."
+    "notes": "Scanned 2026-07-18: Mexican tavern at The Island complex; 'Tacos Tocayo' is the same operation/brand. No day-specific deals found. [2026-08-14] rebranded: Google Maps now lists this venue simply as 'Tacos Tocayo | Mexican' at 20 Domain Rd (4.7, 49 reviews) - the 'Ruby's' half of the name no longer appears on the l [2026-08-14] instagram_handle_dead: Per instructions this record was NOT renamed. Confirms part-1's finding: the on-file IG handle @rubystacosandtequila now returns 'Sorry, this page isn't availab"
   },
   {
     "venue": "St Pierres Sushi (Papamoa)",
@@ -2480,7 +2512,7 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Papa+Mo%27s+Excelsa+Centre+4+Golden+Sands+Dr+Papamoa",
-    "notes": "Scanned 2026-07-18: IG 'Weekly Specials' highlight confirmed Wednesday 3-for-$44 shared plates deal (66 weeks old, recorded medium confidence).",
+    "notes": "Scanned 2026-07-18: IG 'Weekly Specials' highlight confirmed Wednesday 3-for-$44 shared plates deal (66 weeks old, recorded medium confidence). [2026-08-14] info_only: JOB C RESULT (comedy night date-check): found the venue's dedicated page at papamos.co.nz/comedynight (discovered via /pages-sitemap.xml, not linked from main n",
     "lat": -37.7174416,
     "lng": 176.3420406,
     "geocode_source": "OSM Nominatim (validated), 2026-08-07"
@@ -2598,7 +2630,7 @@
     "is_chain": false,
     "google_rating": 4.9,
     "google_maps_url": "https://www.google.com/maps/place/Dost+Turkish+Cafe+Greerton",
-    "notes": "Scanned 2026-07-19: website is a generic multi-location order portal with no Greerton-specific specials. IG posts are lifestyle/menu only, no day+time+price specials found. No deals or events found."
+    "notes": "Scanned 2026-07-19: website is a generic multi-location order portal with no Greerton-specific specials. IG posts are lifestyle/menu only, no day+time+price specials found. No deals or events found. [2026-08-14] rebranded: BAD DATA ON FILE, not a rebrand of the venue itself. The website URL on file (dostturkishcafe.co.nz) resolves to a generic Order Meal ordering platform showing"
   },
   {
     "venue": "Ruk Thai",
@@ -2676,7 +2708,9 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/place/Baker+Bobs+Greerton",
-    "notes": "Scanned 2026-07-19: FB posts show everyday menu items (sausage rolls, pies) with no day-specific specials. No Instagram found. No deals or events found."
+    "notes": "Scanned 2026-07-19: FB posts show everyday menu items (sausage rolls, pies) with no day-specific specials. No Instagram found. No deals or events found.",
+    "lat": -37.7290686,
+    "lng": 176.1379003
   },
   {
     "venue": "RE Burger Tauranga",
@@ -2718,7 +2752,7 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/place/Crunch+N+Bites+Tauranga",
-    "notes": "Scanned 2026-07-19: recently moved into Greerton Village (own FB confirms 'New to New Zealand, stay tuned for exciting updates and weekend specials'), no concrete deal posted yet. Shared IG handle is mostly Katikati-branch content. No deals or events found."
+    "notes": "Scanned 2026-07-19: recently moved into Greerton Village (own FB confirms 'New to New Zealand, stay tuned for exciting updates and weekend specials'), no concrete deal posted yet. Shared IG handle is mostly Katikati-branch content. No deals or events found. [2026-08-14] moved: The on-file record says 200 Chadwick Rd, Greerton. A Google Maps search for 'Crunch N Bites 200 Chadwick Road Greerton Tauranga' returns NO Greerton listing - t"
   },
   {
     "venue": "Mithaiwala",
@@ -2901,7 +2935,7 @@
     "address": "E6, 19 Bethlehem Road, Bethlehem, Tauranga 3110",
     "category_hint": "takeaway",
     "website": "https://www.hellosushi.co.nz",
-    "facebook": null,
+    "facebook": "https://www.facebook.com/bethlehemtowncentre",
     "instagram": null,
     "is_chain": true,
     "google_rating": 4.1,
@@ -2932,7 +2966,7 @@
     "is_chain": false,
     "google_rating": 4.6,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=On+Levers+Cafe+97+Levers+Road+Matua+Tauranga",
-    "notes": "Scanned 2026-07-19: same address/location as the Google Maps listing 'Matua cafe & eatery' (4.1, 123 reviews) - the venue rebranded from Matua Cafe & Eatery to On Levers Cafe, both Maps listings merged into this one record. Website: none found. Facebook: About/Offers panels have no standing deal, only a barista job posting and a one-off 'from 4pm-9.30pm, Indian cuisine' dinner pop-up post with no confirmed recurring day - not recorded. Instagram: bio gives hours only (7am-3.30pm 7 days), no deal in grid captions read. No deals or events found."
+    "notes": "Scanned 2026-07-19: same address/location as the Google Maps listing 'Matua cafe & eatery' (4.1, 123 reviews) - the venue rebranded from Matua Cafe & Eatery to On Levers Cafe, both Maps listings merged into this one record. Website: none found. Facebook: About/Offers panels have no standing deal, only a barista job posting and a one-off 'from 4pm-9.30pm, Indian cuisine' dinner pop-up post with no confirmed recurring day - not recorded. Instagram: bio gives hours only (7am-3.30pm 7 days), no deal in grid captions read. No deals or events found. [2026-08-14] website_dead: The website on its Google listing, onleverscafe.co.nz, now returns a Squarespace 'Website Expired - This account has expired' page. The venue itself is still tr"
   },
   {
     "venue": "Benny and Brew",
@@ -2984,7 +3018,9 @@
     "is_chain": false,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kitchen+Republic+Cafe+32+Bureta+Road+Otumoetai+Tauranga",
-    "notes": "Scanned 2026-07-19: Facebook About/Posts show breakfast/brunch/bakery/catering only, most recent post about road-works parking, no day+time+price deal. No deals or events found."
+    "notes": "Scanned 2026-07-19: Facebook About/Posts show breakfast/brunch/bakery/catering only, most recent post about road-works parking, no day+time+price deal. No deals or events found. Coordinates read from the Google Maps place URL (!3d/!4d), 2026-08-14.",
+    "lat": -37.6682079,
+    "lng": 176.1534716
   },
   {
     "venue": "C4 Street Food and Espresso",
@@ -3026,7 +3062,7 @@
     "is_chain": false,
     "google_rating": 4.8,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cafe+Istanbul+3%2F47+Cherrywood+Drive+Otumoetai+Tauranga",
-    "notes": "Scanned 2026-07-19: Turkish restaurant/takeaway. Search surfaced only third-party giveaways (a local real-estate agent's monthly voucher draw), nothing on the venue's own channel with day+time+price. No deals or events found."
+    "notes": "Scanned 2026-07-19: Turkish restaurant/takeaway. Search surfaced only third-party giveaways (a local real-estate agent's monthly voucher draw), nothing on the venue's own channel with day+time+price. No deals or events found. [2026-08-14] facebook_url_dead: The Facebook URL on file, facebook.com/cafeistanbulcherrywood, returns 'This content isn't available right now'. The venue is trading and has a working website"
   },
   {
     "venue": "Great Spice Tauranga, Indian Restaurant & Bar",
@@ -3055,7 +3091,9 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=House+of+India+263+Otumoetai+Road+Otumoetai+Tauranga",
-    "notes": "Scanned 2026-07-19: standard a la carte/delivery menu (Uber Eats) only, no day-specific special found. Guessed Facebook handle unavailable. No deals or events found."
+    "notes": "Scanned 2026-07-19: standard a la carte/delivery menu (Uber Eats) only, no day-specific special found. Guessed Facebook handle unavailable. No deals or events found. Coordinates read from the Google Maps place URL (!3d/!4d), 2026-08-14.",
+    "lat": -37.6813289,
+    "lng": 176.1365527
   },
   {
     "venue": "Grange Road Takeaways",
@@ -3094,7 +3132,7 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sip+N+Dip+Otumoetai+269+Ngatai+Road+Tauranga",
-    "notes": "Scanned 2026-07-19: acai bowl/dessert shop, community-page reposts only, no day+time+price deal found on own channel. No deals or events found."
+    "notes": "Scanned 2026-07-19: acai bowl/dessert shop, community-page reposts only, no day+time+price deal found on own channel. No deals or events found. [2026-08-14] facebook_url_dead: The Facebook URL on file, facebook.com/sipndiptauranga, returns 'This content isn't available right now'. The venue is still trading per its Google listing (1/2"
   },
   {
     "venue": "Jack Dusty's Ale House",
@@ -3107,7 +3145,7 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jack+Dusty%27s+Ale+House+50+Bureta+Road+Otumoetai+Tauranga",
-    "notes": "Scanned 2026-07-19: venue's own website 'Whats On' page confirmed 4 weekly entertainment slots (Monday ukulele, Wednesday open mic, Saturday and Sunday live music) plus a dated gig calendar - two upcoming named acts (Sat 25 Jul 'Piston Broke', Sun 26 Jul 'The All Stars') recorded as events. Website address given as 40 Bureta Rd vs Google Maps' 50 Bureta Road (same Woolworths Bureta Park complex) - used the Maps address. Facebook/Instagram handles not confirmed (guessed FB handle unavailable).",
+    "notes": "Scanned 2026-07-19: venue's own website 'Whats On' page confirmed 4 weekly entertainment slots (Monday ukulele, Wednesday open mic, Saturday and Sunday live music) plus a dated gig calendar - two upcoming named acts (Sat 25 Jul 'Piston Broke', Sun 26 Jul 'The All Stars') recorded as events. Website address given as 40 Bureta Rd vs Google Maps' 50 Bureta Road (same Woolworths Bureta Park complex) - used the Maps address. Facebook/Instagram handles not confirmed (guessed FB handle unavailable). [2026-08-14] address_correction: The file records 50 Bureta Road. The venue's own website footer and contact block state '40 Bureta Rd, Otumoetai, Tauranga 3110' on every page. Google Maps also",
     "lat": -37.6687503,
     "lng": 176.1534094,
     "geocode_source": "OSM Nominatim (validated), 2026-08-07"
@@ -3136,7 +3174,9 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cherrywood+Arms+Bar+44+Cherrywood+Drive+Otumoetai+Tauranga",
-    "notes": "Scanned 2026-07-19: sports bar, no website registered on Google Maps, guessed Facebook handle unavailable, no Instagram located. No deals or events found."
+    "notes": "Scanned 2026-07-19: sports bar, no website registered on Google Maps, guessed Facebook handle unavailable, no Instagram located. No deals or events found.",
+    "lat": -37.6682206,
+    "lng": 176.1415174
   },
   {
     "venue": "Empire Bakery",
@@ -3214,7 +3254,7 @@
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Matua+Bar+Warrington+Street+Matua+Tauranga",
-    "notes": "Scanned 2026-07-19: no website registered on Google Maps (phone 07 576 6794). A Facebook search snippet showed a one-off 'Jazz afternoon on Sunday' post (Oct 2025) and Google reviews mention regular Friday live music, but the venue's own Facebook page could not be located (guessed handle unavailable) to confirm a current day+time, so nothing recorded per the no-low-confidence rule. Flag for a follow-up phone check (07 576 6794) on whether Friday live music is still a standing weekly fixture.",
+    "notes": "Scanned 2026-07-19: no website registered on Google Maps (phone 07 576 6794). A Facebook search snippet showed a one-off 'Jazz afternoon on Sunday' post (Oct 2025) and Google reviews mention regular Friday live music, but the venue's own Facebook page could not be located (guessed handle unavailable) to confirm a current day+time, so nothing recorded per the no-low-confidence rule. Flag for a follow-up phone check (07 576 6794) on whether Friday live music is still a standing weekly fixture. [2026-08-14] address_correction: The file records 'Warrington Street, Matua' (which is what Google Maps shows, with no street number). The venue's own Facebook About block states 'Shop 5, 18 Ti",
     "lat": -37.6660873,
     "lng": 176.1252895,
     "geocode_source": "OSM Nominatim (validated), 2026-08-07"
@@ -3366,7 +3406,7 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/The+Lakes+Sports+Bar+204+Taurikura+Dr",
-    "notes": "Scanned 2026-07-19: shares a combined Facebook page ('The Orchard Thieves & Lakes Sports Bar') with The Orchard Thieves TAURIKO at the same address. No standalone website or Instagram found. Only historical content found was a May 2024 event (24+ months old, skipped). No current deals or events found."
+    "notes": "Scanned 2026-07-19: shares a combined Facebook page ('The Orchard Thieves & Lakes Sports Bar') with The Orchard Thieves TAURIKO at the same address. No standalone website or Instagram found. Only historical content found was a May 2024 event (24+ months old, skipped). No current deals or events found. [2026-08-14] rebranded: The Facebook page recorded on file for this venue (facebook.com/theorchardthievessportsbar) is now titled 'The Orchard Thieves & Lakes Sports Bar' and lists a s"
   },
   {
     "venue": "Lolo Authentic Turkish Kitchen - Tauriko",
@@ -3479,7 +3519,7 @@
     "notes": "Scanned 2026-07-19: small 2-site Bay of Plenty group (Tauranga Crossing + Bethlehem Town Centre), judged regional not massive chain. Website, Facebook and Instagram show dessert/coffee marketing only, no day+time+price deals or events found."
   },
   {
-    "venue": "Mekong River Vietnamese Cuisine",
+    "venue": "Mekong River Vietnamese Cuisine (Tauriko)",
     "suburb": "Pyes Pa / Tauriko",
     "address": "2 Taurikura Dr, Tauriko, Tauranga 3110",
     "category_hint": "takeaway",
@@ -3489,7 +3529,7 @@
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/Mekong+River+Vietnamese+Cuisine+2+Taurikura+Dr",
-    "notes": "Scanned 2026-07-19: 2-site Bay of Plenty group (Tauranga Crossing + Papamoa Plaza). No standalone website found. A 20%-off promo ran 15-23 June 2024 (24+ months old, skipped per rule). No current deals or events found."
+    "notes": "Scanned 2026-07-19: 2-site Bay of Plenty group (Tauranga Crossing + Papamoa Plaza). No standalone website found. A 20%-off promo ran 15-23 June 2024 (24+ months old, skipped per rule). No current deals or events found. [2026-08-14] Suffixed: a separate branch of the same name exists at Papamoa Plaza, and VENUES_MAP is keyed on name alone (last-one-wins). Safe to rename because this record has no deals, so no ratings slug moved."
   },
   {
     "venue": "Krung Thep Thai Street Food",
@@ -3563,11 +3603,11 @@
     "category_hint": "bar-restaurant",
     "website": null,
     "facebook": "https://www.facebook.com/BayviewCafeRestaurant/",
-    "instagram": "https://www.instagram.com/bayview_rest/",
+    "instagram": null,
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/place/250+Welcome+Bay+Road,+Welcome+Bay,+Tauranga+3112/@-37.7260256,176.1922124,17z/data=!3m1!4b1!4m6!3m5!1s0x6d6dd994cda6fc97:0x517937c800490ffd!8m2!3d-37.7260256!4d176.1922124!16s%2Fg%2F11gfcz1rp6",
-    "notes": "Scanned 2026-07-19: newly opened cafe/restaurant operating out of the Welcome Bay Tavern building. FirstTable.co.nz lists a standing 50% off first table booking, nightly around 5:15-5:30pm (recorded, medium confidence - third-party platform). FB/IG - event/catering promo posts and food photos only, no further day-specific deals found.",
+    "notes": "Scanned 2026-07-19: newly opened cafe/restaurant operating out of the Welcome Bay Tavern building. FirstTable.co.nz lists a standing 50% off first table booking, nightly around 5:15-5:30pm (recorded, medium confidence - third-party platform). FB/IG - event/catering promo posts and food photos only, no further day-specific deals found. [2026-08-14] instagram cleared: Wrong account. That handle is 'BayView Restaurant & Cafe', Wave Breaker/Marina, Abu Dhabi, UAE (confirmed via the profile's own Go",
     "lat": -37.7257888,
     "lng": 176.1918349,
     "geocode_source": "OSM Nominatim (validated), 2026-08-07"
@@ -3608,11 +3648,13 @@
     "category_hint": "restaurant",
     "website": "https://baymasala.co.nz/",
     "facebook": "https://www.facebook.com/BayMasala/",
-    "instagram": "https://www.instagram.com/masala_bay_/",
+    "instagram": null,
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/Bay+Masala+252+Welcome+Bay+Rd+Tauranga",
-    "notes": "Scanned 2026-07-19: Website lists hours only, no specials page. FB - Dinner Combo Butter Chicken $24.70 is a standing everyday menu price, not tied to a specific day, so not recorded as a deal. IG - food and drink content, no day+time+price posts found. No qualifying deals or events found."
+    "notes": "Scanned 2026-07-19: Website lists hours only, no specials page. FB - Dinner Combo Butter Chicken $24.70 is a standing everyday menu price, not tied to a specific day, so not recorded as a deal. IG - food and drink content, no day+time+price posts found. No qualifying deals or events found. [2026-08-14] instagram cleared: Wrong account. That handle is 'Masala Bay', 5 Thompson Avenue, Cowes, Victoria 3922, Australia (Phillip Island) - a different, unr",
+    "lat": -37.7254361,
+    "lng": 176.1922653
   },
   {
     "venue": "The Orchard Thieves Pizza Welcome Bay",
@@ -3625,7 +3667,9 @@
     "is_chain": true,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/The+Orchard+Thieves+Pizza+Welcome+Bay+Tauranga",
-    "notes": "Scanned 2026-07-19: FB had a launch-week post advertising 30% off all pizzas Friday-Sunday (code WEEKEND). The Orchard Thieves operates 12 stores across Waikato and Bay of Plenty (own stores page) - a regional NZ pizza chain rather than a single independent, so per the no-massive-chains rule this is flagged as a judgement call and the deal was NOT recorded; see summary section 7."
+    "notes": "Scanned 2026-07-19: FB had a launch-week post advertising 30% off all pizzas Friday-Sunday (code WEEKEND). The Orchard Thieves operates 12 stores across Waikato and Bay of Plenty (own stores page) - a regional NZ pizza chain rather than a single independent, so per the no-massive-chains rule this is flagged as a judgement call and the deal was NOT recorded; see summary section 7.",
+    "lat": -37.7254361,
+    "lng": 176.1922653
   },
   {
     "venue": "Welcome Bay Sushi",
@@ -3652,19 +3696,6 @@
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/Welcome+Bay+Takeaways+252+Welcome+Bay+Rd+Tauranga",
     "notes": "Scanned 2026-07-19: Website (TuckerFox ordering page) lists standard menu and hours only, no specials page. No Facebook or Instagram page found via search. No deals or events found."
-  },
-  {
-    "venue": "SURF ROAD",
-    "suburb": "Omanu",
-    "address": "93 Oceanbeach Road, Omanu, Mount Maunganui 3116",
-    "category_hint": "cafe",
-    "website": "https://www.surfroad.co.nz/",
-    "facebook": "https://www.facebook.com/surfroadmountmaunganui/",
-    "instagram": "https://www.instagram.com/surfroad__/",
-    "is_chain": false,
-    "google_rating": 3.7,
-    "google_maps_url": "https://www.google.com/maps/place/SURF+ROAD/@-37.6595742,176.2147298,17z/data=!3m1!4b1!4m6!3m5!1s0x6d6ddf0039e661d1:0x3670cc305bcf24bd!8m2!3d-37.6595742!4d176.2147298",
-    "notes": "Scanned 2026-07-19: Google Maps address explicitly tags suburb as Omanu (confirms genuine Omanu venue, distinct from Mount Maunganui and Arataki). Website has a What's On page but it renders empty (links out to Instagram, no listed content). Facebook page text did not render (known FB rendering limitation via browser automation - only About/Offers/Events panels reliably read, and none showed standing deals). Instagram bio confirms location tag 'Omanu, Mount Maunganui' and has a Specials story highlight, but the highlight content did not render visually (blank video, ~49 weeks old) so no day+time+price could be confirmed. No deals or events found at required confidence."
   },
   {
     "venue": "Omanu Takeaways",
@@ -3789,7 +3820,7 @@
   {
     "venue": "Coco's Trattoria",
     "suburb": "Arataki",
-    "address": "Dining Laneway, 1 Girven Road, Bayfair, Mount Maunganui 3116",
+    "address": "19 Girven Road, Bayfair Shopping Centre, Mount Maunganui 3116 (per venue's own Instagram bio)",
     "category_hint": "restaurant",
     "website": "https://www.cocostrattoria.co.nz/",
     "facebook": "https://www.facebook.com/profile.php?id=61566841776120",
@@ -3797,9 +3828,9 @@
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/Coco's+Trattoria+Bayfair",
-    "notes": "Scanned 2026-07-19: Website has no specials page, but Bayfair Shopping Centre's official Events pages plus Coco's own Facebook post confirm three standing weekly deals: All You Can Eat Pasta Night (Sunday), Aperitivo Hour (Friday), and Bottomless Brunch (Saturday) - all three recorded as high-confidence deals.",
-    "lat": -37.6738113,
-    "lng": 176.222072,
+    "notes": "Scanned 2026-07-19: Website has no specials page, but Bayfair Shopping Centre's official Events pages plus Coco's own Facebook post confirm three standing weekly deals: All You Can Eat Pasta Night (Sunday), Aperitivo Hour (Friday), and Bottomless Brunch (Saturday) - all three recorded as high-confidence deals. [2026-08-14] address corrected from 'Dining Laneway, 1 Girven Road, Bayfair, Mount Maunganui 3116' (source: https://www.instagram.com/cocostrattoria/)",
+    "lat": -37.674544,
+    "lng": 176.2232522,
     "geocode_source": "OSM Nominatim (validated), 2026-08-07"
   },
   {
@@ -4043,7 +4074,9 @@
     "is_chain": false,
     "google_rating": 4.7,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=OvenFresh+Te+Puke+36+Jellicoe+Street+Te+Puke",
-    "notes": "Scanned 2026-07-19: Website Offers page has no listed standing deals. Facebook shows periodic one-off promo days (e.g. FRIDAY 17 JULY SPECIAL DEAL and a BOGO pizza promo explicitly labelled One Day Only - Friday 17 July) - these are ad-hoc single-date promos, not a recurring weekly institution, so not recorded as weekly deals."
+    "notes": "Scanned 2026-07-19: Website Offers page has no listed standing deals. Facebook shows periodic one-off promo days (e.g. FRIDAY 17 JULY SPECIAL DEAL and a BOGO pizza promo explicitly labelled One Day Only - Friday 17 July) - these are ad-hoc single-date promos, not a recurring weekly institution, so not recorded as weekly deals.",
+    "lat": -37.782253,
+    "lng": 176.3197469
   },
   {
     "venue": "Te Puke Cafe and Kebab",
@@ -4147,7 +4180,9 @@
     "is_chain": false,
     "google_rating": 3.7,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Stadium+Sports+Bar+91+Jellicoe+Street+Te+Puke",
-    "notes": "Scanned 2026-07-19: Website domain (stadiumsportsbar3119.co.nz) does not resolve. Instagram handle found via search is a different, unrelated Stadium Sports Bar in Wembley UK - not used. Facebook posts are pokies jackpot promos (e.g. Joker Jackpot $2100) which are not qualifying deals. No day+time+price weekly deal confirmed."
+    "notes": "Scanned 2026-07-19: Website domain (stadiumsportsbar3119.co.nz) does not resolve. Instagram handle found via search is a different, unrelated Stadium Sports Bar in Wembley UK - not used. Facebook posts are pokies jackpot promos (e.g. Joker Jackpot $2100) which are not qualifying deals. No day+time+price weekly deal confirmed.",
+    "lat": -37.7847326,
+    "lng": 176.3270734
   },
   {
     "venue": "Thai Star Restaurant & Bar",
@@ -4160,7 +4195,7 @@
     "is_chain": false,
     "google_rating": 4.6,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thai+Star+Restaurant+%26+Bar+47+Jellicoe+Street+Te+Puke",
-    "notes": "Scanned 2026-07-19: Small local group (Te Puke, Papamoa, Greerton branches under same ownership) - not a massive chain. Website/Facebook show no standing weekly deals, only occasional one-off promos (e.g. Father's Day). No deals recorded."
+    "notes": "Scanned 2026-07-19: Small local group (Te Puke, Papamoa, Greerton branches under same ownership) - not a massive chain. Website/Facebook show no standing weekly deals, only occasional one-off promos (e.g. Father's Day). No deals recorded. [2026-08-14] rebranded: Both the venue's own website and its Facebook page (formerly Thai-Star-Restaurant-Bar-103982449066892) now brand it 'Indo Thai Star Restaurant & Bar Te Puke' --"
   },
   {
     "venue": "Hong Kong Takeaways",
@@ -4212,7 +4247,9 @@
     "is_chain": false,
     "google_rating": 3.9,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Love+Punjab+Te+Puke+60+Jellicoe+Street+Te+Puke",
-    "notes": "Scanned 2026-07-19: Missed by initial category sweeps, found via Indian-restaurants Maps sweep. Housed in the old Te Puke Railway Station building. Third-party mentions of buffet/takeaway/sweets but no confirmed day+time+price deal on own channels. No deals recorded."
+    "notes": "Scanned 2026-07-19: Missed by initial category sweeps, found via Indian-restaurants Maps sweep. Housed in the old Te Puke Railway Station building. Third-party mentions of buffet/takeaway/sweets but no confirmed day+time+price deal on own channels. No deals recorded. [2026-08-14] address corrected from '60 Jellicoe Street, Te Puke 3119' (source: https://www.facebook.com/profile.php?id=61550767822706) [2026-08-14] ADDRESS DISPUTED, needs a phone call to 07 262 2128: unclear -- the venue's Facebook page (61550767822706) lists '168 Jellicoe Street Te Puke' while its own website still lists 60 Jellicoe Street. Separately, Google Maps shows 'Riyasat Indian restaurant, sweets and catering' at 60 Jellicoe Street sharing the IDENTICAL phone number (07 262 2128) as Love Punjab Te Puke's website. Strong signal these two file entries ('Love Punjab Te Puke' and 'Riyasat",
+    "lat": null,
+    "lng": null
   },
   {
     "venue": "Riyasat Indian Restaurant, Sweets and Catering",
@@ -4238,7 +4275,8 @@
     "is_chain": false,
     "google_rating": null,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jasdeep+Batth+India+Spice+91A+Cameron+Road+Te+Puke",
-    "notes": "Scanned 2026-07-19: New Google Maps listing (no reviews yet), found via Indian-restaurants Maps sweep. No website/Facebook/Instagram found. No deals found."
+    "notes": "Scanned 2026-07-19: New Google Maps listing (no reviews yet), found via Indian-restaurants Maps sweep. No website/Facebook/Instagram found. No deals found. [2026-08-14] closed: Google Maps flags 'This place may be closed' for the listing at 91A Cameron Road. Not verified further (no social channels on file or found) -- treat as uncerta",
+    "status": "closed"
   },
   {
     "venue": "Punjab Express",
@@ -4264,7 +4302,8 @@
     "is_chain": false,
     "google_rating": 4.8,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veseys+Indian+Restaurant+%26+Bar+50+Jellicoe+Street+Te+Puke",
-    "notes": "FLAGGED CLOSED 2026-07-19: Google Maps shows Temporarily closed. Not scanned further per rules (skip channels for closed venues) - DB should be updated to reflect closed status."
+    "notes": "FLAGGED CLOSED 2026-07-19: Google Maps shows Temporarily closed. Not scanned further per rules (skip channels for closed venues) - DB should be updated to reflect closed status. [2026-08-14] closed: Google Maps lists it 'Temporarily closed' (4.8 stars, 324 reviews, 50 Jellicoe St) as of this scan.",
+    "status": "closed"
   },
   {
     "venue": "TE PUKE CAFE kebabs & pizza",
@@ -4277,7 +4316,8 @@
     "is_chain": false,
     "google_rating": 4.6,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=TE+PUKE+CAFE+kebabs+%26+pizza+160C+Jellicoe+Street+Te+Puke",
-    "notes": "FLAGGED CLOSED 2026-07-19: Google Maps shows Temporarily closed. Not scanned further per rules (skip channels for closed venues) - DB should be updated to reflect closed status. Distinct from Te Puke Cafe and Kebab (245 Jellicoe St) which is open."
+    "notes": "FLAGGED CLOSED 2026-07-19: Google Maps shows Temporarily closed. Not scanned further per rules (skip channels for closed venues) - DB should be updated to reflect closed status. Distinct from Te Puke Cafe and Kebab (245 Jellicoe St) which is open. [2026-08-14] closed: Google's own local-results panel flags it 'Temporarily closed' (4.6, 39 reviews) as of this scan, distinct from the still-open 'Te Puke Cafe and Kebab' (4.6, 20",
+    "status": "closed"
   },
   {
     "venue": "Oswalds Cafe",
@@ -4303,7 +4343,7 @@
     "is_chain": false,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/Alma+4+The+Esplanade+Omokoroa",
-    "notes": "Scanned 2026-07-19: website confirms trading hours only (brunch Wed-Sun 9am-3pm, dinner Wed-Sun 5pm-late), no discount listed there. Facebook page link returned restricted/unavailable at time of scan. Instagram bio explicitly states 'Takeaway 10% OFF' as a standing offer for their Wed-Sun trading days - recorded as a weekly deal (one record per trading day).",
+    "notes": "Scanned 2026-07-19: website confirms trading hours only (brunch Wed-Sun 9am-3pm, dinner Wed-Sun 5pm-late), no discount listed there. Facebook page link returned restricted/unavailable at time of scan. Instagram bio explicitly states 'Takeaway 10% OFF' as a standing offer for their Wed-Sun trading days - recorded as a weekly deal (one record per trading day). [2026-08-14] facebook_dead: The Facebook URL on file (facebook.com/people/Alma-Eatery/100063962357379/) returns 'This content isn't available right now - When this happens, it's usually be",
     "lat": -37.6325955,
     "lng": 176.052328,
     "geocode_source": "OSM Nominatim (validated), 2026-08-07"
@@ -4358,7 +4398,7 @@
     "is_chain": false,
     "google_rating": 5.0,
     "google_maps_url": "https://www.google.com/maps/search/The+Boathouse+Cafe+and+Restaurant+1+The+Esplanade+Omokoroa",
-    "notes": "Scanned 2026-07-19: operates as the on-site cafe/restaurant caterer inside Omokoroa Boat Club (new mother-and-son operators took over catering here in May 2026). Website theboathouseomokoroa.co.nz returned an error page at time of scan (retried, still failed to load). Facebook confirms a recurring trivia night ('Doors open at 5.45pm, quiz begins at 7pm... we've sorted dinner so you can focus on the trivia') but the exact weekday was not stated in the accessible post text and could not be confirmed via the Boat Club's Events tab (which only showed two past one-off sports-screening events) - FLAGGED for manual recheck, not recorded as a deal without a confirmed day per the no-guessing rule. No Instagram handle could be reliably identified (search only surfaced same-named venues in Australia and the US). Google review count is low (3) reflecting the recent ownership change."
+    "notes": "Scanned 2026-07-19: operates as the on-site cafe/restaurant caterer inside Omokoroa Boat Club (new mother-and-son operators took over catering here in May 2026). Website theboathouseomokoroa.co.nz returned an error page at time of scan (retried, still failed to load). Facebook confirms a recurring trivia night ('Doors open at 5.45pm, quiz begins at 7pm... we've sorted dinner so you can focus on the trivia') but the exact weekday was not stated in the accessible post text and could not be confirmed via the Boat Club's Events tab (which only showed two past one-off sports-screening events) - FLAGGED for manual recheck, not recorded as a deal without a confirmed day per the no-guessing rule. No Instagram handle could be reliably identified (search only surfaced same-named venues in Australia and the US). Google review count is low (3) reflecting the recent ownership change. [2026-08-14] website_dead: theboathouseomokoroa.co.nz would not load - Chrome served a browser error page and could not render any content. The business is definitely still trading: it is"
   },
   {
     "venue": "The Spice Delight Restaurant Omokoroa",
@@ -4371,7 +4411,7 @@
     "is_chain": false,
     "google_rating": 4.9,
     "google_maps_url": "https://www.google.com/maps/search/The+Spice+Delight+Restaurant+Omokoroa",
-    "notes": "Scanned 2026-07-19: website lists hours only (11am-10pm daily), no standing weekly deal. Facebook/Instagram - general food photos, no deal posts found. Third-party platform First Table confirmed a recurring 'first table of the night' 50%-off-food offer with visible 4:00-5:30pm booking slots on Sun/Tue/Wed - recorded at medium confidence as it is third-party sourced (not yet confirmed on the venue's own channel).",
+    "notes": "Scanned 2026-07-19: website lists hours only (11am-10pm daily), no standing weekly deal. Facebook/Instagram - general food photos, no deal posts found. Third-party platform First Table confirmed a recurring 'first table of the night' 50%-off-food offer with visible 4:00-5:30pm booking slots on Sun/Tue/Wed - recorded at medium confidence as it is third-party sourced (not yet confirmed on the venue's own channel). [2026-08-14] instagram_wrong_account: The Instagram on file (@thespicedelight) is almost certainly not this venue: 7 followers, 9 posts, nothing since January 2022, self-described as a 'Fast food re",
     "lat": -37.6421596,
     "lng": 176.0383114,
     "geocode_source": "OSM Nominatim (validated), 2026-08-07"
@@ -4400,7 +4440,9 @@
     "is_chain": false,
     "google_rating": 4.6,
     "google_maps_url": "https://www.google.com/maps/search/House+Of+Spice+FreshChoice+Indian+Restaurant+Omokoroa",
-    "notes": "Scanned 2026-07-19: no official website, Facebook, or Instagram page could be located via search - only directory-aggregator listings (Cybo, Atly) surfaced. No deals or events found. Note: this address (160 Omokoroa Rd) was previously occupied by Montre - Atelier Du Cafe, now flagged Permanently Closed on Google - see closures."
+    "notes": "Scanned 2026-07-19: no official website, Facebook, or Instagram page could be located via search - only directory-aggregator listings (Cybo, Atly) surfaced. No deals or events found. Note: this address (160 Omokoroa Rd) was previously occupied by Montre - Atelier Du Cafe, now flagged Permanently Closed on Google - see closures.",
+    "lat": -37.6415094,
+    "lng": 176.0380649
   },
   {
     "venue": "Village Green Bar & Kitchen",
@@ -4429,7 +4471,7 @@
     "is_chain": false,
     "google_rating": 4.4,
     "google_maps_url": "https://www.google.com/maps/search/Omokoroa+Takeaways+14+Hamurana+Rd",
-    "notes": "Scanned 2026-07-19: fish and chips takeaway. No dedicated website found. Facebook page located but returned sparse content in search results (no accessible offer posts). No Instagram found. No deals or events found."
+    "notes": "Scanned 2026-07-19: fish and chips takeaway. No dedicated website found. Facebook page located but returned sparse content in search results (no accessible offer posts). No Instagram found. No deals or events found. [2026-08-14] facebook_useless: The Facebook page on file is an auto-generated placeholder: labelled 'Unofficial Page', 0 people follow it, page created 2 April 2010, and it states 'No posts y"
   },
   {
     "venue": "Omokoroa Mini Mart and Indian Takeaways",
@@ -4471,7 +4513,7 @@
     "is_chain": false,
     "google_rating": 4.2,
     "google_maps_url": "https://www.google.com/maps/search/Archies+Bar+Cafe+9+Western+Avenue+Omokoroa",
-    "notes": "Scanned 2026-07-19: small coffee cart/trailer next to the skate park on Western Avenue; weather-dependent hours per a customer review (approx Wed-Fri 6:30am-2pm, weekends 6:30am-late). Facebook page found (Archie's Coffee Cart, 141 likes), no offer posts. No reliably-identified Instagram handle found. No deals or events found."
+    "notes": "Scanned 2026-07-19: small coffee cart/trailer next to the skate park on Western Avenue; weather-dependent hours per a customer review (approx Wed-Fri 6:30am-2pm, weekends 6:30am-late). Facebook page found (Archie's Coffee Cart, 141 likes), no offer posts. No reliably-identified Instagram handle found. No deals or events found. [2026-08-14] website_dead: archiesbar.co.nz no longer resolves - Chrome returned DNS_PROBE_FINISHED_NXDOMAIN. The domain is gone, not just the page. The venue itself still appears on Goog"
   },
   {
     "venue": "Event Cinemas Tauranga Central",
@@ -4496,7 +4538,7 @@
     "category_hint": "cinema",
     "website": "https://www.eventcinemas.co.nz/Cinema/TaurangaCrossing",
     "facebook": null,
-    "instagram": null,
+    "instagram": "https://www.instagram.com/taurangacrossing/",
     "is_chain": true,
     "google_rating": 4.5,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Event+Cinemas+Tauranga+Crossing+2+Taurikura+Drive+Tauriko",
@@ -4580,7 +4622,7 @@
     "is_chain": false,
     "google_rating": null,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mercury%20Baypark%20Truman%20Lane%2C%20Mount%20Maunganui%20Tauranga",
-    "notes": "Event-only venue (theatre, hall, park, market or club). Added 2026-08-08 so its events can pin on the map; carries no deals.",
+    "notes": "Event-only venue (theatre, hall, park, market or club). Added 2026-08-08 so its events can pin on the map; carries no deals. [2026-08-14] address_correction_only: On file as just 'Truman Lane' - the venue's own What's On page (mercurybaypark.co.nz/what-s-on) gives the full address as 81 Truman Lane, Mount Maunganui. No de",
     "lat": -37.6869463,
     "lng": 176.2331338,
     "geocode_source": "OSM Nominatim (validated), 2026-08-08"
@@ -4756,7 +4798,7 @@
     "is_chain": false,
     "google_rating": null,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Armitage%20Tauranga%20CBD%20Tauranga",
-    "notes": "Event-only venue (theatre, hall, park, market or club). Added 2026-08-08 so its events can pin on the map; carries no deals.",
+    "notes": "Event-only venue (theatre, hall, park, market or club). Added 2026-08-08 so its events can pin on the map; carries no deals. [2026-08-14] rebranded: Now trading as 'Mercure Tauranga', part of the Accor hotel group (28 Brown Street). This is a large international hotel chain - flagged per the no-massive-chain",
     "lat": -37.6786901,
     "lng": 176.1681749,
     "geocode_source": "Photon/OSM (named), 2026-08-08"
@@ -4971,7 +5013,7 @@
   {
     "venue": "World's End Bar & Restaurant",
     "suburb": "Tauranga CBD",
-    "address": "227 Fraser St, Tauranga",
+    "address": "227-229 Fraser Street, Fraser Cove, Tauranga 3112",
     "category_hint": "venue-event",
     "website": null,
     "facebook": null,
@@ -4979,7 +5021,7 @@
     "is_chain": false,
     "google_rating": null,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=World%27s%20End%20Bar%20%26%20Restaurant%20227%20Fraser%20St%2C%20Tauranga%20Tauranga",
-    "notes": "Event-only venue (theatre, hall, park, market or club). Added 2026-08-08 so its events can pin on the map; carries no deals.",
+    "notes": "Event-only venue (theatre, hall, park, market or club). Added 2026-08-08 so its events can pin on the map; carries no deals. [2026-08-14] address corrected from '227 Fraser St, Tauranga' (source: https://www.worldsend.co.nz/)",
     "lat": -37.7109466,
     "lng": 176.1515436,
     "geocode_source": "Photon/OSM (exact), 2026-08-08"
@@ -5011,7 +5053,7 @@
     "is_chain": false,
     "google_rating": null,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Greerton%20Community%20Hall%201247%20Cameron%20Road%2C%20Greerton%2C%20Tauranga%20Tauranga",
-    "notes": "Event-only venue (theatre, hall, park, market or club). Added 2026-08-08 so its events can pin on the map; carries no deals.",
+    "notes": "Event-only venue (theatre, hall, park, market or club). Added 2026-08-08 so its events can pin on the map; carries no deals. [2026-08-14] moved: ADDRESS CORRECTION, not a relocation. The on-file address is 1247 Cameron Road. Every current source - Google Maps, the EcoSci Events listing, Fungi Fest NZ and",
     "lat": -37.7246459,
     "lng": 176.1335459,
     "geocode_source": "Photon/OSM (exact), 2026-08-08"
@@ -5092,8 +5134,8 @@
     "google_rating": null,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pyes%20Pa%20Community%20Hall%20724%20Pyes%20Pa%20Road%2C%20Tauranga%20Tauranga",
     "notes": "Event-only venue (theatre, hall, park, market or club). Added 2026-08-08 so its events can pin on the map; carries no deals. Coordinates unresolved: Photon offered a gas gate station. 724 Pyes Pa Rd resolves to street level only.",
-    "lat": null,
-    "lng": null
+    "lat": -37.7970811,
+    "lng": 176.1223691
   },
   {
     "venue": "Bosco at The Lakes",
@@ -5106,7 +5148,7 @@
     "is_chain": false,
     "google_rating": null,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bosco%20at%20The%20Lakes%201%20Caslani%20Lane%2C%20Pyes%20Pa%2C%20Tauranga%20Tauranga",
-    "notes": "Event-only venue (theatre, hall, park, market or club). Added 2026-08-08 so its events can pin on the map; carries no deals.",
+    "notes": "Event-only venue (theatre, hall, park, market or club). Added 2026-08-08 so its events can pin on the map; carries no deals. [2026-08-14] rebranded: DUPLICATE, not a status change. 'Bosco at The Lakes' and 'Bosco Cafe' are both on file at 1 Caslani Lane, Pyes Pa, and are one venue. Google Maps lists it as 'B",
     "lat": -37.7511988,
     "lng": 176.1043255,
     "geocode_source": "Photon/OSM (exact), 2026-08-08"
@@ -5732,5 +5774,1446 @@
     "lat": null,
     "lng": null,
     "notes": "Added 2026-08-13 from whatsontauranga.co.nz. Multi-site event (Zespri AIMS Games). Deliberately unplaced - a single pin would be wrong."
+  },
+  {
+    "venue": "Bakers of Bethlehem",
+    "suburb": "Bethlehem",
+    "address": "State Highway 2, Bethlehem, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.5,
+    "google_maps_url": "https://www.google.com/maps/place/Bakers+of+Bethlehem/@-37.6957733,176.1100603,17z",
+    "lat": null,
+    "lng": null,
+    "notes": "Independent bakery on the SH2 Bethlehem strip, 210 Google reviews, opens 5am. Not a Bethlehem Town Centre tenant - a separate SH2 frontage, which is why earlier passes missed it. No website found on the Maps listing; phone 07 576 9368. Coordinates from the Maps place URL: -37.6957733, 176.1100603. No online channels located, so no deal scan was possible beyond the Maps listing. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Shell Seeker Takeaways",
+    "suburb": "Bethlehem",
+    "address": "158 Cambridge Road, Bethlehem, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 3.9,
+    "google_maps_url": "https://www.google.com/maps/place/Shell+Seeker+Takeaways/@-37.7029384,176.129343,17z",
+    "lat": null,
+    "lng": null,
+    "notes": "Independent takeaway. Google Maps confirms the suburb as Bethlehem. Sits on Cambridge Road, a completely separate street cluster from the 19 Bethlehem Road town centre - the exact PROCESS.md 8b 'read one block and stopped' signature. Coordinates from the Maps place URL: -37.7029384, 176.129343. No website/FB/IG found on the listing. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "BurgerFuel Bethlehem",
+    "suburb": "Bethlehem",
+    "address": "Shop E, Bethlehem Town Centre, 19 Bethlehem Road, Bethlehem, Tauranga 3110",
+    "category_hint": "restaurant",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": 4.5,
+    "google_maps_url": "https://www.google.com/maps/search/BurgerFuel+Bethlehem+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Confirmed tenant on the official Bethlehem Town Centre directory (bethlehem.co.nz/our-stores). NZ-founded burger chain with roughly 80 NZ stores - larger than a small local group but not one of the named massive international brands, so RECORDED AND FLAGGED for a curation call rather than excluded outright. Name suffixed with the suburb per PROCESS.md 8b duplicate-name rule. No deal scan run on this venue. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Columbus Coffee Bethlehem",
+    "suburb": "Bethlehem",
+    "address": "19 Bethlehem Road, Bethlehem, Tauranga 3110",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": 4.0,
+    "google_maps_url": "https://www.google.com/maps/search/Columbus+Coffee+Bethlehem+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Confirmed tenant on the official Bethlehem Town Centre directory. NZ cafe franchise. Recorded and flagged for a curation call. Name suffixed with the suburb per the duplicate-name rule (Columbus Coffee exists in multiple cities). The centre's What's On carries a 'Columbus Coffee Supporting Local Art' community item - local art on display, no day/time/price, so not recorded as a deal. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "The Coffee Club Bethlehem",
+    "suburb": "Bethlehem",
+    "address": "19 Bethlehem Road, Bethlehem, Tauranga 3110",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": 4.0,
+    "google_maps_url": "https://www.google.com/maps/search/The+Coffee+Club+Bethlehem+Town+Centre",
+    "lat": null,
+    "lng": null,
+    "notes": "Confirmed tenant on the official Bethlehem Town Centre directory, 791 Google reviews. Australian/NZ franchise - recorded and flagged for a curation call. Name suffixed with the suburb per the duplicate-name rule. COULD NOT SCAN: thecoffeeclub.co.nz returned a permission denial in the browser extension, so its deals page was never read. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Ko Ko Dak Bethlehem",
+    "suburb": "Bethlehem",
+    "address": "19 Bethlehem Road, Bethlehem, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": 3.9,
+    "google_maps_url": "https://www.google.com/maps/search/Kokodak+Chicken+Bethlehem+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Korean fried chicken. Listed as 'Ko Ko Dak' on the official Bethlehem Town Centre directory and as 'Kokodak Chicken - Bethlehem' on Google Maps. Small NZ franchise. Name suffixed with the suburb per the duplicate-name rule. No deal scan run. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Noodle Canteen Bethlehem",
+    "suburb": "Bethlehem",
+    "address": "19 Bethlehem Road, Bethlehem, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": 3.1,
+    "google_maps_url": "https://www.google.com/maps/search/Noodle+Canteen+Bethlehem+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Confirmed tenant on the official Bethlehem Town Centre directory. NZ noodle franchise. Recorded and flagged for a curation call. Name suffixed with the suburb per the duplicate-name rule. No deal scan run. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Tank Juice Bethlehem",
+    "suburb": "Bethlehem",
+    "address": "19 Bethlehem Road, Bethlehem, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/Tank+Juice+Bethlehem+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Juice and smoothie bar, confirmed tenant on the official Bethlehem Town Centre directory (open 8:00am-5:30pm). Did not surface in any Google Maps category search - found only via the mall directory, which is exactly why the directory sweep was mandated. NZ franchise, flagged for a curation call. Google rating not captured. No deal scan run. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Social Club - Tauranga",
+    "suburb": "Greerton",
+    "address": "5/1334 Cameron Road, Greerton, Tauranga 3112",
+    "category_hint": "bar-restaurant",
+    "website": "https://greertonsocialclub.co.nz/",
+    "facebook": "https://www.facebook.com/socialclubnewzealand",
+    "instagram": "https://www.instagram.com/socialclub_nz/",
+    "is_chain": false,
+    "google_rating": 4.6,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Social+Club+Tauranga+1334+Cameron+Road+Greerton",
+    "lat": -37.702014,
+    "lng": 176.1557862,
+    "notes": "Trades as Greerton Social Club. Restaurant, cafe, tapas bar and events venue. BY FAR the biggest miss in the existing Greerton file - it carries a full published seven-day weekly deals set plus a daily Social Hour. Small NZ group (Greerton, Rotorua, Taupo) so it clears the no-big-chains ethos. Phone 07 577 0130. NOTE: Google Maps and NZ Post label 1334 Cameron Rd as 'Gate Pa'; the venue's own website, trading name and Instagram all say Greerton. 113 Google reviews. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Renners",
+    "suburb": "Greerton",
+    "address": "1339 Cameron Road, Greerton, Tauranga 3112",
+    "category_hint": "bar-pub",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.5,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Renners+1339+Cameron+Road+Greerton+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Local tavern, 'the best little bar in the bay'. Phone 07 541 2775. Licensed as a tavern per a Tauranga City Council notification dated 23 Oct 2025, so trading. Its own Facebook page (titled 'Renners | Tauranga', ~260 followers) self-describes the address as '1339 cameron road greerton'. Its page intro text includes 'HAPPY HOUR 5 - 7pm' and a Thursday membership cash draw '6 - 8pm winning $50 - $500', but NO day is attached to the happy hour and the cash-draw post traces to 2018, so neither cleared the day+time+value bar and neither was recorded. I could not open the Facebook page itself - the /p/ URL I tried returned 'This content isn't available right now' and I could not resolve the canonical page URL. WORTH A MANUAL RECHECK or a phone call. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "The GC Bar",
+    "suburb": "Greerton",
+    "address": "1315 Cameron Road, Greerton, Tauranga 3112",
+    "category_hint": "bar-pub",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 3.8,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+GC+Bar+1315+Cameron+Road+Greerton+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Bar, open to 12am. 38 Google reviews. NO online presence found at all - no website, no Facebook page, no Instagram surfaced by targeted searches. Nil deals result is therefore a 'could not check' rather than a confirmed nil. Google labels the address 'Gate Pa'; it sits between venues tagged Greerton. Needs an on-site or phone check. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Oasis Bar And Grill",
+    "suburb": "Greerton",
+    "address": "1334 Cameron Road, Greerton, Tauranga 3112",
+    "category_hint": "bar-restaurant",
+    "website": "https://oasisbarandgrill.co.nz/",
+    "facebook": "https://www.facebook.com/oasisbarandgrillnz",
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.2,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Oasis+Bar+And+Grill+1334+Cameron+Road+Greerton+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "FLAG BEFORE MERGING - PROBABLE DUPLICATE PREMISES. Same street address (1334 Cameron Road) AND same phone number (07 577 0130) as Social Club - Tauranga. MapQuest lists three names at that address: Greer's Gastro Bar, Social Club - Greerton and Oasis Bar And Grill. Oasis still has a live Google listing (422 reviews) and a live ordering site, but the ordering site shows the store permanently 'Closed'. Most likely an earlier trading name for the same premises now operating as Social Club. Recommend NOT adding as a separate active venue until someone confirms - and note that adding it would create a second map pin on the same point. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Tikka Nation",
+    "suburb": "Greerton",
+    "address": "1342 Cameron Road, Greerton, Tauranga 3112",
+    "category_hint": "restaurant",
+    "website": "https://tikkanation.co.nz/",
+    "facebook": null,
+    "instagram": "https://www.instagram.com/tikkanation_nz/",
+    "is_chain": false,
+    "google_rating": 4.4,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tikka+Nation+1342+Cameron+Road+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "ADDRESS FLAG - its OWN website says '1342 Cameron Road, Gate Pa, Tauranga 3112' and 'proudly serving the Gate Pa community', while its Instagram handle is tagged 'TIKKA NATION, GREERTON' and customer posts call it 'newly opened Indian restaurant in Greerton'. Opened around Feb-Mar 2026. Phone 07 466 0005. Its Facebook posts advertise a 'Lunch Special, Main Meal Deal, Family Combo, Family Pack' but no day, time or price was published on any channel I could open, so nothing was recorded. Worth a follow-up once its menu page publishes prices. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Suki Sushi",
+    "suburb": "Greerton",
+    "address": "1317 Cameron Road, Greerton, Tauranga 3112",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.4,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Suki+Sushi+1317+Cameron+Road+Greerton+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Sushi and donburi takeaway, 136 Google reviews. No website, Facebook or Instagram surfaced. No deals found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Cafe Essence",
+    "suburb": "Greerton",
+    "address": "1293 Cameron Road, Greerton, Tauranga 3112",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.4,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cafe+Essence+1293+Cameron+Road+Greerton+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Cafe in Greerton Village, 119 Google reviews, $10-20. Featured on the @greertonvillage Instagram account. No own website/FB/IG found; no deals. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Blomquists Bakery",
+    "suburb": "Greerton",
+    "address": "1289 Cameron Road, Greerton, Tauranga 3112",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.5,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Blomquists+Bakery+1289+Cameron+Road+Greerton+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Bakery/cafe, $1-10 price band, 107 Google reviews. No own channels found; no deals. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Prem Bakers",
+    "suburb": "Greerton",
+    "address": "1350 Cameron Road, Greerton, Tauranga 3112",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 5.0,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Prem+Bakers+1350+Cameron+Road+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Bakery, 5.0 stars from 71 reviews - the highest-rated venue found in the area. No own channels surfaced; no deals found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Punjab Express Greerton",
+    "suburb": "Greerton",
+    "address": "126 Chadwick Road, Greerton, Tauranga 3112",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.4,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Punjab+Express+Greerton+126+Chadwick+Road+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Indian sweets shop on the main Chadwick Rd village strip, 87 Google reviews. Sits between Indian Pavilion (113) and Baker Bob's (135), both already on file - a clear example of the file having read part of the block only. No own channels found; no deals. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Greerton Roast Meals",
+    "suburb": "Greerton",
+    "address": "1312 Cameron Road, Greerton, Tauranga 3112",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.3,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Greerton+Roast+Meals+1312+Cameron+Road+Greerton+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Roast meal takeaway, 163 Google reviews, 4.7 on Uber Eats. A @greertonvillage Instagram post (Aug 2025) shows a combo board including 'COMBO 1 ROAST ROLL $10.00' - these are standing everyday combos with no day attached, so they fail the deal test and were not recorded. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Top Golden Horse Takeaways",
+    "suburb": "Greerton",
+    "address": "1277 Cameron Road, Greerton, Tauranga 3112",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.0,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Top+Golden+Horse+Takeaways+1277+Cameron+Road+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Chinese takeaway, 101 Google reviews. No own channels found; no deals. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Viet Fusion",
+    "suburb": "Greerton",
+    "address": "1308 Cameron Road, Greerton, Tauranga 3112",
+    "category_hint": "restaurant",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 5.0,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Viet+Fusion+1308+Cameron+Road+Greerton+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Vietnamese/Asian, only 1 Google review so likely a recent opening. No own channels found; no deals. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "RSA Tauranga",
+    "suburb": "Greerton",
+    "address": "1237 Cameron Road, Greerton, Tauranga 3112",
+    "category_hint": "bar-pub",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.4,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tauranga+RSA+1237+Cameron+Road+Greerton+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Tauranga Returned Services Association, a licensed club premises in Greerton - set club_venue: true if merged. 102 Google reviews. Confirmed as a live venue by a 2026 Ride of Respect event that started there. Deal-relevant sources found were all STALE: an Interclub club-directory entry from 2022 ('Meals Available 5:30pm Wed, Fri, Sat', 'Membership draw and great raffles Wed, Fri & Sat nights') and a 2018 PDF. Both are older than the 12-month rule so nothing was recorded. No current website, Facebook or Instagram could be found. STRONG CANDIDATE for a phone check - clubs like this usually run exactly the kind of weekly meal/raffle nights the site wants. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Master Fish 'N' Chicken",
+    "suburb": "Matua / Otumoetai",
+    "address": "24 Bureta Road, Otumoetai, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.2,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Master+Fish+N+Chicken+24+Bureta+Road+Otumoetai+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "261 reviews. Fish and chip / fried chicken takeaway in the Bureta shops. No website or social channel found on the Maps listing or via Google. No deal found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Seoulful Chicken",
+    "suburb": "Matua / Otumoetai",
+    "address": "227 Otumoetai Road, Otumoetai, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.5,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Seoulful+Chicken+227+Otumoetai+Road+Otumoetai+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "24 reviews. Korean fried chicken takeaway at the Caltex Otumoetai site. NOTE: shares the 227 Otumoetai Road address with Sweet Treats (below), which also sells chicken snack boxes - these may be one operation trading under two Google listings. Worth confirming before both are published. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Sweet Treats",
+    "suburb": "Matua / Otumoetai",
+    "address": "227 Otumoetai Road (Caltex Otumoetai), Otumoetai, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.6,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sweet+Treats+227+Otumoetai+Road+Otumoetai+Tauranga",
+    "lat": -37.6823102,
+    "lng": 176.1363371,
+    "notes": "8 reviews. Dessert shop / chicken snack boxes at the Caltex Otumoetai. Carries a live $9.99 Snack Box owner post (recorded as a deal). Ph 022 309 0100. See the Seoulful Chicken note about the shared address. Discovered 2026-08-14 refresh scan. Coordinates read from the Google Maps place URL (!3d/!4d), 2026-08-14."
+  },
+  {
+    "venue": "Hot Woks Takeaway",
+    "suburb": "Matua / Otumoetai",
+    "address": "267 Otumoetai Road, Otumoetai, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 3.4,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Hot+Woks+Takeaway+267+Otumoetai+Road+Otumoetai+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "133 reviews. Chinese takeaway next door to Cruzaz Bar & Gaming in the Otumoetai Road shops. No website or social channel found. No deal found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Cherrywood Sunshine Fast Food",
+    "suburb": "Matua / Otumoetai",
+    "address": "47 Cherrywood Drive, Otumoetai, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.3,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cherrywood+Sunshine+Fast+Food+47+Cherrywood+Drive+Otumoetai+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "152 reviews. In the Cherrywood shops complex alongside Fika (1/47) and Cafe Istanbul (3/47). No website or social channel found. No deal found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Cherrywood Fish Supply & Takeaway",
+    "suburb": "Matua / Otumoetai",
+    "address": "38 Cherrywood Drive, Otumoetai, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.4,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cherrywood+Fish+Supply+38+Cherrywood+Drive+Otumoetai+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "197 reviews. Fish and chip shop on Cherrywood Drive, was not on file at all. No website or social channel found. No deal found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Otumoetai Golf Club",
+    "suburb": "Matua / Otumoetai",
+    "address": "25 Bureta Road, Otumoetai, Tauranga 3110",
+    "category_hint": "bar-restaurant",
+    "website": "https://www.otumoetaigolf.co.nz/",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.3,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Otumoetai+Golf+Club+25+Bureta+Road+Otumoetai+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "104 reviews. Licensed club premises with a clubhouse and bar (candidate for club_venue: true). 9-hole course established 1956, pro shop open 7 days. Website scanned: no day-of-week deal, no twilight/green-fee special published, only annual subscriptions ($795 full playing, $20 social). Ph 07 576 9739. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Matua Hall",
+    "suburb": "Matua / Otumoetai",
+    "address": "110 Levers Road, Matua, Tauranga 3110",
+    "category_hint": "community-hall",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.4,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Matua+Hall+110+Levers+Road+Matua+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Community centre on the Matua shops strip. Added as an EVENT VENUE so any future Matua community event resolves to a map pin rather than rendering address-less. No events found this pass. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Otumoetai Sports & Recreation Club Inc",
+    "suburb": "Matua / Otumoetai",
+    "address": "Tilby Drive (Fergusson Park), Matua, Tauranga 3110",
+    "category_hint": "community-hall",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 5.0,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Otumoetai+Sports+and+Recreation+Club+Tilby+Drive+Matua+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Sports club at Fergusson Park. Added as an EVENT VENUE. The Tauranga Astronomical Society (90 Tilby Drive, Matua) meets in these clubrooms at 7:30pm on the 2nd and 4th Tuesday of each month, March to November, $5 for visitors and free for members - surfaced from the society's own Facebook page description via Facebook page search. NOT recorded as a deal or event this pass because the society's own site was not opened to confirm the 2026 schedule; worth a follow-up as a recurring community activity. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "The Freeport Tavern & Eatery",
+    "suburb": "Mount Maunganui",
+    "address": "Shop 0704, Bayfair Shopping Centre, 19 Girven Road, Mount Maunganui 3116",
+    "category_hint": "bar-pub",
+    "website": "https://freeportandpaulies.co.nz/freeporthome",
+    "facebook": "https://www.facebook.com/freeporttavern",
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.5,
+    "google_maps_url": "https://www.google.com/maps/search/The+Freeport+Tavern+and+Eatery+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "MAJOR OMISSION FROM THE FILE - 1,056 Google reviews, one of the biggest hospitality venues in the suburb, and it was not on file at all. Gastro pub at Bayfair. Open every day 12pm till late. Website advertises live music but publishes NO day/time/price, so no deal was recordable from the website this pass. Facebook and Instagram NOT checked - a deal scan on those two channels is the obvious next step. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Paulie's Sports Pub",
+    "suburb": "Mount Maunganui",
+    "address": "19 Girven Road, Bayfair Shopping Centre, Mount Maunganui 3116",
+    "category_hint": "bar-pub",
+    "website": "https://freeportandpaulies.co.nz",
+    "facebook": null,
+    "instagram": "https://www.instagram.com/pauliessportspub/",
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/Paulie%27s+Sports+Pub+Mount+Maunganui",
+    "lat": -37.674544,
+    "lng": 176.2232522,
+    "notes": "Sister venue to The Freeport, same Bayfair address and same phone (07 572 0340), shares the freeportandpaulies.co.nz site. Google lists the address as 'Tauranga 3116' but the plus code resolves to Mount Maunganui and it is inside Bayfair, so it is in scope. Not deal-scanned this pass. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Bayfair Tavern",
+    "suburb": "Mount Maunganui",
+    "address": "15 Owens Place, Mount Maunganui 3116",
+    "category_hint": "bar-pub",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.0,
+    "google_maps_url": "https://www.google.com/maps/search/Bayfair+Tavern+Mount+Maunganui",
+    "lat": null,
+    "lng": null,
+    "notes": "79 reviews. Open till 1am. No website listed on Google ('Add website' prompt shown, business unclaimed). Not deal-scanned this pass - would need a Facebook search. Discovered 2026-08-14 refresh scan. [2026-08-14] rebranded: Rebranded to 'Cheers Tavern', same address (15 Owens Place, Mount Maunganui 3116). Confirmed via publocation.co.nz and Facebook (facebook.com/cheerstav - 'Bar a"
+  },
+  {
+    "venue": "TASTE - Asian Fusion",
+    "suburb": "Mount Maunganui",
+    "address": "94 Maunganui Road, Mount Maunganui 3116",
+    "category_hint": "restaurant",
+    "website": "https://tasteasianfusion.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 3.9,
+    "google_maps_url": "https://www.google.com/maps/place/TASTE+-+Asian+Fusion/@-37.6364472,176.182412,17z",
+    "lat": null,
+    "lng": null,
+    "notes": "154 reviews. Sits on the main Maunganui Rd strip between venues already on file (82 Astrolabe and 97B Lolo) - a clear read-one-block gap. Not deal-scanned this pass. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "The Wave Cafe",
+    "suburb": "Mount Maunganui",
+    "address": "24 Marine Parade, Mount Maunganui 3116",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.6,
+    "google_maps_url": "https://www.google.com/maps/search/The+Wave+Cafe+Marine+Parade+Mount+Maunganui",
+    "lat": null,
+    "lng": null,
+    "notes": "103 reviews. Described on Maps as 'opposite Mount Drury, Main Beach'. Drive-through and delivery. Not deal-scanned this pass. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Polar Dessert Bar",
+    "suburb": "Mount Maunganui",
+    "address": "10 Prince Avenue, Mount Maunganui 3116",
+    "category_hint": "cafe",
+    "website": "https://polardessert.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/Polar+Dessert+Bar+Prince+Ave+Mount+Maunganui",
+    "lat": null,
+    "lng": null,
+    "notes": "Ice cream / dessert bar. Same street as Gratitude Eatery (7 Prince Ave) which is already on file. Not deal-scanned this pass. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Mount Maunganui RSA",
+    "suburb": "Mount Maunganui",
+    "address": "544 Maunganui Road, Mount Maunganui 3116",
+    "category_hint": "bar-pub",
+    "website": "https://www.mtrsa.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/Mount+Maunganui+RSA+Returned+Services",
+    "lat": null,
+    "lng": null,
+    "notes": "CLUB VENUE - candidate for club_venue: true. Established 1943, has Munro's Restaurant & Cafe, a bar, a courtesy bus and an events calendar. Its site advertises 'Live Music Every Friday, Saturday and Sunday!' but publishes NO start time, so per the day+time rule NO deal was recorded. The 'View the schedule here' link did not resolve to a readable page (single-page app). Worth a targeted follow-up - RSAs typically run weekly meal and members' deals and this is at the far north end of Maunganui Rd, well past everything else on file. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Shellrock Takeaways",
+    "suburb": "Mount Maunganui",
+    "address": "381 Maunganui Road, Mount Maunganui 3116",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/Shellrock+Takeaways+Mount+Maunganui",
+    "lat": null,
+    "lng": null,
+    "notes": "47 reviewers report $10-20 per person. Business unclaimed on Google. Not deal-scanned this pass. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Hull Road Lunch Bar",
+    "suburb": "Mount Maunganui",
+    "address": "95 Hull Road, Mount Maunganui 3116",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/Hull+Road+Lunch+Bar+Mount+Maunganui",
+    "lat": null,
+    "lng": null,
+    "notes": "Opens 6am - an industrial-end lunch bar. Business unclaimed on Google. Not deal-scanned this pass. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Bite Me Bakery",
+    "suburb": "Mount Maunganui",
+    "address": "57 Aviation Avenue, Mount Maunganui 3116",
+    "category_hint": "takeaway",
+    "website": "https://bitemebakery.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/Bite+Me+Bakery+Aviation+Ave+Mount+Maunganui",
+    "lat": null,
+    "lng": null,
+    "notes": "Bakery in the Aviation Ave industrial pocket, opens 7am. Not deal-scanned this pass. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Omanu Superette",
+    "suburb": "Omanu",
+    "address": "93 Oceanbeach Rd, Omanu, Mount Maunganui 3116",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.5,
+    "google_maps_url": "https://www.google.com/maps/search/Oceanbeach+Road+Omanu",
+    "lat": null,
+    "lng": null,
+    "notes": "Grocery store/dairy discovered 2026-08-14 in the same small complex as Surf Road and Omanu Takeaways (93 Oceanbeach Rd). Not deep-scanned for deals (general retail, low likelihood of day/time/price offers) - flagged for a future pass, not confirmed nil. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Basilico Pizza & Gelato Omokoroa",
+    "suburb": "Omokoroa",
+    "address": "168 Omokoroa Road, Omokoroa 3114",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.8,
+    "google_maps_url": "https://www.google.com/maps/search/Basilico+Pizza+%26+Gelato+Omokoroa",
+    "lat": null,
+    "lng": null,
+    "notes": "Pizza takeaway and gelato, 11 Google reviews, price band $10-20, ph 07 548 2858. Opens 3pm. Ordering menu is hosted on bopple.app (no standalone website found). No Facebook or Instagram located this session - needs a channel hunt on the next pass. Sits in the same 168 Omokoroa Rd complex as The Rising Tide and The Spice Delight. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Waihi Pizza, Omokoroa",
+    "suburb": "Omokoroa",
+    "address": "T5/160 Omokoroa Road, Omokoroa 3172",
+    "category_hint": "takeaway",
+    "website": "https://waihipizza.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.3,
+    "google_maps_url": "https://www.google.com/maps/search/Waihi+Pizza+Omokoroa",
+    "lat": null,
+    "lng": null,
+    "notes": "Small local BOP/Coromandel pizza operator (Waihi plus this Omokoroa branch) - well within the small-local-group ethos, not a massive chain. 85 Google reviews, $10-20, ph 07 548 1928, opens 11am. Website is Waihi-branded and its /menu path 404s; no Omokoroa-specific specials page found. No confirmed deal. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Omokoroa Golf Club",
+    "suburb": "Omokoroa",
+    "address": "67 Links View Drive, Omokoroa 3114",
+    "category_hint": "bar-restaurant",
+    "website": "https://www.omokoroagolf.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/Omokoroa+Golf+Club+67+Links+View+Drive",
+    "lat": null,
+    "lng": null,
+    "notes": "Licensed club with a clubhouse bar on the peninsula, ph 07 548 0384. Scanned this session: green fees are flat published rates ($45/$75 guest, $40/$60 member's guest, concession cards) with no day-specific or twilight deal; membership tiers carry a 5-10% bar loyalty benefit but that is a membership term rather than a dated deal; the Event Calendar is member golf competitions (haggles, club champs, LGU rounds) not public hospitality events. Genuine nil on deals. Worth adding as a venue record so the map has the peninsula's club covered. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Omokoroa Bowling Club",
+    "suburb": "Omokoroa",
+    "address": "Hamurana Rd, Omokoroa 3114",
+    "category_hint": "bar-pub",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/Omokoroa+club",
+    "lat": null,
+    "lng": null,
+    "notes": "UNVERIFIED - surfaced in the Google Maps 'Omokoroa club' sweep as a sports club on Hamurana Rd but I did NOT open its place page, so the street number is not confirmed and no channels were found. Licensed club premises are in scope for this site, so it is worth a proper look next pass. Do not treat this address as confirmed. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Grill & Green",
+    "suburb": "Papamoa",
+    "address": "4 Golden Sands Drive, Papamoa 3118",
+    "category_hint": "restaurant",
+    "website": "https://grillandgreen.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.7,
+    "google_maps_url": "https://www.google.com/maps/search/Grill+%26+Green+4+Golden+Sands+Drive+Papamoa",
+    "lat": null,
+    "lng": null,
+    "notes": "Mediterranean restaurant in the Excelsa Centre, 476 Google reviews - a substantial venue that was completely missing from the file. It is the restaurant half of the Luxe Cinemas 'Date Night' package recorded above, so it already carries a live deal. Needs lat/lng in the same pass per PROCESS.md. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Meat n Yarn",
+    "suburb": "Papamoa",
+    "address": "Papamoa Beach, Papamoa 3118",
+    "category_hint": "restaurant",
+    "website": "https://meatnyarn.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 5.0,
+    "google_maps_url": "https://www.google.com/maps/search/Meat+n+Yarn+Papamoa",
+    "lat": null,
+    "lng": null,
+    "notes": "Soul food restaurant, 5.0 from 24 reviews, ph 027 222 6409, dine-in and takeaway, opens 9am. Spotted as a map pin during the sweep - it does not surface in any category search, which is exactly the failure mode PROCESS.md 8b warns about. Google gives only a plus-code address (873M+4V Papamoa); exact street number still needs pinning down. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Oceanview Takeaways",
+    "suburb": "Papamoa",
+    "address": "548 Papamoa Beach Road, Papamoa 3118",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 3.9,
+    "google_maps_url": "https://www.google.com/maps/search/Oceanview+Takeaways+548+Papamoa+Beach+Road",
+    "lat": null,
+    "lng": null,
+    "notes": "Fish and chip shop with 174 reviews, immediately next door to Papamoa Domain Takeaways (554) which IS on file. A clear case of reading one shopfront and stopping. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Big Boi Ice Creams",
+    "suburb": "Papamoa",
+    "address": "559 Papamoa Beach Road, Papamoa 3118",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 5.0,
+    "google_maps_url": "https://www.google.com/maps/search/Big+Boi+Ice+Creams+Papamoa",
+    "lat": null,
+    "lng": null,
+    "notes": "Ice cream shop, 5.0 from 59 reviews, at the Papamoa Domain (same street number as BEACH BAR). Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Lulu's Real Fruit Creamery",
+    "suburb": "Papamoa",
+    "address": "380 Papamoa Beach Road, Papamoa 3118",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.2,
+    "google_maps_url": "https://www.google.com/maps/search/Lulu%27s+Real+Fruit+Creamery+Papamoa",
+    "lat": null,
+    "lng": null,
+    "notes": "Real fruit ice cream, only 5 reviews so likely seasonal or new. Notable because 380 Papamoa Beach Rd is well west of every other venue on file - the western end of the Beach Rd strip is thin in the data. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Pac Pac Japanese Food",
+    "suburb": "Papamoa",
+    "address": "Papamoa Beach Road, Papamoa 3118",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 5.0,
+    "google_maps_url": "https://www.google.com/maps/search/Pac+Pac+Japanese+Food+Papamoa",
+    "lat": null,
+    "lng": null,
+    "notes": "Rice/Japanese takeaway, 5.0 from 15 reviews. Google does not give a street number - needs confirming. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "HELL Pizza Papamoa",
+    "suburb": "Papamoa",
+    "address": "30 Gravatt Road, Papamoa Beach, Papamoa 3118",
+    "category_hint": "takeaway",
+    "website": "https://hellpizza.com",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": 4.0,
+    "google_maps_url": "https://www.google.com/maps/search/HELL+Pizza+Papamoa",
+    "lat": null,
+    "lng": null,
+    "notes": "FLAGGED FOR JACOB'S DECISION, NOT SILENTLY ADDED. HELL Pizza is a NZ-wide chain of roughly 70 stores, which sits near the ethos line - bigger than Sprig + Fern or RE Burger, smaller than Domino's. Recorded so it is not lost; do not publish deals from it without a call either way. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Burger Fuel Papamoa (Fashion Island)",
+    "suburb": "Papamoa",
+    "address": "T2, Fashion Island, 42 Gravatt Road, Papamoa Beach, Papamoa 3118",
+    "category_hint": "takeaway",
+    "website": "https://burgerfuel.com",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/Burger+Fuel+Fashion+Island+Papamoa",
+    "lat": null,
+    "lng": null,
+    "notes": "FLAGGED, NOT ADDED AS A DEAL SOURCE. From the official Fashion Island tenant directory (fashionisland.co.nz/stores.htm), tenancy T2, ph 07 572 1070. BurgerFuel is a listed NZ chain of ~60 NZ stores - same judgement call as HELL Pizza. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Robert Harris Coffee Roasters Papamoa Plaza",
+    "suburb": "Papamoa",
+    "address": "Papamoa Plaza, 7 Gravatt Road, Papamoa Beach, Papamoa 3118",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/Robert+Harris+Papamoa+Plaza",
+    "lat": null,
+    "lng": null,
+    "notes": "FLAGGED. From the official Papamoa Plaza tenant directory, ph 07 575 8948. Robert Harris is a NZ franchise chain of ~30 cafes - borderline on the ethos rule. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "The Cheesecake Shop Papamoa",
+    "suburb": "Papamoa",
+    "address": "Papamoa Plaza, 7 Gravatt Road, Papamoa Beach, Papamoa 3118",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/The+Cheesecake+Shop+Papamoa+Plaza",
+    "lat": null,
+    "lng": null,
+    "notes": "FLAGGED. From the official Papamoa Plaza tenant directory, ph 07 925 9768. Australasian franchise chain. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Tank Juice Papamoa Plaza",
+    "suburb": "Papamoa",
+    "address": "Papamoa Plaza, 7 Gravatt Road, Papamoa Beach, Papamoa 3118",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/Tank+Juice+Papamoa+Plaza",
+    "lat": null,
+    "lng": null,
+    "notes": "FLAGGED. From the official Papamoa Plaza tenant directory, ph 07 574 1010. TANK is a NZ chain. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Pita Pit Papamoa Plaza",
+    "suburb": "Papamoa",
+    "address": "Papamoa Plaza, 7 Gravatt Road, Papamoa Beach, Papamoa 3118",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/Pita+Pit+Papamoa+Plaza",
+    "lat": null,
+    "lng": null,
+    "notes": "FLAGGED. From the official Papamoa Plaza tenant directory. International franchise - probably excluded on ethos, recorded only so the directory sweep is complete and auditable. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Better Burger Tauranga",
+    "suburb": "Pyes Pa / Tauriko",
+    "address": "Shop RR203/2 Taurikura Drive, Tauranga Crossing, Tauriko, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": "https://betterburger.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": 4.3,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Better+Burger+Tauranga+Taurikura+Drive+Tauriko",
+    "lat": null,
+    "lng": null,
+    "notes": "FLAG FOR OWNER DECISION on the no-big-chains ethos. NZ-owned burger chain with roughly 15 sites, mostly Auckland - not a Domino's/KFC-scale multinational, but bigger than a one-off local. Found via the Tauranga Crossing Eat directory, not the Maps category sweep. No deal found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Hello Sushi (Tauriko)",
+    "suburb": "Pyes Pa / Tauriko",
+    "address": "Taurikura Drive, Tauranga Crossing, Tauriko, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": "https://www.hellosushi.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": 4.0,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Hello+Sushi+Tauriko+Tauranga+Crossing",
+    "lat": null,
+    "lng": null,
+    "notes": "Listed on Maps as 'Hello Sushi(Tauriko-Nx Pak'n Save)'. Small local Tauranga sushi group (a Brookfield New World site also exists), so in-spirit. Suburb suffix used deliberately per the duplicate-name rule. The mall directory ALSO lists a second outlet 'HELLO SUSHI / HELLO DONBURI' - I could not confirm a separate Google listing or unit number for it, so it is not recorded as its own venue. No deal found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Kiwi Grill Tauranga Crossing",
+    "suburb": "Pyes Pa / Tauriko",
+    "address": "Store RF, 103/2 Taurikura Drive, Tauriko, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": "https://kiwigrill.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 3.3,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kiwi+Grill+Tauranga+Crossing+Taurikura+Drive",
+    "lat": null,
+    "lng": null,
+    "notes": "134 reviews. Food-court grill. Found via the mall Eat directory - it never surfaced in any Google Maps category search. No deal found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Majestic Cafe - Tauranga Crossing",
+    "suburb": "Pyes Pa / Tauriko",
+    "address": "Tauranga Crossing, 2 Taurikura Drive, Tauriko, Tauranga 3110",
+    "category_hint": "cafe",
+    "website": "https://majesticteabar.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.3,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Majestic+Cafe+Tauranga+Crossing+Taurikura+Drive",
+    "lat": null,
+    "lng": null,
+    "notes": "Listed in the mall directory as 'MAJESTIC TEA BAR'. 533 Google reviews - a substantial venue that was entirely missing from the file. No deal found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "TeaTalk the Crossing",
+    "suburb": "Pyes Pa / Tauriko",
+    "address": "K24/2 Taurikura Drive, Tauriko, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.2,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=TeaTalk+the+Crossing+Taurikura+Drive+Tauriko",
+    "lat": null,
+    "lng": null,
+    "notes": "Bubble tea store, 13 reviews, owner actively replies to reviews. No deal found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Patrick's Pies Goldstar Bakery Tauranga",
+    "suburb": "Pyes Pa / Tauriko",
+    "address": "Shop 695, Tauranga Crossing, 2 Taurikura Drive, Tauriko, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": 4.2,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Patricks+Pies+Goldstar+Bakery+Tauranga+Crossing",
+    "lat": null,
+    "lng": null,
+    "notes": "703 reviews - one of the busiest food tenants in the centre and it was not on file. Bay of Plenty local pie group (a Bethlehem branch also exists), so comfortably in-spirit. Suburb suffix not applied because the Bethlehem record is named 'Patrick's Pies Goldstar Bakery Bethlehem' on Maps. No deal found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "TANK Tauranga Crossing",
+    "suburb": "Pyes Pa / Tauriko",
+    "address": "2 Taurikura Drive, Tauriko, Tauranga 3110",
+    "category_hint": "takeaway",
+    "website": "https://tankjuice.co.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": 2.1,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=TANK+Tauranga+Crossing+Taurikura+Drive",
+    "lat": null,
+    "lng": null,
+    "notes": "FLAG: NZ juice/smoothie franchise, roughly 30 sites. Borderline on the ethos rule. Rating is only 2.1 across 20 reviews. No deal found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "The Coffee Club Tauranga Crossing",
+    "suburb": "Pyes Pa / Tauriko",
+    "address": "Tauranga Crossing, 2 Taurikura Drive, Tauriko, Tauranga 3110",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": 3.6,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The+Coffee+Club+Tauranga+Crossing",
+    "lat": null,
+    "lng": null,
+    "notes": "FLAG FOR OWNER DECISION - large Australasian franchise (60+ NZ sites). Recorded rather than silently dropped so the call is the owner's. No deal found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Muffin Break Tauranga Crossing",
+    "suburb": "Pyes Pa / Tauriko",
+    "address": "Tauranga Crossing, 2 Taurikura Drive, Tauriko, Tauranga 3110",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": null,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Muffin+Break+Tauranga+Crossing",
+    "lat": null,
+    "lng": null,
+    "notes": "FLAG FOR OWNER DECISION - large Australasian franchise. Listed in the mall Eat directory. I did NOT open a Google Maps listing for it, so the rating is unknown - do not invent one. No deal found. My own lean is that this one and The Coffee Club sit on the wrong side of the ethos line. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Jais Aben Restaurant",
+    "suburb": "Tauranga CBD",
+    "address": "85 The Strand, Tauranga",
+    "category_hint": "restaurant",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.7,
+    "google_maps_url": "https://www.google.com/maps/search/Jais+Aben+Restaurant+85+The+Strand+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "Found on the Maps sweep of The Strand. Shares 85 The Strand with 1920 Cucina & Grill, which is already on file - confirm whether it is a separate business or a rebrand before merging. Discovered 2026-08-14 refresh scan. [2026-08-14] closed: Google Maps lists it as 'Permanently closed'. Its Facebook page (now under the name 'Jais Aben Bar & Bistro') returns 'This content isn't available right now'.",
+    "status": "closed"
+  },
+  {
+    "venue": "Hashtag Cafe",
+    "suburb": "Tauranga CBD",
+    "address": "48 Grey St, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 5.0,
+    "google_maps_url": "https://www.google.com/maps/search/Hashtag+Cafe+48+Grey+St+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. Grey St CBD. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Banana Blossom Cafe & Restaurant",
+    "suburb": "Tauranga CBD",
+    "address": "45 Grey St, Tauranga",
+    "category_hint": "restaurant",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.7,
+    "google_maps_url": "https://www.google.com/maps/search/Banana+Blossom+Cafe+Restaurant+45+Grey+St+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. Grey St CBD. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "The Terrace cafe",
+    "suburb": "Tauranga CBD",
+    "address": "44 Grey St, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.5,
+    "google_maps_url": "https://www.google.com/maps/search/The+Terrace+cafe+44+Grey+St+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. Grey St CBD. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Vitality Kitchen",
+    "suburb": "Tauranga CBD",
+    "address": "114 Willow St, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.7,
+    "google_maps_url": "https://www.google.com/maps/search/Vitality+Kitchen+114+Willow+St+Tauranga",
+    "lat": -37.6837521,
+    "lng": 176.1690406,
+    "notes": "New to file. Willow St CBD. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Ajna Cafe",
+    "suburb": "Tauranga CBD",
+    "address": "67 Willow St, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.9,
+    "google_maps_url": "https://www.google.com/maps/search/Ajna+Cafe+67+Willow+St+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. Willow St CBD. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Breadhead - The Gallery",
+    "suburb": "Tauranga CBD",
+    "address": "108 Willow St, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 5.0,
+    "google_maps_url": "https://www.google.com/maps/search/Breadhead+The+Gallery+108+Willow+St+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. Second Breadhead site in the CBD. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Breadhead - The Bakery",
+    "suburb": "Tauranga CBD",
+    "address": "2a St John St, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.8,
+    "google_maps_url": "https://www.google.com/maps/search/Breadhead+The+Bakery+2a+St+John+St+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. Bakery arm of Breadhead. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Robert Harris Cafe Tauranga",
+    "suburb": "Tauranga CBD",
+    "address": "128 Willow St, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": true,
+    "google_rating": 4.5,
+    "google_maps_url": "https://www.google.com/maps/search/Robert+Harris+Cafe+128+Willow+St+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "FLAGGED, NOT SILENTLY ADDED: Robert Harris is a nationwide NZ franchise chain. Include or exclude per the no-big-chains ethos - Jacob's call. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Little Long Espresso",
+    "suburb": "Tauranga CBD",
+    "address": "39 Spring St, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.5,
+    "google_maps_url": "https://www.google.com/maps/search/Little+Long+Espresso+39+Spring+St+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. Spring St, beside Red Square. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Folk Coffee Roasters",
+    "suburb": "Tauranga CBD",
+    "address": "148 Durham St, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 5.0,
+    "google_maps_url": "https://www.google.com/maps/search/Folk+Coffee+Roasters+148+Durham+St+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. Durham St CBD. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Chicken Fryday",
+    "suburb": "Tauranga CBD",
+    "address": "120 Devonport Rd, Tauranga",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.9,
+    "google_maps_url": "https://www.google.com/maps/search/Chicken+Fryday+120+Devonport+Rd+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. Devonport Rd CBD. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "FOOD TO GO",
+    "suburb": "Tauranga CBD",
+    "address": "1/83 Devonport Rd, Tauranga",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.9,
+    "google_maps_url": "https://www.google.com/maps/search/FOOD+TO+GO+83+Devonport+Rd+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. Devonport Rd CBD. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Zozo - Asian street food",
+    "suburb": "Tauranga CBD",
+    "address": "113 The Strand, Tauranga",
+    "category_hint": "takeaway",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.5,
+    "google_maps_url": "https://www.google.com/maps/search/Zozo+Asian+street+food+113+The+Strand+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. The Strand CBD. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "The Restaurant at Trinity Wharf",
+    "suburb": "Tauranga CBD",
+    "address": "51 Dive Cres, Tauranga",
+    "category_hint": "restaurant",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 3.9,
+    "google_maps_url": "https://www.google.com/maps/search/The+Restaurant+at+Trinity+Wharf+51+Dive+Cres+Tauranga",
+    "lat": -37.6762568,
+    "lng": 176.1704673,
+    "notes": "New to file. Hotel restaurant on the Dive Cres waterfront; Trinity Wharf Tauranga is the parent hotel. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "2nd Avenue Pies & Bakery",
+    "suburb": "Tauranga CBD",
+    "address": "84 Second Ave, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.2,
+    "google_maps_url": "https://www.google.com/maps/search/2nd+Avenue+Pies+Bakery+84+Second+Ave+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. CBD fringe, Second Ave. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "The Fat Brother Tauranga",
+    "suburb": "Tauranga CBD",
+    "address": "50 First Ave, Tauranga",
+    "category_hint": "restaurant",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.1,
+    "google_maps_url": "https://www.google.com/maps/search/The+Fat+Brother+Tauranga+50+First+Ave",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. Same address block as Grindz Cafe, already on file. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Me & You",
+    "suburb": "Tauranga CBD",
+    "address": "48 First Ave, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.3,
+    "google_maps_url": "https://www.google.com/maps/search/Me+and+You+cafe+48+First+Ave+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. First Ave CBD fringe. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Excelso Coffee",
+    "suburb": "Tauranga CBD",
+    "address": "112 Third Ave, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.8,
+    "google_maps_url": "https://www.google.com/maps/search/Excelso+Coffee+112+Third+Ave+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "New to file. Third Ave CBD fringe. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Torri Eatery",
+    "suburb": "Tauranga CBD",
+    "address": "G01/359 Cameron Rd, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.9,
+    "google_maps_url": "https://www.google.com/maps/search/Torri+Eatery+359+Cameron+Rd+Tauranga",
+    "lat": null,
+    "lng": null,
+    "notes": "BOUNDARY CASE: 359 Cameron Rd sits south of the CBD core (Elizabeth Cafe & Larder at 247 Cameron Rd is the current southern anchor on file). Confirm the CBD/Tauranga South line before tagging. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Market & Main",
+    "suburb": "Tauranga CBD",
+    "address": "159 17th Avenue West, The Historic Village, Tauranga",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": "https://www.facebook.com/marketandmaintauranga",
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": null,
+    "lat": null,
+    "lng": null,
+    "notes": "New cafe and eatery inside The Historic Village, discovered while checking the village's own venue directory (not part of the original 22-venue Maps sweep). Fresh food and coffee daily 7am-3pm, cabinet of sweet and savoury treats, salads, sandwiches, smoothies, sticky buns. No day/time/price deal found. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Ichiban (Historic Village)",
+    "suburb": "Tauranga CBD",
+    "address": "159 17th Avenue West, The Historic Village, Tauranga",
+    "category_hint": "restaurant",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": null,
+    "lat": null,
+    "lng": null,
+    "notes": "Japanese donburi and poke bowl eatery inside The Historic Village, discovered the same way as Market & Main. No deal found. Named with a suburb-style suffix in case of collision with any other 'Ichiban' elsewhere in the database. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Med Lounge and Garden",
+    "suburb": "Tauranga CBD",
+    "address": "159 17th Avenue West, The Historic Village, Tauranga",
+    "category_hint": "bar-restaurant",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": null,
+    "lat": null,
+    "lng": null,
+    "notes": "Mediterranean/Middle Eastern restaurant and garden bar inside The Historic Village. Lunch Mon-Fri 11am-2.30pm, dinner Thu-Sat 5pm-late per the village's own venue page - these are opening hours, not a discount/deal, so nothing added to new_deals. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Te Puke Club Inc (Te Puke Bowling & Fishing Club)",
+    "suburb": "Te Puke",
+    "address": "14 King Street, Te Puke 3119",
+    "category_hint": "bar-pub",
+    "website": "https://tepukeclub.org.nz",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": 4.8,
+    "google_maps_url": "https://www.google.com/maps/place/Te+Puke+Club+Inc",
+    "lat": null,
+    "lng": null,
+    "notes": "Licensed bowling and fishing club with a bar, 4.8 stars (9 reviews). Website is a bare-bones stub -- Events page lists 'Te Puke Club Meeting', 'Kids Fishing Tournament (date TBC)', 'Te Puke Club Night', 'Bowling Club Tournament' all with placeholder 'Information to be added...' text, no dates/times/prices. No Facebook or Instagram found. Genuinely no recordable deal cleared the bar this pass -- worth a phone check (07 573 9709) or a revisit once the site has real content. Discovered 2026-08-14 refresh scan."
+  },
+  {
+    "venue": "Tauranga Crossing",
+    "suburb": "Pyes Pa / Tauriko",
+    "address": "2 Taurikura Drive, Tauriko, Tauranga 3110",
+    "category_hint": "event-venue",
+    "website": "https://www.taurangacrossing.co.nz/",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": null,
+    "lat": -37.7383423,
+    "lng": 176.1053835,
+    "notes": "Shopping centre. Added 2026-08-14 refresh scan. Distinct from Event Cinemas Tauranga Crossing, which is a tenant inside it."
+  },
+  {
+    "venue": "One Tree Bakery (Tauranga CBD)",
+    "suburb": "Tauranga CBD",
+    "address": "Suite 2/109 Devonport Rd, Tauranga 3110",
+    "category_hint": "cafe",
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": null,
+    "lat": null,
+    "lng": null,
+    "notes": "Added 2026-08-14 refresh scan. Separate branch from One Tree Bakery & Cafe (204 Maunganui Rd, Mount Maunganui); suffixed because VENUES_MAP is keyed on name alone."
+  },
+  {
+    "venue": "Bethlehem Town Centre",
+    "suburb": "Bethlehem",
+    "address": "19 Bethlehem Road, Bethlehem, Tauranga 3110",
+    "category_hint": "event-venue",
+    "website": "https://bethlehem.co.nz/",
+    "notes": "Shopping/town centre. Added 2026-08-14 refresh scan. Its own directory (bethlehem.co.nz, NOT the dead bethlehemtowncentre.co.nz) lists food tenants that surface in no Google Maps category search.",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": null,
+    "lat": -37.6952726,
+    "lng": 176.1094641
+  },
+  {
+    "venue": "Surf Road",
+    "suburb": "Omanu",
+    "address": "93 Oceanbeach Rd, Omanu, Mount Maunganui 3116",
+    "category_hint": "bar-restaurant",
+    "website": "https://www.surfroad.co.nz/",
+    "notes": "Added 2026-08-14 refresh scan. Only venue in Omanu carrying a recorded deal. Scanned 2026-07-19: Google Maps address explicitly tags suburb as Omanu (confirms genuine Omanu venue, distinct from Mount Maunganui and Arataki). Website has a What's On page but it renders empty (links out to Instagram, no listed content). Facebook page text did not render (known FB rendering limitation via browser automation - only About/Offers/Events panels reliably read, and none showed standing deals). Instagram bio confirms location tag 'Omanu, Mount Maunganui' and has a Specials story highlight, but the highlight content did not render visually (blank video, ~49 weeks old) so no day+time+price could be confirmed. No deals or events found at required confidence.",
+    "facebook": "https://www.facebook.com/surfroadmountmaunganui/",
+    "instagram": "https://www.instagram.com/surfroad__/",
+    "is_chain": false,
+    "google_rating": 3.7,
+    "google_maps_url": "https://www.google.com/maps/place/SURF+ROAD/@-37.6595742,176.2147298,17z/data=!3m1!4b1!4m6!3m5!1s0x6d6ddf0039e661d1:0x3670cc305bcf24bd!8m2!3d-37.6595742!4d176.2147298",
+    "lat": -37.6596018,
+    "lng": 176.2148499
+  },
+  {
+    "venue": "Greerton Village",
+    "suburb": "Greerton",
+    "address": "Chadwick Road / Cameron Road, Greerton Village, Tauranga 3112",
+    "category_hint": "event-venue",
+    "website": null,
+    "notes": "Village centre, used as the location for street events such as the Cherry Blossom Festival. Added 2026-08-14 refresh scan. Street centroid on Chadwick Rd (street-festival location, not a building).",
+    "facebook": null,
+    "instagram": null,
+    "is_chain": false,
+    "google_rating": null,
+    "google_maps_url": null,
+    "lat": -37.7291387,
+    "lng": 176.1381707
   }
 ]
