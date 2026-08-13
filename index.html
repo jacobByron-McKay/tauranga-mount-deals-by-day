@@ -377,7 +377,7 @@
 
 <!-- Info banner -->
 <div class="text-xs text-center py-1.5 px-4" style="background:#fbe9dc;border-bottom:1px solid #f0c9a0;color:#7a3a0a;">
-  153 deals across 54 venues &middot; Mount Maunganui, Papamoa, Tauranga CBD, Greerton, Bethlehem, Otumoetai, Pyes Pa, Te Puke &amp; Omokoroa &middot; Updated August 2026
+  150 deals and 304 events across 147 venues &middot; Mount Maunganui, Papamoa, Tauranga CBD, Greerton, Bethlehem, Otumoetai, Pyes Pa, Te Puke &amp; Omokoroa &middot; Updated August 2026
 </div>
 
 <!-- Header -->
@@ -386,7 +386,10 @@
     <div>
       <h1 class="text-2xl font-semibold tracking-tight">Tauranga &amp; Mount Deals by Day</h1>
       <p class="text-sm mt-0.5" style="color:var(--ink-muted);">Mount Maunganui, Papamoa &amp; Tauranga's recurring specials and events, all in one place.</p>
-      <p class="text-xs mt-1" style="color:var(--ink-muted);"><span id="dealCount">—</span> deals &middot; updated weekly</p>
+      <!-- This is a LIVE count of what the current filters are showing, not the catalogue total,
+           so it will not match the banner above (takeaway deals are hidden by default). The word
+           "showing" is load-bearing — without it the two numbers read as contradicting each other. -->
+      <p class="text-xs mt-1" style="color:var(--ink-muted);"><span id="dealCount">—</span> deals showing &middot; updated weekly</p>
     </div>
     <!-- These buttons used to sit in a shrink-0 block that could not wrap, so on a phone the
          header forced the whole page wider than the screen. The page was then horizontally
@@ -2228,7 +2231,8 @@ loadData().then(() => {
 // visitor opens the panel, and re-lights whenever a newer id appears. tag: "New" | "Added" | "Update".
 (function(){
   var SITE_UPDATES = [
-    { id:"2026-07-24-launch", date:"2026-07-24", tag:"New", text:"Tauranga & Mount Deals by Day is here. 150 deals across 330 venues in Mount Maunganui, Papamoa, Tauranga CBD, Greerton, Bethlehem, Otumoetai, Pyes Pa, Te Puke and Omokoroa." }
+    { id:"2026-08-13-events", date:"2026-08-13", tag:"New", text:"A lot more to do. We have added 179 events from the Tauranga City Council what's-on listings, from gigs and theatre to markets, workshops, library sessions and NPC rugby, all sorted by day and suburb." },
+    { id:"2026-07-24-launch", date:"2026-07-24", tag:"New", text:"Tauranga & Mount Deals by Day is here. 150 deals across 53 venues in Mount Maunganui, Papamoa, Tauranga CBD, Greerton, Bethlehem, Otumoetai, Pyes Pa, Te Puke and Omokoroa." }
   ];
   var SEEN_KEY = "wd_whatsnew_seen";
   var bar = document.getElementById("whatsNewBar");
