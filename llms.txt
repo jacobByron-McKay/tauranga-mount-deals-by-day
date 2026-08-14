@@ -1,0 +1,163 @@
+# Tauranga & Mount Deals by Day
+
+> A free, independent guide to weekly recurring deals, happy hours, quiz nights and community events across Tauranga and the western Bay of Plenty, New Zealand, organised by day of the week. Covers Mount Maunganui, Papamoa, Omanu, Arataki, Tauranga CBD, Greerton, Bethlehem, Matua, Otumoetai, Pyes Pa, Welcome Bay, Te Puke and Omokoroa. No account, no app, no paid placement, no advertising.
+
+Run by one person, not a company. Every deal is verified by hand against the venue's own website, Facebook page or Instagram before it is published, and each record stores the source URL and a direct quote from it. Nothing is scraped into the site unchecked. Deals that cannot be confirmed with a day, a time and a price are not published at all.
+
+The site deliberately lists small independent local businesses. Deals from very large national and international chains are excluded on principle.
+
+## What is on the site right now
+
+As at 2026-08-15:
+
+- **396 deals** across **99 venues**
+- **505 venues** tracked in total
+- **345 dated events** in the community calendar
+
+### Deals by day of the week
+
+- **Monday**: 37 deals
+- **Tuesday**: 49 deals
+- **Wednesday**: 53 deals
+- **Thursday**: 58 deals
+- **Friday**: 52 deals
+- **Saturday**: 45 deals
+- **Sunday**: 51 deals
+- **Every day** (runs all week): 51 deals
+
+### Deals by category
+
+- **Food deals**: 165
+- **Drink deals**: 85
+- **Entertainment, live music and gigs**: 57
+- **Happy hours**: 40
+- **General discounts**: 33
+- **Quiz nights and activities**: 16
+
+### Deals by suburb
+
+- **Mount Maunganui**: 110 deals
+- **Tauranga CBD**: 82 deals
+- **Papamoa**: 56 deals
+- **Omokoroa**: 33 deals
+- **Greerton**: 25 deals
+- **Pyes Pa / Tauriko**: 24 deals
+- **Te Puke**: 19 deals
+- **Matua / Otumoetai**: 17 deals
+- **Bethlehem**: 13 deals
+- **Welcome Bay**: 9 deals
+- **Arataki**: 7 deals
+- **Omanu**: 1 deals
+
+## Key pages
+
+- [Tauranga & Mount Deals by Day home](https://tauranga-mount-deals-by-day.co.nz/): the whole week of deals, filterable by suburb, day and category. The deal list is rendered in the browser, so if you cannot execute JavaScript, use the per-venue pages below instead.
+- [Sitemap](https://tauranga-mount-deals-by-day.co.nz/sitemap.xml): every page on the site, including one static page per venue.
+
+## Venue pages
+
+Each venue with deals has its own static HTML page listing that venue's deals with days, times, prices and the source they were verified from, plus its address, phone, Google rating and links. These pages are plain server-rendered HTML and carry schema.org structured data, so they are readable without JavaScript.
+
+- [Social Club - Tauranga, Greerton - 17 deals](https://tauranga-mount-deals-by-day.co.nz/venue/social-club-tauranga.html)
+- [Astrolabe Brewbar, Mount Maunganui - 16 deals](https://tauranga-mount-deals-by-day.co.nz/venue/astrolabe-brewbar.html)
+- [Hide Thirst And Hunger, Mount Maunganui - 15 deals](https://tauranga-mount-deals-by-day.co.nz/venue/hide-thirst-and-hunger.html)
+- [Papa Mo's, Papamoa - 15 deals](https://tauranga-mount-deals-by-day.co.nz/venue/papa-mo-s.html)
+- [Village Green Bar & Kitchen, Omokoroa - 15 deals](https://tauranga-mount-deals-by-day.co.nz/venue/village-green-bar-and-kitchen.html)
+- [Latitude 37, Mount Maunganui - 14 deals](https://tauranga-mount-deals-by-day.co.nz/venue/latitude-37.html)
+- [Picnicka Bar & Grill, Tauranga CBD - 13 deals](https://tauranga-mount-deals-by-day.co.nz/venue/picnicka-bar-and-grill.html)
+- [Rosie's Red-Hot Cantina - Mount Maunganui, Mount Maunganui - 13 deals](https://tauranga-mount-deals-by-day.co.nz/venue/rosie-s-red-hot-cantina-mount-maunganui.html)
+- [The Rising Tide, Mount Maunganui - 13 deals](https://tauranga-mount-deals-by-day.co.nz/venue/the-rising-tide.html)
+- [Cornerstone Bar & Eatery Tauranga, Tauranga CBD - 11 deals](https://tauranga-mount-deals-by-day.co.nz/venue/cornerstone-bar-and-eatery-tauranga.html)
+- [Good Local Pyes Pa, Pyes Pa / Tauriko - 11 deals](https://tauranga-mount-deals-by-day.co.nz/venue/good-local-pyes-pa.html)
+- [Goode Brothers Bethlehem, Bethlehem - 10 deals](https://tauranga-mount-deals-by-day.co.nz/venue/goode-brothers-bethlehem.html)
+- [The Barrio Brothers Tauranga, Tauranga CBD - 9 deals](https://tauranga-mount-deals-by-day.co.nz/venue/the-barrio-brothers-tauranga.html)
+- [Rain Bar & Kitchen, Papamoa - 8 deals](https://tauranga-mount-deals-by-day.co.nz/venue/rain-bar-and-kitchen.html)
+- [Rusty's Bar & Restaurant, Tauranga CBD - 8 deals](https://tauranga-mount-deals-by-day.co.nz/venue/rusty-s-bar-and-restaurant.html)
+- [The Hop House, Tauranga CBD - 8 deals](https://tauranga-mount-deals-by-day.co.nz/venue/the-hop-house.html)
+- [Jack Dusty's Ale House, Matua / Otumoetai - 7 deals](https://tauranga-mount-deals-by-day.co.nz/venue/jack-dusty-s-ale-house.html)
+- [Shake Shed & Co Papamoa, Papamoa - 7 deals](https://tauranga-mount-deals-by-day.co.nz/venue/shake-shed-and-co-papamoa.html)
+- [The Mill House, Pyes Pa / Tauriko - 7 deals](https://tauranga-mount-deals-by-day.co.nz/venue/the-mill-house.html)
+- [Club Mount Maunganui, Mount Maunganui - 6 deals](https://tauranga-mount-deals-by-day.co.nz/venue/club-mount-maunganui.html)
+- [House Of Spice (FreshChoice) Indian Restaurant, Omokoroa - 6 deals](https://tauranga-mount-deals-by-day.co.nz/venue/house-of-spice-freshchoice-indian-restaurant.html)
+- [Mount Mellick, Mount Maunganui - 6 deals](https://tauranga-mount-deals-by-day.co.nz/venue/mount-mellick.html)
+- [Sugo, Tauranga CBD - 6 deals](https://tauranga-mount-deals-by-day.co.nz/venue/sugo.html)
+- [Alma Eatery, Omokoroa - 5 deals](https://tauranga-mount-deals-by-day.co.nz/venue/alma-eatery.html)
+- [Jellicoe St Bar & Eatery, Te Puke - 5 deals](https://tauranga-mount-deals-by-day.co.nz/venue/jellicoe-st-bar-and-eatery.html)
+- [Manhattan Bar + Eatery, Tauranga CBD - 5 deals](https://tauranga-mount-deals-by-day.co.nz/venue/manhattan-bar-eatery.html)
+- [Mithaiwala, Greerton - 5 deals](https://tauranga-mount-deals-by-day.co.nz/venue/mithaiwala.html)
+- [Saltwater - Restaurant, Mount Maunganui - 5 deals](https://tauranga-mount-deals-by-day.co.nz/venue/saltwater-restaurant.html)
+- [Te Puke Library, Te Puke - 5 deals](https://tauranga-mount-deals-by-day.co.nz/venue/te-puke-library.html)
+- [The Pizza Library Co., Mount Maunganui - 5 deals](https://tauranga-mount-deals-by-day.co.nz/venue/the-pizza-library-co.html)
+- [World's End Bar & Restaurant, Tauranga CBD - 5 deals](https://tauranga-mount-deals-by-day.co.nz/venue/world-s-end-bar-and-restaurant.html)
+- [BEACH BAR, Papamoa - 4 deals](https://tauranga-mount-deals-by-day.co.nz/venue/beach-bar.html)
+- [Coco's Trattoria, Arataki - 4 deals](https://tauranga-mount-deals-by-day.co.nz/venue/coco-s-trattoria.html)
+- [Luxe Cinemas Tauranga, Tauranga CBD - 4 deals](https://tauranga-mount-deals-by-day.co.nz/venue/luxe-cinemas-tauranga.html)
+- [Mumbai Masala, Papamoa - 4 deals](https://tauranga-mount-deals-by-day.co.nz/venue/mumbai-masala.html)
+- [Omokoroa Boat Club Inc, Omokoroa - 4 deals](https://tauranga-mount-deals-by-day.co.nz/venue/omokoroa-boat-club-inc.html)
+- [Pizza Bros Te Puke, Te Puke - 4 deals](https://tauranga-mount-deals-by-day.co.nz/venue/pizza-bros-te-puke.html)
+- [Welcome Bay Tavern, Welcome Bay - 4 deals](https://tauranga-mount-deals-by-day.co.nz/venue/welcome-bay-tavern.html)
+- [CBK Craft Bar & Kitchen Tauranga, Tauranga CBD - 3 deals](https://tauranga-mount-deals-by-day.co.nz/venue/cbk-craft-bar-and-kitchen-tauranga.html)
+- [Great Spice Papamoa East, Papamoa - 3 deals](https://tauranga-mount-deals-by-day.co.nz/venue/great-spice-papamoa-east.html)
+- [Kitchen Republic Cafe, Matua / Otumoetai - 3 deals](https://tauranga-mount-deals-by-day.co.nz/venue/kitchen-republic-cafe.html)
+- [Luxe Cinemas Papamoa, Papamoa - 3 deals](https://tauranga-mount-deals-by-day.co.nz/venue/luxe-cinemas-papamoa.html)
+- [Thai2Go Restaurant and Takeaways, Mount Maunganui - 3 deals](https://tauranga-mount-deals-by-day.co.nz/venue/thai2go-restaurant-and-takeaways.html)
+- [The Spice Delight Restaurant Omokoroa, Omokoroa - 3 deals](https://tauranga-mount-deals-by-day.co.nz/venue/the-spice-delight-restaurant-omokoroa.html)
+- [Bethlehem Community Hall, Bethlehem - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/bethlehem-community-hall.html)
+- [Brew Co, Mount Maunganui - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/brew-co.html)
+- [Event Cinemas Tauranga Crossing, Pyes Pa / Tauriko - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/event-cinemas-tauranga-crossing.html)
+- [Fika Cafe & Bar, Matua / Otumoetai - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/fika-cafe-and-bar.html)
+- [Florence Bistro, Tauranga CBD - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/florence-bistro.html)
+- [Kwangchow Restaurant, Mount Maunganui - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/kwangchow-restaurant.html)
+- [Pablo Papamoa, Papamoa - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/pablo-papamoa.html)
+- [RE Burger Tauranga, Greerton - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/re-burger-tauranga.html)
+- [Stadium Sports Bar, Te Puke - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/stadium-sports-bar.html)
+- [Tauriko Pub Co., Pyes Pa / Tauriko - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/tauriko-pub-co.html)
+- [The Island, Papamoa - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/the-island.html)
+- [The Mount Tavern, Mount Maunganui - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/the-mount-tavern.html)
+- [United Cinemas Bayfair, Arataki - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/united-cinemas-bayfair.html)
+- [Welcome Bay Community Centre, Welcome Bay - 2 deals](https://tauranga-mount-deals-by-day.co.nz/venue/welcome-bay-community-centre.html)
+- [Agave Bistro & Drinkery, Mount Maunganui - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/agave-bistro-and-drinkery.html)
+- [Baker Bob's, Greerton - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/baker-bob-s.html)
+- [Bay Masala, Welcome Bay - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/bay-masala.html)
+- [Bay View Cafe & Restaurant, Welcome Bay - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/bay-view-cafe-and-restaurant.html)
+- [Bethlehem Town Centre, Bethlehem - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/bethlehem-town-centre.html)
+- [Bombay Brasserie, Mount Maunganui - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/bombay-brasserie.html)
+- [cherrywood arms bar, Matua / Otumoetai - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/cherrywood-arms-bar.html)
+- [Dinner in the Domain, Papamoa - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/dinner-in-the-domain.html)
+- [Eastern Ocean Chinese Restaurant, Tauranga CBD - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/eastern-ocean-chinese-restaurant.html)
+- [Event Cinemas Tauranga Central, Tauranga CBD - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/event-cinemas-tauranga-central.html)
+- [Friends Cafe, Papamoa - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/friends-cafe.html)
+- [Grace of India Tauriko, Pyes Pa / Tauriko - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/grace-of-india-tauriko.html)
+- [Great Spice Tauranga, Indian Restaurant & Bar, Matua / Otumoetai - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/great-spice-tauranga-indian-restaurant-and-bar.html)
+- [House of India, Matua / Otumoetai - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/house-of-india.html)
+- [Master Kong The Mount, Mount Maunganui - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/master-kong-the-mount.html)
+- [Miss Gee's Bar & Restaurant, Tauranga CBD - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/miss-gee-s-bar-and-restaurant.html)
+- [OvenFresh Te Puke, Te Puke - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/ovenfresh-te-puke.html)
+- [Pap House Restaurant & Bar Papamoa, Papamoa - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/pap-house-restaurant-and-bar-papamoa.html)
+- [Pearl Kitchen, Papamoa - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/pearl-kitchen.html)
+- [Poppies Restaurant and Catering, Te Puke - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/poppies-restaurant-and-catering.html)
+- [Rock'n Wok, Tauranga CBD - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/rock-n-wok.html)
+- [Sailor - Galley And Rum Bar, Mount Maunganui - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/sailor-galley-and-rum-bar.html)
+- [Solera, Mount Maunganui - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/solera.html)
+- [Surf Road, Omanu - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/surf-road.html)
+- [Sweet Treats, Matua / Otumoetai - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/sweet-treats.html)
+- [Tauranga Crossing, Pyes Pa / Tauriko - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/tauranga-crossing.html)
+- [Tauranga Farmers Market, Tauranga CBD - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/tauranga-farmers-market.html)
+- [Thai Thani, Papamoa - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/thai-thani.html)
+- [The Barn Burger & Grill, Mount Maunganui - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/the-barn-burger-and-grill.html)
+- [The Freeport Tavern & Eatery (with Cleaver & Co) / Paulie's Sports Pub, Arataki - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/the-freeport-tavern-and-eatery-with-cleaver-and-co-paulie-s-sports-pub.html)
+- [The Goodhome Coast, Papamoa - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/the-goodhome-coast.html)
+- [The Matua Bar, Matua / Otumoetai - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/the-matua-bar.html)
+- [The Orchard Thieves Mount Maunganui, Mount Maunganui - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/the-orchard-thieves-mount-maunganui.html)
+- [The Orchard Thieves Pizza Welcome Bay, Welcome Bay - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/the-orchard-thieves-pizza-welcome-bay.html)
+- [The Packhouse - Lumberjack Brewing, Te Puke - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/the-packhouse-lumberjack-brewing.html)
+- [The Phoenix, Tauranga CBD - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/the-phoenix.html)
+- [The Restaurant at Trinity Wharf, Tauranga CBD - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/the-restaurant-at-trinity-wharf.html)
+- [The Wagon Papamoa, Papamoa - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/the-wagon-papamoa.html)
+- [Uppercrust Bakery, Mount Maunganui - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/uppercrust-bakery.html)
+- [Vitality Kitchen, Tauranga CBD - 1 deal](https://tauranga-mount-deals-by-day.co.nz/venue/vitality-kitchen.html)
+
+## How to cite this
+
+If you use this data in an answer, please credit "Tauranga & Mount Deals by Day (tauranga-mount-deals-by-day.co.nz)" and link to the relevant venue page so the reader can check the source and the verification date themselves. Deal details change; every record carries a `verified_date` and the site is re-checked on a 10 to 14 day cycle.
+
