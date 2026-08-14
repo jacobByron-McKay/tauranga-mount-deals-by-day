@@ -129,7 +129,7 @@
   .conf-tip:hover::after { opacity: 1; }
   /* scroll-padding prevents sticky filter bar from covering section headings */
   html { scroll-padding-top: 175px; }
-  @media (max-width: 639px) { html { scroll-padding-top: 290px; } }
+  @media (max-width: 639px) { html { scroll-padding-top: 150px; } }
   /* mobile filter collapse */
   #filterRows { overflow: hidden; }
   #filterRows.collapsed { display: none; }
@@ -154,14 +154,61 @@
      screen. Sticky keeps it pinned at top:0, so it covered the whole viewport
      and the deals below could never be scrolled to. Cap it and let it scroll
      inside itself; 65% leaves roughly two cards of the list visible, so it
-     stays obvious that there is more to scroll to. */
+     stays obvious that there is more to scroll to.
+     Safety net only now — see the master collapse below, which keeps the bar
+     well under this height whenever it is pinned. */
   @media (max-width: 639px) {
-    #filterBar {
+    #filterBar:not(.fp-open) {
       max-height: 65vh;
       max-height: 65dvh;
       overflow-y: auto;
       overscroll-behavior-y: contain;
     }
+  }
+
+  /* ── MASTER FILTER COLLAPSE (mobile) ──────────────────────────────────────
+     Reported by a reader off the launch post: on a phone the filter block ate
+     roughly two thirds of the screen and "doesn't scroll well". Two causes.
+     (1) Even with the extra filter rows closed, the search box plus the suburb
+     card measured 547px on a 390px-wide phone, on top of a 187px header — so
+     no deal was visible without scrolling.
+     (2) The bar is position:sticky AND had its own overflow-y:auto, so a swipe
+     scrolled either the bar or the page depending on where your thumb landed,
+     and overscroll-behavior:contain stopped the page taking over at the end.
+     Fix: the whole block now sits behind one summary row and is CLOSED by
+     default on mobile, leaving a short pinned bar (search + summary). When it
+     is opened the bar stops being sticky, so the page scrolls it normally and
+     there is no nested scrolling anywhere. Desktop is untouched. */
+  #filterSummaryRow { display: none; }
+  #filterPanelDone  { display: none; }
+  @media (max-width: 639px) {
+    #filterSummaryRow { display: flex; align-items: center; gap: 0.5rem; min-width: 0; }
+    #filterPanel { display: none; }
+    #filterBar.fp-open #filterPanel { display: block; }
+    /* Un-stick while open: the panel is taller than the screen, and a sticky
+       element that tall is exactly what caused the scroll trap. */
+    #filterBar.fp-open { position: static; max-height: none; overflow: visible; }
+    /* The scroll-context strip positions itself off the bar's bottom edge, which
+       is meaningless while the bar is static and being scrolled through. */
+    #filterBar.fp-open ~ #scrollNav { display: none !important; }
+    #filterPanelDone { display: block; }
+  }
+  #filterPanelToggle {
+    display: inline-flex; align-items: center; gap: 0.35rem; flex: none;
+    font-size: 0.875rem; font-weight: 600; line-height: 1; white-space: nowrap;
+    padding: 0.5rem 0.85rem; border-radius: 9999px; cursor: pointer;
+    border: 1px solid var(--accent); background: var(--accent); color: #fff;
+  }
+  #filterPanelToggle .fp-caret { font-size: 0.75em; }
+  #filterSummaryText {
+    font-size: 0.8125rem; color: var(--ink-muted); line-height: 1.25;
+    min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  #filterPanelDone {
+    width: 100%; margin-top: 0.75rem;
+    font-size: 0.9375rem; font-weight: 600; line-height: 1;
+    padding: 0.7rem 1rem; border-radius: 9999px; cursor: pointer;
+    border: 1px solid var(--accent); background: var(--accent); color: #fff;
   }
   .sd-overlay { position:fixed; inset:0; background:rgba(11,20,32,0.55); display:none; align-items:flex-start; justify-content:center; padding:24px 16px; z-index:50; overflow-y:auto; }
   .sd-overlay.open { display:flex; }
@@ -452,6 +499,17 @@
       <button id="searchClear" style="display:none;position:absolute;right:0.75rem;top:50%;transform:translateY(-50%);background:none;border:none;cursor:pointer;color:var(--ink-muted);font-size:1rem;line-height:1;">&#x2715;</button>
     </div>
 
+    <!-- Master filter toggle — mobile only. Everything below it collapses into this one row,
+         which stays short enough that the deals list is visible without scrolling. -->
+    <div id="filterSummaryRow">
+      <button id="filterPanelToggle" type="button" aria-expanded="false" aria-controls="filterPanel">
+        <span>&#9776;</span> Filters <span class="fp-caret" id="filterPanelCaret">&#9662;</span>
+      </button>
+      <span id="filterSummaryText"></span>
+    </div>
+
+    <div id="filterPanel" class="space-y-2">
+
     <!-- Suburb selector — primary entry point (prominent, always visible) -->
     <div class="rounded-lg border px-3 py-2.5" style="border-color:#bcddf0;background:#eef6fb;">
       <div class="flex items-center justify-between gap-2 mb-2">
@@ -534,6 +592,9 @@
       </div>
 
     </div><!-- /filterRows -->
+
+      <button id="filterPanelDone" type="button">Done</button>
+    </div><!-- /filterPanel -->
   </div>
 </div>
 
@@ -738,6 +799,8 @@ function updateSelectorUI() {
     const anySel = conf.suburbs.some(s => selectedSuburbs.has(s));
     row.style.display = (anySel || noneSelected) ? "" : "none";
   });
+  // Keep the collapsed mobile summary ("All Tauranga · every day") in step.
+  if (typeof window.updateFilterSummary === "function") window.updateFilterSummary();
 }
 const selectedCategories = new Set(Object.keys(CAT_LABELS));
 let selectedDay       = "all";   // "all" or a DAYS string
@@ -1655,14 +1718,68 @@ document.getElementById("contactBtn").addEventListener("click", function() {
   const closeBtn = document.getElementById("filterCloseBtn");
   if (closeBtn) closeBtn.addEventListener("click", () => setOpen(false));
 
+  // ---------- MASTER FILTER COLLAPSE (mobile) ----------
+  // The whole filter block collapses to a one-line summary. Closed by default on a
+  // phone so the deals list is on screen immediately; while open the bar drops out
+  // of sticky so the page scrolls it, instead of the bar scrolling inside itself.
+  const bar         = document.getElementById("filterBar");
+  const panelToggle = document.getElementById("filterPanelToggle");
+  const panelDone   = document.getElementById("filterPanelDone");
+  const caret       = document.getElementById("filterPanelCaret");
+
+  function suburbSummary() {
+    if (typeof selectedSuburbs === "undefined") return "";
+    const n = selectedSuburbs.size;
+    if (!n) return "No suburbs picked";
+    let total = 0;
+    try { total = computePresentSuburbs().size; } catch (e) { total = 0; }
+    if (total && n >= total) return "All Tauranga";
+    if (n <= 2) return [...selectedSuburbs].map(suburbLabel).join(", ");
+    return n + " suburbs";
+  }
+
+  function updateFilterSummary() {
+    const el = document.getElementById("filterSummaryText");
+    if (!el) return;
+    const day = (typeof selectedDay === "undefined" || selectedDay === "all") ? "every day" : selectedDay;
+    const sub = suburbSummary();
+    el.textContent = sub ? sub + " · " + day : day;
+  }
+  window.updateFilterSummary = updateFilterSummary;
+
+  function setPanelOpen(open) {
+    if (!bar) return;
+    bar.classList.toggle("fp-open", open);
+    if (panelToggle) panelToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    if (caret) caret.innerHTML = open ? "&#9652;" : "&#9662;";
+    updateFilterSummary();
+    updateScrollPadding();
+    // Opening adds ~600px above the list and closing takes it away again, so put
+    // the bar back at the top of the viewport either way rather than letting the
+    // page jump to wherever that offset lands.
+    bar.scrollIntoView({ block: "start" });
+  }
+  if (panelToggle) panelToggle.addEventListener("click", () => setPanelOpen(!bar.classList.contains("fp-open")));
+  if (panelDone)   panelDone.addEventListener("click", () => setPanelOpen(false));
+
   // Update scroll-padding-top to match the actual filter bar height
   function updateScrollPadding() {
-    const bar = document.getElementById("filterBar");
-    if (bar) document.documentElement.style.scrollPaddingTop = bar.offsetHeight + "px";
+    if (!bar) return;
+    const isMobile = window.innerWidth < 640;
+    // While the panel is open the bar is static, not pinned, so it hides nothing.
+    if (isMobile && bar.classList.contains("fp-open")) {
+      document.documentElement.style.scrollPaddingTop = "8px";
+      return;
+    }
+    document.documentElement.style.scrollPaddingTop = bar.offsetHeight + "px";
   }
-  document.getElementById("filterBar").addEventListener("click", () => setTimeout(updateScrollPadding, 50));
+  document.getElementById("filterBar").addEventListener("click", () => setTimeout(() => {
+    updateScrollPadding();
+    updateFilterSummary();
+  }, 50));
   window.addEventListener("resize", updateScrollPadding);
   setTimeout(updateScrollPadding, 100);
+  updateFilterSummary();
 })();
 
 // ---------- BOOT ----------
