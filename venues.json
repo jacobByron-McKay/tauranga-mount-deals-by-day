@@ -1071,11 +1071,14 @@
     "category_hint": "restaurant",
     "website": "https://hidethirstandhunger.nz",
     "facebook": "https://www.facebook.com/hide.thirstandhunger/",
-    "instagram": null,
+    "instagram": "https://www.instagram.com/hide.thirstandhunger/",
     "is_chain": false,
     "google_rating": 4.3,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Hide+Thirst+and+Hunger+Mount+Maunganui",
-    "notes": "Scanned 2026-07-18: FB post mentions a Saturday Bottomless Brunch but no price confirmable on-page - not recorded."
+    "notes": "Scanned 2026-08-14 after a Facebook comment flagged missing deals. The venue's own site carries a full WEEKLY SPECIALS grid at /#specials with one tile per open day (Wed-Sun) plus a daily 4-6pm happy hour, and /events/ carries The Bottomless Lunch ($79pp, Fri-Sun) and the Coffee Club espresso martini. All of it is rendered as lazy-loaded IMAGES with no page text, which is why the 2026-07-18 pass logged 'no price confirmable on-page' and recorded nothing. Closed Monday and Tuesday (Google hours: Wed-Thu 4pm-11:30pm, Fri-Sat 12pm-12am, Sun 12pm-11:30pm), so a special on every open day is genuinely 'daily'. Espresso martini price appears twice with different windows: $14 at 9-11pm on the Fri/Sat tiles, and $14 at 4-6pm daily on the /events/ Coffee Club graphic; both recorded. Instagram handle confirmed as hide.thirstandhunger (verified badge, 1,056 posts) - it was null on file, so step 3 of the scan had never run on this venue.",
+    "lat": -37.6379049,
+    "lng": 176.1833556,
+    "geocode_source": "Google Maps place URL !3d/!4d, cross-checked vs structured Nominatim house-number match (14 m apart), 2026-08-14"
   },
   {
     "venue": "Saltwater - Restaurant",
