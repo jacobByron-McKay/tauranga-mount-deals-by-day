@@ -436,7 +436,7 @@
       <!-- This is a LIVE count of what the current filters are showing, not the catalogue total,
            so it will not match the banner above (takeaway deals are hidden by default). The word
            "showing" is load-bearing — without it the two numbers read as contradicting each other. -->
-      <p class="text-xs mt-1" style="color:var(--ink-muted);"><span id="dealCount">—</span> deals showing &middot; updated weekly</p>
+      <p class="text-xs mt-1" style="color:var(--ink-muted);"><span id="dealCount">—</span> <span id="dealCountLabel">deals</span> showing &middot; updated weekly</p>
     </div>
     <!-- These buttons used to sit in a shrink-0 block that could not wrap, so on a phone the
          header forced the whole page wider than the screen. The page was then horizontally
@@ -537,6 +537,22 @@
         <p id="suburbHelp" class="text-xs" style="color:var(--ink-muted);">Every suburb is on by default &mdash; hit Clear all, then tap just the ones you want.</p>
         <button id="suburbMinBtn" type="button" class="text-xs font-medium px-2.5 py-0.5 rounded-full border shrink-0"
                 style="border-color:var(--border);color:var(--ink-muted);background:var(--card);margin-left:auto;cursor:pointer;">Minimise &#9652;</button>
+      </div>
+    </div>
+
+    <!-- Quick view switcher. Asked for on the launch post: a reader wanted to scan the events on a
+         day without scrolling past every food deal. Deliberately sits ABOVE "More filters" so it is
+         one tap away on mobile, rather than buried in the Category row (which only ever filtered
+         deals, never events). -->
+    <div class="rounded-lg border px-3 py-2.5" style="border-color:#f0cdb4;background:#fdf3ec;">
+      <div class="flex items-center gap-2 flex-wrap">
+        <span class="text-sm font-bold flex items-center gap-1.5 shrink-0" style="color:var(--ink);">
+          <span>&#128065;</span> Show
+        </span>
+        <button class="filter-chip active px-3 py-1 rounded-full text-sm border" data-view="all"    style="border-color:var(--border);">Everything</button>
+        <button class="filter-chip        px-3 py-1 rounded-full text-sm border" data-view="food"   style="border-color:var(--border);">Food only</button>
+        <button class="filter-chip        px-3 py-1 rounded-full text-sm border" data-view="drinks" style="border-color:var(--border);">Drinks only</button>
+        <button class="filter-chip        px-3 py-1 rounded-full text-sm border" data-view="events" style="border-color:var(--border);">Events only</button>
       </div>
     </div>
 
@@ -803,6 +819,7 @@ function updateSelectorUI() {
   if (typeof window.updateFilterSummary === "function") window.updateFilterSummary();
 }
 const selectedCategories = new Set(Object.keys(CAT_LABELS));
+let viewMode          = "all";   // "all" | "food" | "drinks" | "events" — the Show switcher above the filters
 let selectedDay       = "all";   // "all" or a DAYS string
 let chainFilter       = "all";   // "all" | "standalone" | "chain"
 let confidenceFilter  = "all";   // "all" | "high"
@@ -978,7 +995,25 @@ function groupEvents(events) {
 }
 
 // ---------- FILTER ----------
+// The Show switcher. "food"/"drinks" narrow the deals AND drop the events; "events" drops every
+// deal. Anything else leaves both alone.
+function eventsAllowed() { return viewMode === "all" || viewMode === "events"; }
+
+// Every place an event can surface (week view + Upcoming) runs through this, so the two can never
+// drift apart again.
+function eventPassesFilters(ev) {
+  if (!eventsAllowed()) return false;
+  if (ev.club_rugby) return false;   // club rugby fixtures live only in their own Club Rugby tab
+  if (!selectedSuburbs.has(ev.suburb)) return false;
+  if (ev.category === 'sport' && !(ev.world_cup ? showWorldCup : showSports)) return false;
+  if (!matchesSearch(ev)) return false;
+  return true;
+}
+
 function dealPassesFilters(deal) {
+  if (viewMode === "events") return false;
+  if (viewMode === "food"   && deal.category !== "food") return false;
+  if (viewMode === "drinks" && deal.category !== "drinks" && deal.category !== "happyhour") return false;
   if (!selectedSuburbs.has(deal.suburb)) return false;
   if (!selectedCategories.has(deal.category)) return false;
   if (confidenceFilter === "high" && deal.confidence !== "high") return false;
@@ -1005,7 +1040,13 @@ function render() {
   const view  = document.getElementById("weekView");
 
   const filtered = DEALS.filter(dealPassesFilters);
-  document.getElementById("dealCount").textContent = filtered.length;
+  // In "Events only" the headline number has to count events, or it reads "0 deals showing"
+  // over a full page of events.
+  const headlineCount = viewMode === "events"
+    ? SPECIAL_EVENTS.filter(ev => ev.date && WEEK_ISO_SET.has(ev.date) && eventPassesFilters(ev)).length
+    : filtered.length;
+  document.getElementById("dealCount").textContent = headlineCount;
+  document.getElementById("dealCountLabel").textContent = viewMode === "events" ? "events" : "deals";
 
   if (selectedSuburbs.size === 0) {
     view.innerHTML = `<div class="text-center py-16" style="color:var(--ink-muted);">Select at least one suburb to see deals.</div>`;
@@ -1029,10 +1070,7 @@ function render() {
     // Special events that fall on this day in the current week
     const dayEvents = SPECIAL_EVENTS.filter(ev =>
       ev.date && WEEK_DATES.some(w => w.dayName === day && w.iso === ev.date)
-      && selectedSuburbs.has(ev.suburb)
-      && !ev.club_rugby   // club rugby fixtures live only in their own Club Rugby tab
-      && (ev.category !== 'sport' || (ev.world_cup ? showWorldCup : showSports))
-      && matchesSearch(ev)
+      && eventPassesFilters(ev)
     );
     const totalItems = dayDeals.length + dayEvents.length;
     const isToday = day === today;
@@ -1046,7 +1084,7 @@ function render() {
           ${isToday ? `<span class="text-xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded"
                             style="background:var(--today-border);color:#6b4e00;">Today</span>` : ""}
           <span class="text-xs ml-auto" style="color:var(--ink-muted);">
-            ${totalItems} deal${totalItems === 1 ? "" : "s"}
+            ${totalItems} ${viewMode === "events" ? "event" : "deal"}${totalItems === 1 ? "" : "s"}
           </span>
         </div>
         <div class="px-4 pb-4 space-y-3">
@@ -1195,10 +1233,7 @@ function renderUpcoming(upcomingDeals) {
   const items = upcomingDeals.map(d => ({ ...d, _kind: "deal" }));
 
   SPECIAL_EVENTS.forEach(ev => {
-    if (ev.club_rugby) return;   // club rugby fixtures live only in their own Club Rugby tab
-    if (!selectedSuburbs.has(ev.suburb)) return;
-    if (ev.category === 'sport' && !(ev.world_cup ? showWorldCup : showSports)) return;
-    if (!matchesSearch(ev)) return;
+    if (!eventPassesFilters(ev)) return;
     // Include if upcoming (future date) or undated/recurring
     if (!ev.date || ev.date >= WEEK_START) {
       // Exclude events already shown in the week view
@@ -1599,6 +1634,17 @@ document.getElementById("suburbMinBtn").addEventListener("click", function() {
   this.innerHTML = collapsed ? "Show suburbs &#9662;" : "Minimise &#9652;";
 });
 
+// Show switcher (radio)
+document.querySelectorAll("[data-view]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    viewMode = btn.dataset.view;
+    document.querySelectorAll("[data-view]").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    if (typeof window.updateFilterSummary === "function") window.updateFilterSummary();
+    render();
+  });
+});
+
 // Day (radio)
 document.querySelectorAll("[data-day]").forEach(btn => {
   btn.addEventListener("click", () => {
@@ -1743,7 +1789,10 @@ document.getElementById("contactBtn").addEventListener("click", function() {
     if (!el) return;
     const day = (typeof selectedDay === "undefined" || selectedDay === "all") ? "every day" : selectedDay;
     const sub = suburbSummary();
-    el.textContent = sub ? sub + " · " + day : day;
+    const VIEW_LABELS = { food: "Food only", drinks: "Drinks only", events: "Events only" };
+    const view = (typeof viewMode !== "undefined" && VIEW_LABELS[viewMode]) || "";
+    const base = sub ? sub + " · " + day : day;
+    el.textContent = view ? view + " · " + base : base;
   }
   window.updateFilterSummary = updateFilterSummary;
 
@@ -2348,6 +2397,7 @@ loadData().then(() => {
 // visitor opens the panel, and re-lights whenever a newer id appears. tag: "New" | "Added" | "Update".
 (function(){
   var SITE_UPDATES = [
+    { id:"2026-08-16-showfilter", date:"2026-08-16", tag:"New", text:"Asked for on the Facebook post, so here it is. There is now a Show row at the top of the filters. Tap Events only to see just the events and activities on a day, or Food only and Drinks only to skip straight to the eating and drinking. Thanks Hannah." },
     { id:"2026-08-14-hide", date:"2026-08-14", tag:"Added", text:"Added on a local tip. Hide Thirst and Hunger in the Mount is now on the board with a special for every day it opens, Wednesday to Sunday, including $20 lamb ribs, $3 oysters, $8 tacos and the bottomless lunch. Keep the tips coming and we will keep adding them." },
     { id:"2026-08-14-refresh", date:"2026-08-14", tag:"New", text:"Every suburb rescanned. We went back through all twelve areas venue by venue and the board has more than doubled, from 150 deals to 381, including happy hours, quiz nights and weekly specials at places that were not listed before." },
     { id:"2026-08-13-events", date:"2026-08-13", tag:"New", text:"A lot more to do. We have added 179 events from the Tauranga City Council what's-on listings, from gigs and theatre to markets, workshops, library sessions and NPC rugby, all sorted by day and suburb." },
