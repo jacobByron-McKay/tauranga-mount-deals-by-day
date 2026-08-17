@@ -76,6 +76,7 @@ User-agent: MistralAI-User
 Allow: /
 
 Sitemap: https://tauranga-mount-deals-by-day.co.nz/sitemap.xml
+Sitemap: https://tauranga-mount-deals-by-day.co.nz/sitemap-hubs.xml
 
 # Plain-language summary of this site for AI assistants:
 # https://tauranga-mount-deals-by-day.co.nz/llms.txt
